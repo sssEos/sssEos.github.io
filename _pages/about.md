@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Operations Management at Nanyang Business School, Nanyang Technological University, where I am very fortunate to be advised by Prof. [Vivek Choudhary](https://sites.google.com/view/vkchoudhary) and Prof. [Anandasivam Gopal](https://dr.ntu.edu.sg/cris/rp/rp01345).
+I am a Ph.D. student in Operations Management at Nanyang Business School, Nanyang Technological University, where I am very fortunate to be advised by Prof. [Vivek Choudhary](https://sites.google.com/view/vkchoudhary) and Prof. [Anandasivam Gopal](https://dr.ntu.edu.sg/cris/rp/rp01345).
 
 Education
 ========
-- PhD Student in Operations Management, Nanyang Technological University (Present)
+- Ph.D. Student in Operations Management, Nanyang Technological University (Present)
 - M.Sc.Business Analytics (Dean’s Honours List), Nanyang Technological University (2022)
-- B.Econ (Honours), Nanjing Audit University (2017)
+- B.Economics (Honours), Nanjing Audit University (2017)
 - **Exchange**
   - National University of Singapore (College of Design and Engineering, NUS Business School, 2023-2024)
   - University of Melbourne (Faculty of Business and Economics, 2016)
