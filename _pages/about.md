@@ -13,12 +13,16 @@ I am a PhD student in Operations Management in Nanyang Business School at Nanyan
 Education
 ========
 
-- Master of Business Analytics, Nanyang Technological University(2022)
-- Bachelor of Economics, Nanjing Audit University(2017)
+- Master of Business Analytics (Dean’s Honours List), Nanyang Technological University (2022)
+- Bachelor of Economics (with Honours), Nanjing Audit University (2017)
+- **Exchange**
+  - College of Design and Engineering & NUS Business School, National University of Singapore (2023-2024)
+  - Faculty of Business and Economics, University of Melbourne (2016)
 
 
 
-Last updated: Dec, 2023
+
+Last updated: Jan, 2024
 <!--
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
