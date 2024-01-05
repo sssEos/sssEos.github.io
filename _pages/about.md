@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in Operations Management in Nanyang Business School at Nanyang Technological University, where I am very fortunate to be advised by Prof. [Vivek Choudhary](https://sites.google.com/view/vkchoudhary) and Prof. [Anandasivam Gopal](https://dr.ntu.edu.sg/cris/rp/rp01345).
+I am a PhD student in Operations Management at Nanyang Business School, Nanyang Technological University, where I am very fortunate to be advised by Prof. [Vivek Choudhary](https://sites.google.com/view/vkchoudhary) and Prof. [Anandasivam Gopal](https://dr.ntu.edu.sg/cris/rp/rp01345).
 
 Education
 ========
-- PhD Studnet in Operations Management, Nanyang Technological University (Present)
+- PhD Student in Operations Management, Nanyang Technological University (Present)
 - Master of Business Analytics (Dean’s Honours List), Nanyang Technological University (2022)
 - Bachelor of Economics (Honours), Nanjing Audit University (2017)
 - **Exchange**
@@ -25,7 +25,7 @@ MOE Tier 1 Research Grant, student PI
 
 Last updated: Jan, 2024
 
-<!---
+{% comment %} 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
 
 A data-driven personal website
@@ -67,4 +67,4 @@ For more info
 ------
 More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
 
--->
+{% endcomment %}
