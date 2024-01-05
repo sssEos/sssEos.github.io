@@ -17,6 +17,10 @@ Research Interest & Methodologies
 - Econometrics
 - Field Experiments
 
+<br/>
+<br/>
+
+
 Education
 ========
 - Ph.D. Student in Operations Management, Nanyang Technological University (Present)
