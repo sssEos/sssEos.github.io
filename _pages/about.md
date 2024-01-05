@@ -12,15 +12,16 @@ I am a PhD student in Operations Management in Nanyang Business School at Nanyan
 
 Education
 ========
-
+- PhD Studnet in Operations Management, Nanyang Technological University (Present)
 - Master of Business Analytics (Dean’s Honours List), Nanyang Technological University (2022)
-- Bachelor of Economics (with Honours), Nanjing Audit University (2017)
+- Bachelor of Economics (Honours), Nanjing Audit University (2017)
 - **Exchange**
   - College of Design and Engineering & NUS Business School, National University of Singapore (2023-2024)
   - Faculty of Business and Economics, University of Melbourne (2016)
 
-
-
+Grant
+========
+MOE Tier 1 Research Grant, student PI
 
 Last updated: Jan, 2024
 <!--
