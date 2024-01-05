@@ -18,8 +18,6 @@ Research Interest & Methodologies
 - Field Experiments
 
 <br/>
-<br/>
-
 
 Education
 ========
