@@ -9,7 +9,7 @@
 locale                   : "en-US"
 title                    : "Xiaodan Shao"
 title_separator          : "-"
-name                     : &name "Xiaodan SHAO"
+name                     : &name "Xiaodan Shao"
 description              : &description "Ph.D. Student at Nanyang Business School, Nanyang Technological University"
 url                      : https://ssseos.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
