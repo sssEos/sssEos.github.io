@@ -80,16 +80,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "Xiaodan SHAO (邵筱丹)"
+  name             : "Xiaodan SHAO"
   avatar           : "profile.JPG"
-  bio              : "SHAH-DAHN SHAW"
+  bio              : "SHAH-DAHN SHAW 邵筱丹"
   location         : "Singapore"
   employer         :
   pubmed           : 
   googlescholar    : 
   email            : "xiaodan001@e.ntu.edu.sg"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              : "https://web.nbs.ntu.edu.sg/phd/StudentProfile/XIAODAN001.html"
+  offical web      : "https://web.nbs.ntu.edu.sg/phd/StudentProfile/XIAODAN001.html"
   bitbucket        :
   codepen          :
   dribbble         :
@@ -114,7 +114,7 @@ author:
   xing             :
   youtube          :
   wikipedia        :
-  official page    : "https://web.nbs.ntu.edu.sg/phd/StudentProfile/XIAODAN001.html"
+
 
 
 # Reading Files
