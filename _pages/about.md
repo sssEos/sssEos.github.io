@@ -16,8 +16,8 @@ Education
 - Master of Business Analytics (Dean’s Honours List), Nanyang Technological University (2022)
 - Bachelor of Economics (Honours), Nanjing Audit University (2017)
 - **Exchange**
-  - College of Design and Engineering & NUS Business School, National University of Singapore (2023-2024)
-  - Faculty of Business and Economics, University of Melbourne (2016)
+  - National University of Singapore (College of Design and Engineering, NUS Business School, 2023-2024)
+  - University of Melbourne (Faculty of Business and Economics, 2016)
 
 Grant
 ========
