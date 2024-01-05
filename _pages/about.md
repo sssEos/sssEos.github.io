@@ -28,9 +28,7 @@ Education
   - National University of Singapore (College of Design and Engineering, NUS Business School, 2023-2024)
   - University of Melbourne (Faculty of Business and Economics, 2016)
 
-Grant
-========
-MOE Tier 1 Research Grant, student PI
+
 
 Last updated: Jan, 2024
 
