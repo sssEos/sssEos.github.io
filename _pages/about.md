@@ -28,8 +28,7 @@ Education
   - National University of Singapore (College of Design and Engineering, NUS Business School, 2023-2024)
   - University of Melbourne (Faculty of Business and Economics, 2016)
 
-
-
+<br/>
 Last updated: Jan, 2024
 
 {% comment %} 
