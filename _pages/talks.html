@@ -1,10 +1,35 @@
 ---
 layout: archive
-title: "Talks and presentations"
+title: ""
 permalink: /talks/
 author_profile: true
 ---
+Publishes Cases
+===============
 
+How Many Bottom Lines is One Life Worth?  (Harvard Case Link) with D. Krishna Bhaskar, IAS.
+
+The Robots are Coming: Ready Player One? (Harvard Case Link) with Ritwika Chattopadhyay , Xiaodan Shao, and Jitesh K Choudhary
+
+RX:AI, Putting Machine Learning into Medical Prescription – The Case of HealthPlix (Harvard Case Link) with Xiaodan Shao, Manlu Chen, Lalit Sharma, and Burhanuddin Pithawala
+
+
+R PACKAGE (link)
+===============
+
+Outlierfix with Xiaodan Shao 
+
+The R package has been developed for outlier detection and addressing them appropriately for continuous variables. This process is an integral part of data cleaning and we put together this package to ease that pain for fellow colleagues. The package is under review at CRAN and can be downloaded using the following commands (comments/feedback are welcome):
+
+#install.packages(devtools)
+
+library(devtools)
+
+install_github("sssEos/outlierfix")
+
+library(outlierfix)
+
+{% comment %}
 {% if site.talkmap_link == true %}
 
 <p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
@@ -14,3 +39,4 @@ author_profile: true
 {% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
+{% endcomment %}
