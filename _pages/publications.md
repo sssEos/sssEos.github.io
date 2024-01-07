@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: ""
 permalink: /publications/
 author_profile: true
 ---
@@ -17,7 +17,13 @@ Conferences and Talks
   Xiaodan Shao, Vivek Choudhary, Anandasivam Gopal
   - 13th POMS-HK International Conference, Hong Kong Polytechnic University, Hong Kong, 2023
   - 14th POMS-HK International Conference, Hong Kong University of Science and Technology, Hong Kong, 2024 
+<br/>
 
+Grant
+==============
+MOE Tier 1 Research Grant, student PI
+
+{% comment %}
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
 {% endif %}
@@ -27,3 +33,4 @@ Conferences and Talks
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
+{% endcomment %}
