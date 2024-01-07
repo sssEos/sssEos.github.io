@@ -8,13 +8,13 @@ author_profile: true
 Conferences and Talks
 ==============
 - Xiaodan Shao, Vivek Choudhary. To Err is Human: A Field Experiment in Nudging Doctors to Safety
--- 13th POMS-HK International Conference, Hong Kong Polytechnic University, Hong Kong, 2023 
--- Singapore Rising Scholars Conference, Singapore Management University, Singapore, 2023
--- INFORMS Manufacturing and Service Operations Management Conference, McGill University, Canada, 2023
+  - 13th POMS-HK International Conference, Hong Kong Polytechnic University, Hong Kong, 2023 
+  - Singapore Rising Scholars Conference, Singapore Management University, Singapore, 2023
+  - INFORMS Manufacturing and Service Operations Management Conference, McGill University, Canada, 2023
 
 - Xiaodan Shao, Vivek Choudhary, Anandasivam GopalWhy Do We Need More Female Doctors? Patient-Doctor Gender Concordance During Lockdown
--- 2023 13th POMS-HK International Conference, Hong Kong Polytechnic University, Hong Kong
--- 14th POMS-HK International Conference, Hong Kong University of Science and Technology, Hong Kong, 2023 
+  - 13th POMS-HK International Conference, Hong Kong Polytechnic University, Hong Kong, 2023
+  - 14th POMS-HK International Conference, Hong Kong University of Science and Technology, Hong Kong, 2024 
 
 {% if author.googlescholar %}
   You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
