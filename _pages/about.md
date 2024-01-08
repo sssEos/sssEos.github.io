@@ -10,7 +10,7 @@ redirect_from:
 
 I am a Ph.D. student in Operations Management at Nanyang Business School, Nanyang Technological University, where I am fortunate to be advised by Prof. [Vivek Choudhary](https://sites.google.com/view/vkchoudhary) and Prof. [Anandasivam Gopal](https://dr.ntu.edu.sg/cris/rp/rp01345).
 
-Research Interest & Methodologies
+Topics & Methodologies
 ========
 - Behavioral Operations
 - Healthcare Operations
