@@ -22,7 +22,7 @@ Conferences
 
 Grant
 ==============
-Ministry of Education Academic Research Funding (MOE-AcRF) Tier 1 Grant, student PI
+Singapore Ministry of Education Academic Research Funding (MOE-AcRF) Tier 1 Grant, student PI
 
 {% comment %}
 {% if author.googlescholar %}
