@@ -21,7 +21,7 @@ Topics & Methodologies
 
 Education
 ========
-- Ph.D. Student in Operations Management, Nanyang Technological University (Present)
+- Ph.D. Candidate in Operations Management, Nanyang Technological University (Present)
 - M.Sc.Business Analytics (Dean’s Honours List), Nanyang Technological University (2022)
 - B.Economics (Honours), Nanjing Audit University (2017)
 - **Exchange**
