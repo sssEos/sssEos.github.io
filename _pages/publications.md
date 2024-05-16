@@ -9,6 +9,7 @@ Conferences
 ==============
 - **To Err is Human: A Field Experiment in Nudging Doctors to Safety** <br/>
   Xiaodan Shao, Vivek Choudhary <br/>
+  
   Finalist in Junior Scholar Paper Competition at College of Behavior in Operations Management (CBOM) at POMS 2024 
 
   - 13th POMS-HK International Conference, Hong Kong Polytechnic University, Hong Kong, Jan 2023 
@@ -28,7 +29,7 @@ Conferences
 
 Grant
 ==============
-Singapore Ministry of Education Academic Research Funding (MOE-AcRF) Tier 1 Grant, student PI
+Singapore Ministry of Education Academic Research Funding (MOE-AcRF) Tier 1 Grant
 
 {% comment %}
 {% if author.googlescholar %}
