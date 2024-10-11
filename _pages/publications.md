@@ -7,7 +7,7 @@ author_profile: true
 
 Conferences
 ==============
-- **To Err is Human: A Field Experiment in Nudging Doctors to Safety** <br/>
+- **To Err is Human: A Field Experiment in Prescription Safety** <br/>
   Xiaodan Shao, Vivek Choudhary <br/>
   
   Finalist, Junior Scholar Paper Competition at College of Behavior in Operations Management (CBOM) at POMS 2024 <br/>
