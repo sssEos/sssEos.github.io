@@ -10,13 +10,14 @@ Conferences
 - **To Err is Human: A Field Experiment in Nudging Doctors to Safety** <br/>
   Xiaodan Shao, Vivek Choudhary <br/>
   
-  Finalist, Junior Scholar Paper Competition at College of Behavior in Operations Management (CBOM) at POMS 2024
+  Finalist, Junior Scholar Paper Competition at College of Behavior in Operations Management (CBOM) at POMS 2024 <br/>
   Best Poster Presentation, CBS-NBS Research Day on Emerging Technology, Risks, and Markets 2024
   - POMS-HK International Conference, Hong Kong Polytechnic University, Hong Kong, Jan 2023 
   - Singapore Rising Scholars Conference, Singapore Management University, Singapore, May 2023
   - INFORMS Manufacturing and Service Operations Management (MSOM) Conference, McGill University, Canada, Jun 2023
   - Asian Management Research Consortium, Nanyang Technological University, Singapore, Apr 2024
   - Production and Operations Management Society (POMS) Annual Conference, Minneapolis, USA, Apr 2024
+  - CBS-NBS Research Day on Emerging Technology, Risks, and Markets, Bangkok, Thailand, Oct 2024
 
 - **Why Do We Need More Female Doctors? Patient-Doctor Gender Concordance During Lockdown** <br/>
   Xiaodan Shao, Vivek Choudhary, Anandasivam Gopal
