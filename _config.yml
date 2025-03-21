@@ -244,6 +244,12 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+# SEO - allow search engines to index everything
+  - scope:
+      path: ""
+    values:
+      robots: index, follow
+
 
 # Sass/SCSS
 sass:
