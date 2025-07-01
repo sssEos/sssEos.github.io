@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Xiaodan Shao"
+title                    : "Xiaodan Shao 邵筱丹"
 title_separator          : "-"
-name                     : &name "Xiaodan Shao"
+name                     : &name "Xiaodan Shao 邵筱丹"
 description              : &description "Ph.D. Student at Nanyang Business School, Nanyang Technological University"
 url                      : https://ssseos.github.io #the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -50,7 +50,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification : <meta name="google-site-verification" content="Q-spmszVl5cqkaB6bhwUl-5oZjL0I7WeHATaWd21IQ4" />
+google_site_verification : 
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
