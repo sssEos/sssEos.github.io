@@ -29,7 +29,7 @@ Conferences
 - **Interrupted Continuity: An Empirical Analysis of Interruptions in Continuous Pharma Manufacturing** <br/>
   Xiaodan Shao, Vivek Choudhary, Jiatao Ding
   
-  Winner (First Prize),2025 The MSOM Data-Driven Competition
+  Winner (First Prize), 2025 The MSOM Data-Driven Competition
   - Manufacturing and Service Operations Management (MSOM) Conference, London Business School, UK, Jun 2025
 
 <br/>
