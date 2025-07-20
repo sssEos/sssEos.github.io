@@ -20,7 +20,7 @@ Working Paper
 
  
 - **Interrupted Continuity: An Empirical Analysis of Interruptions in Continuous Pharma Manufacturing** <br/>
-  Xiaodan Shao, Vivek Choudhary, Jiatao Ding
+  Xiaodan Shao, Vivek Choudhary, Jiatao Ding<br/>
   *Major Revision at M&SOM* 
   
   Winner (First Prize), 2025 The MSOM Data-Driven Research Challenge
