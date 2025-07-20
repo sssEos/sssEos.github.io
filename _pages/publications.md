@@ -23,7 +23,7 @@ Working Paper
   Xiaodan Shao, Vivek Choudhary, Jiatao Ding<br/>
   *Major Revision at M&SOM* 
   
-  Winner (First Prize), 2025 The M&SOM Data-Driven Research Challenge
+  - Winner (First Prize), 2025 The M&SOM Data-Driven Research Challenge
 
 <br/>
 <br/>
