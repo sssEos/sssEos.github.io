@@ -36,7 +36,6 @@ Conference
   - Asian Management Research Consortium, Nanyang Technological University, Singapore, Apr 2024
   - Production and Operations Management Society (POMS) Annual Conference, Minneapolis, USA, Apr 2024
   - CBS-NBS Research Day on Emerging Technology, Risks, and Markets, Bangkok, Thailand, Oct 2024
-  - POMS-HK International Conference, Hong Kong Polytechnic University, Hong Kong, Jan 2023
   - POMS-HK International Conference, Hong Kong University of Science and Technology, Hong Kong, Jan 2024
   - Conference on Health IT and Analytics (CHITA), Washington D.C., USA, May 2024
   - Singapore Rising Scholars Conference, Singapore Management University, Singapore, May 2024
