@@ -11,8 +11,8 @@ Working Paper
   Xiaodan Shao, Vivek Choudhary <br/>
   *Major Revision at M&SOM*
   
-  Finalist, Junior Scholar Paper Competition at College of Behavior in Operations Management (CBOM) at POMS 2024 <br/>
-  Best Poster Presentation Award, CBS-NBS Research Day on Emerging Technology, Risks, and Markets 2024
+  - Finalist, Junior Scholar Paper Competition at College of Behavior in Operations Management (CBOM) at POMS 2024 <br/>
+  - Best Poster Presentation Award, CBS-NBS Research Day on Emerging Technology, Risks, and Markets 2024
 
 
 - **Should I Change My Physician’s Gender? On The Role of Ambiguity in Patient-Physician Gender Concordance** <br/>
