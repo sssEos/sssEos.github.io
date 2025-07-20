@@ -16,7 +16,7 @@ Working Paper
 
 
 - **Should I Change My Physician’s Gender? On The Role of Ambiguity in Patient-Physician Gender Concordance** <br/>
-  Xiaodan Shao, Vivek Choudhary, Anandasivam Gopal
+  Xiaodan Shao, Vivek Choudhary, Anandasivam Gopal <br/>
  *Finalizing for Submission*
  
 - **Interrupted Continuity: An Empirical Analysis of Interruptions in Continuous Pharma Manufacturing** <br/>
