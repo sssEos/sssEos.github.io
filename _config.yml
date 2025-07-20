@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Xiaodan Shao 邵筱丹"
+title                    : "Xiaodan Shao"
 title_separator          : "-"
 name                     : &name "Xiaodan Shao"
 description              : &description "Ph.D. Student at Nanyang Business School, Nanyang Technological University"
