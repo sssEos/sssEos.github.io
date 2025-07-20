@@ -40,7 +40,8 @@ Conference
   - Conference on Health IT and Analytics (CHITA), Washington D.C., USA, May 2024
   - Singapore Rising Scholars Conference, Singapore Management University, Singapore, May 2024
   - Manufacturing and Service Operations Management (MSOM) Conference, London Business School, UK, Jun 2025
-
+<br/>
+<br/>
 
 Grant
 ==============
