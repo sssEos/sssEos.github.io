@@ -9,7 +9,7 @@ Working Paper
 ==============
 - **To Err is Human: A Field Experiment in Prescription Safety** <br/>
   Xiaodan Shao, Vivek Choudhary <br/>
-  \textit{Major Revision}
+  *Major Revision at M&SOM*
   
   Finalist, Junior Scholar Paper Competition at College of Behavior in Operations Management (CBOM) at POMS 2024 <br/>
   Best Poster Presentation Award, CBS-NBS Research Day on Emerging Technology, Risks, and Markets 2024
@@ -21,7 +21,7 @@ Working Paper
  
 - **Interrupted Continuity: An Empirical Analysis of Interruptions in Continuous Pharma Manufacturing** <br/>
   Xiaodan Shao, Vivek Choudhary, Jiatao Ding
-  Major Revision
+  *Major Revision at M&SOM* 
   
   Winner (First Prize), 2025 The MSOM Data-Driven Research Challenge
 
