@@ -7,7 +7,7 @@ author_profile: true
 
 Working Paper
 ==============
-- **To Err is Human: A Field Experiment in Prescription Safety** <br/>
+- **Reducing Prescription Errors Through Information Intervention: A Field Experiment in Healthcare Operations** <br/>
   Xiaodan Shao, Vivek Choudhary <br/>
   *Major Revision at M&SOM*
 
