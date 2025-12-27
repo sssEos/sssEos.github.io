@@ -41,6 +41,8 @@ Conference
   - Singapore Rising Scholars Conference, Singapore Management University, Singapore, May 2024
   - Manufacturing and Service Operations Management (MSOM) Conference, London Business School, UK, Jun 2025
   - INFORMS International Meeting, Singapore, Jul 2025
+  - Analytics For X Conference, National University of Singapore, Singapore, Sep 2025
+  - INFORMS Annual Meeting, Atlanta, USA, Oct 2025
 <br/>
 <br/>
 
