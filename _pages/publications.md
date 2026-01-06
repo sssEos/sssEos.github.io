@@ -11,7 +11,7 @@ Working Paper
   Xiaodan Shao, Vivek Choudhary <br/>
   *Major Revision at M&SOM*
 
-  - ORSS Best Student Paper, Analytics for X 2025 <br/>
+  - Best Student Paper, Operational Research Society of Singapore (ORSS), Analytics for X 2025 <br/>
   - Finalist, Junior Scholar Paper Competition at College of Behavior in Operations Management (CBOM), POMS 2024 <br/>
   - Best Poster Presentation, CBS-NBS Research Day on Emerging Technology, Risks, and Markets 2024
 
