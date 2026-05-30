@@ -9,7 +9,7 @@ Working Paper
 ==============
 - **Reducing Prescription Errors Through Information Intervention: A Field Experiment in Healthcare Operations** <br/>
   Xiaodan Shao, Vivek Choudhary <br/>
-  *Major Revision at M&SOM*
+  *Major Revision at M&SOM (2nd Round)*
 
   - Best Student Paper, Operational Research Society of Singapore (ORSS), Analytics for X 2025 <br/>
   - Finalist, Junior Scholar Paper Competition at College of Behavior in Operations Management (CBOM), POMS 2024 <br/>
