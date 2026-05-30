@@ -15,16 +15,16 @@ Working Paper
   - Finalist, Junior Scholar Paper Competition at College of Behavior in Operations Management (CBOM), POMS 2024 <br/>
   - Best Poster Presentation, CBS-NBS Research Day on Emerging Technology, Risks, and Markets 2024
 
-
-- **Should I Change My Physician’s Gender? On The Role of Ambiguity in Patient-Physician Gender Concordance** <br/>
-  Xiaodan Shao, Vivek Choudhary, Anandasivam Gopal <br/>
- *Finalizing for Submission*
- 
 - **Interrupted Continuity: An Empirical Analysis of Interruptions in Continuous Pharma Manufacturing** <br/>
   Xiaodan Shao, Vivek Choudhary, Jiatao Ding<br/>
   *Major Revision at M&SOM* 
   
   - Winner (First Prize), 2025 The M&SOM Data-Driven Research Challenge
+
+- **Should I Change My Physician’s Gender? On The Role of Ambiguity in Patient-Physician Gender Concordance** <br/>
+  Xiaodan Shao, Vivek Choudhary, Anandasivam Gopal <br/>
+ *Finalizing for Submission*
+ 
 
 <br/>
 <br/>
