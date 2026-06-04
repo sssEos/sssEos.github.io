@@ -65,8 +65,6 @@ author_profile: true
 
 </div>
 
-</div>
-
 <div style="border: 1px solid #ddd; border-radius: 16px; padding: 32px; margin-top: 20px; margin-bottom: 32px; background-color: #fff;">
 
   <h2 style="margin-top: 0; margin-bottom: 8px; font-size: 22px;">
