@@ -9,6 +9,7 @@ redirect_from:
 ---
 
 I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Business School, Nanyang Technological University, where I am fortunate to be advised by Prof. [Vivek Choudhary](https://sites.google.com/view/vkchoudhary) and Prof. [Anandasivam Gopal](https://dr.ntu.edu.sg/cris/rp/rp01345).
+<br/>I am on the 2026-2027 academic job market.
 <br/>Contact: xiaodan001@e.ntu.edu.sg
 
 Research Topics & Methodologies
