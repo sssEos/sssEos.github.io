@@ -55,9 +55,16 @@ author_profile: true
     Last-Mile Healthcare as an Access-Production Problem: A CARE Agenda for SDG 3
   </h2>
 
+ <p style="margin-bottom: 6px;">
+  Vivek Choudhary, Jiatao Ding, Anandasivam Gopal, Xiaodan Shao
+  <span style="font-size: 12.5px; color: #777;">&nbsp;· authors listed alphabetically</span>
+ </p>
+
+<!--
   <p style="margin-bottom: 6px;">
     Vivek Choudhary, Jiatao Ding, Anandasivam Gopal, Xiaodan Shao<sup>*</sup> (Authors listed alphabetically)
   </p>
+-->
 
   <p style="margin-bottom: 0; color: #555;">
     <i>Proposal accepted for M&SOM Special Issue</i>
