@@ -7,7 +7,7 @@ author_profile: true
 
 <h1 style="margin-bottom: 28px;">Working Papers</h1>
 
-<p style="margin-top: 0; margin-bottom: 28px; font-size: 13px; color: #666;">
+<p style="margin-top: 0; margin-bottom: 28px; font-size: 15px; color: #666;">
   <sup>*</sup> Authors listed alphabetically.
 </p>
 
