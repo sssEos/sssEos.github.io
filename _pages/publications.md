@@ -7,6 +7,10 @@ author_profile: true
 
 <h1 style="margin-bottom: 28px;">Working Papers</h1>
 
+<p style="margin-top: 0; margin-bottom: 28px; font-size: 13px; color: #666;">
+  <sup>*</sup> Authors listed alphabetically.
+</p>
+
 <div style="border: 1px solid #ddd; border-radius: 16px; padding: 32px; margin-top: 20px; margin-bottom: 32px; background-color: #fff;">
 
   <h2 style="margin-top: 0; margin-bottom: 8px; font-size: 22px;">
@@ -58,9 +62,6 @@ author_profile: true
   <p style="margin-bottom: 6px;">
     Vivek Choudhary, Jiatao Ding, Anandasivam Gopal, Xiaodan Shao<sup>*</sup>
   </p>
-  
-  <p style="margin-top: 0; margin-bottom: 12px; font-size: 13px; color: #666;">
-  <sup>*</sup> Authors listed alphabetically.
 
   <p style="margin-bottom: 0; color: #555;">
     <i>Proposal accepted for M&SOM Special Issue</i>
