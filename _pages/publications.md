@@ -56,11 +56,14 @@ author_profile: true
   </h2>
 
   <p style="margin-bottom: 6px;">
-    Vivek Choudhary, Jiatao Ding, Anandasivam Gopal, Xiaodan Shao (in alphabetical order)
+    Vivek Choudhary, Jiatao Ding, Anandasivam Gopal, Xiaodan Shao<sup>*</sup>
   </p>
+  
+  <p style="margin-top: 0; margin-bottom: 12px; font-size: 13px; color: #666;">
+  <sup>*</sup> Authors listed alphabetically.
 
   <p style="margin-bottom: 0; color: #555;">
-    <i>Proposal accepted for M&SOM Special Issue.</i>
+    <i>Proposal accepted for M&SOM Special Issue</i>
   </p>
 
 </div>
