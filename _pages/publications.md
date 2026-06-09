@@ -88,6 +88,38 @@ author_profile: true
 
 </div>
 
+<div style="border: 1px solid #ddd; border-radius: 16px; padding: 32px; margin-top: 20px; margin-bottom: 32px; background-color: #fff;">
+
+  <h2 style="margin-top: 0; margin-bottom: 8px; font-size: 22px;">
+    AI-Generated Clinical Transcripts and Physician Productivity: A Quasi-Experiment
+  </h2>
+
+  <p style="margin-bottom: 6px;">
+    Xiaodan Shao, Vivek Choudhary, Arnab Majumdar
+  </p>
+
+  <p style="margin-bottom: 0; color: #555;">
+    <i>Preliminary analysis in progress</i>
+  </p>
+
+</div>
+
+<div style="border: 1px solid #ddd; border-radius: 16px; padding: 32px; margin-top: 20px; margin-bottom: 32px; background-color: #fff;">
+
+  <h2 style="margin-top: 0; margin-bottom: 8px; font-size: 22px;">
+    AI-Assisted Community Health Work: Experimental Evidence from Healthcare Delivery
+  </h2>
+
+  <p style="margin-bottom: 6px;">
+    Xiaodan Shao, Vivek Choudhary, Sujay Santra
+  </p>
+
+  <p style="margin-bottom: 0; color: #555;">
+    <i>Data collection and field experiment design in progress</i>
+  </p>
+
+</div>
+
 
 {% comment %}
 {% if author.googlescholar %}
