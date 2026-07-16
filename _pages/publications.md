@@ -213,10 +213,11 @@ author_profile: true
   </p>
 -->
 
+<!--
   <p style="margin-bottom: 0; color: #555;">
     <i>Proposal accepted for M&SOM Special Issue</i>
   </p>
-
+-->
 </div>
 
 <!-- <div style="border: 1px solid #ddd; border-radius: 16px; padding: 32px; margin-top: 20px; margin-bottom: 32px; background-color: #fff;">
