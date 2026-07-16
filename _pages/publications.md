@@ -34,7 +34,7 @@ author_profile: true
        style="color: inherit; text-decoration: underline; text-underline-offset: 3px;">
       ETHealthWorld
     </a>
-    <span>· “HealthPlix Nudging Doctors to Make Better Clinical Decisions: NTU Singapore Study”</span>
+    <span>· “Nudging Doctors to Make Better Clinical Decisions: NTU Singapore Study”</span>
   </p>
 
 </div>
