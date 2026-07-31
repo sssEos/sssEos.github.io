@@ -116,7 +116,7 @@ author_profile: true
   </h2>
 
   <p style="margin-top: 0; margin-bottom: 6px;">
-    Xiaodan Shao, Vivek Choudhary, Sujay Santra
+    Xiaodan Shao, Vivek Choudhary, Anandasivam Gopal, Sujay Santra
   </p>
 
   <p style="margin-top: 0; margin-bottom: 0; color: #555;">
