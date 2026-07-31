@@ -22,7 +22,7 @@ author_profile: true
 
   <ul style="margin-top: 0; margin-bottom: 14px; padding-left: 22px; line-height: 1.6;">
     <li>Best Student Paper, Operational Research Society of Singapore (ORSS), Analytics for X 2025</li>
-    <li>Finalist, Best Student Paper Award, INFORMS Service Science, 2026</li>
+    <li>Finalist, Best Student Paper Award, INFORMS Service Science 2026</li>
     <li>Finalist, Junior Scholar Paper Competition, College of Behavior in Operations Management (CBOM), POMS 2024</li>
     <li>Best Poster Presentation, CBS–NBS Research Day on Emerging Technology, Risks, and Markets 2024</li>
   </ul>
