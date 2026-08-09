@@ -18,10 +18,8 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
 Research Topics & Methodologies
 ========
-- Behavioral Operations
-- Healthcare Operations
-- Econometrics
-- Field Experiments
+- Behavioral Operations; Healthcare Operations
+- Econometrics; Field Experiments
 
 
 <br/>
