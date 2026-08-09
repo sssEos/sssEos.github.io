@@ -158,7 +158,7 @@ Talks
   <div class="home-talk-label">Upcoming Talk</div>
 
   <div class="home-talk-title">
-    Choosing a Doctor Under Ambiguity: Patient–Physician Gender Concordance
+    Reducing Prescription Errors Through Information Intervention: A Field Experiment in Healthcare Operations
   </div>
 
   <div class="home-talk-details">
