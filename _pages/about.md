@@ -18,89 +18,144 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
 <style>
 
-/* ---------- Overall section spacing ---------- */
+/* =========================================================
+   GENERAL SECTION CARD
+========================================================= */
 
-.home-section {
-  margin: 30px 0 34px 0;
+.profile-section {
+  margin: 34px 0;
+  padding: 24px 26px;
+
+  background: #fafbfc;
+  border: 1px solid #edf0f2;
+  border-radius: 8px;
 }
 
-.home-section-title {
-  margin: 0 0 16px 0;
-  font-size: 1.55em;
+
+/* Section heading */
+
+.profile-section-header {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+
+  margin-bottom: 20px;
+}
+
+.profile-section-accent {
+  width: 4px;
+  height: 25px;
+
+  background: #52789d;
+  border-radius: 3px;
+}
+
+.profile-section-title {
+  margin: 0 !important;
+
+  font-size: 1.42em;
   font-weight: 700;
-  color: #44484c;
+  line-height: 1.2;
+
+  color: #454a4f;
 }
 
 
 /* =========================================================
    RESEARCH
-   REVISION: compact tags instead of long bullet list
 ========================================================= */
 
 .research-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 9px 10px;
+  gap: 10px;
 }
 
 .research-tag {
-  padding: 6px 12px;
-  background: #f5f7f9;
-  border: 1px solid #e3e7ea;
-  border-radius: 16px;
-  font-size: 0.91em;
-  color: #50555a;
+  display: inline-block;
+
+  padding: 7px 14px;
+
+  font-size: 0.88em;
+  line-height: 1.2;
+
+  color: #54595e;
+  background: #ffffff;
+
+  border: 1px solid #e0e5e9;
+  border-radius: 20px;
 }
 
 
 /* =========================================================
    EDUCATION
-   REVISION: remove large bullet list and make 3 compact rows
 ========================================================= */
 
 .education-list {
-  border-top: 1px solid #eceeef;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
 }
+
+
+/* Each degree */
 
 .education-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 25px;
 
-  padding: 9px 2px;
-  border-bottom: 1px solid #eceeef;
+  padding: 11px 2px;
 }
 
+.education-row + .education-row {
+  border-top: 1px solid #eceff1;
+}
+
+
+/* No bold anywhere in education */
+
 .education-main {
-  flex: 1;
-  color: #4b4f53;
-  line-height: 1.45;
+  font-size: 0.92em;
+  line-height: 1.5;
+
+  font-weight: 400;
+  color: #555b60;
 }
 
 .education-degree {
   font-weight: 400;
+  color: #4f555a;
 }
 
 .education-school {
-  color: #666b70;
+  font-weight: 400;
+  color: #71767b;
 }
 
 .education-year {
-  flex: 0 0 auto;
-  color: #8a8f94;
-  font-size: 0.88em;
+  align-self: center;
+
+  font-size: 0.84em;
+  font-weight: 400;
+
+  color: #92979c;
   white-space: nowrap;
 }
 
 
-/* REVISION: exchanges condensed into one subtle line */
+/* Exchange information */
 
-.education-extra {
-  margin-top: 9px;
-  font-size: 0.84em;
-  line-height: 1.5;
-  color: #8a8f94;
+.education-exchange {
+  margin-top: 13px;
+  padding-top: 12px;
+
+  border-top: 1px dashed #e3e6e8;
+
+  font-size: 0.80em;
+  line-height: 1.55;
+
+  color: #8b9095;
 }
 
 
@@ -108,28 +163,30 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
    TALKS
 ========================================================= */
 
-.home-talk-featured {
-  margin: 0 0 20px 0;
-  padding: 15px 18px;
+
+/* Upcoming talk card */
+
+.upcoming-talk {
+  position: relative;
+
+  margin-bottom: 25px;
+  padding: 18px 20px;
+
+  background: #ffffff;
 
   border: 1px solid #dce5ed;
-  border-left: 4px solid #52789d;
-  border-radius: 5px;
-
-  background: linear-gradient(
-    90deg,
-    #f7f9fb 0%,
-    #ffffff 75%
-  );
+  border-radius: 7px;
 }
 
 
-/* REVISION: smaller label */
+/* Small blue label */
 
-.home-talk-label {
-  margin-bottom: 6px;
+.upcoming-label {
+  display: inline-block;
 
-  font-size: 0.72em;
+  margin-bottom: 9px;
+
+  font-size: 0.68em;
   font-weight: 700;
   letter-spacing: 0.09em;
   text-transform: uppercase;
@@ -138,129 +195,150 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 }
 
 
-/* REVISION: slightly smaller title */
+/* Talk title */
 
-.home-talk-title {
-  margin-bottom: 8px;
+.upcoming-title {
+  max-width: 720px;
 
-  font-size: 1em;
-  font-weight: 700;
-  line-height: 1.4;
+  margin-bottom: 11px;
 
-  color: #44484c;
+  font-size: 0.98em;
+  font-weight: 600;
+  line-height: 1.5;
+
+  color: #474c51;
 }
 
 
-/* REVISION: put conference + session information compactly */
+/* Conference */
 
-.home-talk-details {
-  font-size: 0.88em;
-  line-height: 1.55;
-  color: #6a6f74;
+.upcoming-conference {
+  margin-bottom: 5px;
+
+  font-size: 0.87em;
+  font-weight: 500;
+
+  color: #62686d;
 }
 
-.home-talk-details strong {
-  color: #565b60;
+
+/* Session/date/location */
+
+.upcoming-meta {
+  font-size: 0.81em;
+  line-height: 1.5;
+
+  color: #8a8f94;
 }
 
 
-/* ---------- Past Talks ---------- */
-
-.home-past-talks-header {
+.past-talks-heading {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
-  margin: 16px 0 6px 0;
-
-  font-size: 0.92em;
-  font-weight: 600;
-  color: #555a5f;
+  margin: 20px 0 8px 0;
 }
 
-.home-scroll-hint {
-  font-size: 0.76em;
+.past-talks-title {
+  font-size: 0.88em;
+  font-weight: 500;
+  color: #666b70;
+}
+
+.scroll-note {
+  font-size: 0.70em;
   font-weight: 400;
   color: #a0a4a8;
 }
 
-.home-past-talks {
-  /* REVISION: intentionally short; scrollbar appears
-     when more talks are added */
-  max-height: 145px;
+
+/* Scroll box */
+
+.past-talks-list {
+  max-height: 205px;
   overflow-y: auto;
 
-  border-top: 1px solid #e8eaec;
-  border-bottom: 1px solid #e8eaec;
-
   padding-right: 8px;
+
+  border-top: 1px solid #eceeef;
+  border-bottom: 1px solid #eceeef;
 
   scrollbar-width: thin;
   scrollbar-color: #c4c9cd transparent;
 }
 
-.home-past-talk {
-  display: flex;
-  gap: 16px;
 
-  padding: 9px 3px;
+/* One past talk */
 
-  border-bottom: 1px solid #eeeeee;
+.past-talk-row {
+  display: grid;
+  grid-template-columns: 76px 1fr;
+  gap: 15px;
 
-  font-size: 0.86em;
-  line-height: 1.45;
+  padding: 11px 3px;
+
+  border-bottom: 1px solid #f0f1f2;
 }
 
-.home-past-talk:last-child {
+.past-talk-row:last-child {
   border-bottom: none;
 }
 
-.home-talk-year {
-  flex: 0 0 72px;
+.past-talk-date {
+  font-size: 0.79em;
+  font-weight: 400;
+
+  color: #969b9f;
   white-space: nowrap;
-
-  color: #8a8f94;
-  font-weight: 600;
 }
 
-.home-talk-content {
-  flex: 1;
-  color: #686d72;
+.past-talk-info {
+  font-size: 0.83em;
+  line-height: 1.45;
+
+  color: #666b70;
 }
 
-.home-talk-content strong {
-  color: #4d5257;
-  font-weight: 600;
+.past-talk-name {
+  font-weight: 400;
+  color: #575c61;
+}
+
+.past-talk-location {
+  margin-top: 2px;
+
+  font-size: 0.93em;
+  color: #999da1;
 }
 
 
-/* ---------- Scrollbar: Chrome / Safari ---------- */
+/* Chrome / Safari scrollbar */
 
-.home-past-talks::-webkit-scrollbar {
+.past-talks-list::-webkit-scrollbar {
   width: 5px;
 }
 
-.home-past-talks::-webkit-scrollbar-track {
+.past-talks-list::-webkit-scrollbar-track {
   background: transparent;
 }
 
-.home-past-talks::-webkit-scrollbar-thumb {
+.past-talks-list::-webkit-scrollbar-thumb {
   background: #c4c9cd;
   border-radius: 10px;
 }
-
 
 /* =========================================================
    LAST UPDATED
 ========================================================= */
 
 .home-updated {
-  margin-top: 30px;
-  padding-top: 10px;
-  border-top: 1px solid #f0f1f2;
+  margin: 32px 0 10px 0;
 
-  font-size: 0.78em;
-  color: #9a9ea2;
+  text-align: right;
+
+  font-size: 0.72em;
+  color: #a3a7ab;
 }
 
 
@@ -270,23 +348,28 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
 @media (max-width: 600px) {
 
-  .home-section {
-    margin: 26px 0 30px 0;
+  .profile-section {
+    margin: 25px 0;
+    padding: 20px 18px;
   }
 
   .education-row {
-    display: block;
+    grid-template-columns: 1fr;
+    gap: 2px;
   }
 
   .education-year {
-    margin-top: 2px;
+    font-size: 0.78em;
   }
 
-  .home-talk-year {
-    flex: 0 0 65px;
+  .past-talk-row {
+    grid-template-columns: 67px 1fr;
+    gap: 10px;
+
+    padding: 11px 10px;
   }
 
-  .home-scroll-hint {
+  .scroll-note {
     display: none;
   }
 
@@ -300,13 +383,15 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
      RESEARCH
 ========================================================= -->
 
-<div class="home-section">
+<div class="profile-section">
 
-  <h2 class="home-section-title">
-    Research Topics &amp; Methodologies
-  </h2>
+  <div class="profile-section-header">
+    <span class="profile-section-accent"></span>
+    <h2 class="profile-section-title">
+      Research Topics &amp; Methodologies
+    </h2>
+  </div>
 
-  <!-- REVISION: four concise visual tags -->
   <div class="research-tags">
     <span class="research-tag">Behavioral Operations</span>
     <span class="research-tag">Healthcare Operations</span>
@@ -322,62 +407,78 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
      EDUCATION
 ========================================================= -->
 
-<div class="home-section">
+<div class="profile-section">
 
-  <h2 class="home-section-title">
-    Education
-  </h2>
+  <div class="profile-section-header">
+    <span class="profile-section-accent"></span>
+    <h2 class="profile-section-title">
+      Education
+    </h2>
+  </div>
 
-
-  <!-- REVISION: compact education presentation -->
 
   <div class="education-list">
 
     <div class="education-row">
+
       <div class="education-main">
-        <span class="education-degree">Ph.D. in Operations Management</span>,
-        <span class="education-school">Nanyang Technological University</span>
+        <span class="education-degree">
+          Ph.D. in Operations Management
+        </span>,
+        <span class="education-school">
+          Nanyang Technological University
+        </span>
       </div>
 
       <div class="education-year">
         Present
       </div>
+
     </div>
 
 
     <div class="education-row">
+
       <div class="education-main">
-        <span class="education-degree">M.Sc. in Business Analytics (Dean's Honours List)</span>,
-        <span class="education-school">Nanyang Technological University</span>
+        <span class="education-degree">
+          M.Sc. in Business Analytics (Dean's Honors List)
+        </span>,
+        <span class="education-school">
+          Nanyang Technological University
+        </span>
       </div>
 
       <div class="education-year">
         2022
       </div>
+
     </div>
 
 
     <div class="education-row">
+
       <div class="education-main">
-        <span class="education-degree">B.Econ. (Honours)</span>,
-        <span class="education-school">Nanjing Audit University</span>
+        <span class="education-degree">
+          B.Econ. (Honours)
+        </span>,
+        <span class="education-school">
+          Nanjing Audit University
+        </span>
       </div>
 
       <div class="education-year">
         2017
       </div>
+
     </div>
 
   </div>
 
 
-  <!-- REVISION:
-       exchange programs reduced from separate bullets
-       to one unobtrusive line -->
-
-  <div class="education-extra">
-    Exchange: National University of Singapore (2023–2024)
-    &nbsp;·&nbsp;
+  <div class="education-exchange">
+    Exchange &nbsp;·&nbsp;
+    National University of Singapore (2023–2024)
+    &nbsp;&nbsp;·&nbsp;&nbsp;
     University of Melbourne (2016)
   </div>
 
@@ -389,136 +490,159 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
      TALKS
 ========================================================= -->
 
-<div class="home-section">
+<div class="profile-section">
 
-  <!-- Upcoming Talk -->
+  <div class="profile-section-header">
+    <span class="profile-section-accent"></span>
+    <h2 class="profile-section-title">
+      Talks
+    </h2>
+  </div>
 
-  <div class="home-talk-featured">
 
-    <div class="home-talk-label">
+  <!-- UPCOMING TALK -->
+
+  <div class="upcoming-talk">
+
+    <div class="upcoming-label">
       Upcoming Talk
     </div>
 
-    <div class="home-talk-title">
+    <div class="upcoming-title">
       Reducing Prescription Errors Through Information Intervention:
       A Field Experiment in Healthcare Operations
     </div>
 
-    <!-- REVISION:
-         removed emoji icons for a cleaner academic style -->
+    <div class="upcoming-conference">
+      INFORMS Annual Meeting 2026
+    </div>
 
-    <div class="home-talk-details">
-      <strong>INFORMS Annual Meeting 2026</strong><br>
-      Session: TBA &nbsp;·&nbsp; Date &amp; Time: TBA &nbsp;·&nbsp; Location: TBA
+    <div class="upcoming-meta">
+      Session: TBA
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+      Date &amp; Time: TBA
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+      Location: TBA
     </div>
 
   </div>
 
 
-  <!-- Past Talks -->
-  
-  <div class="home-past-talks-header">
-    <span>Past Talks</span>
-    <span class="home-scroll-hint">Scroll for more ↓</span>
-  </div>
+ <div class="past-talks-heading">
+  <span class="past-talks-title">Past Talks</span>
+  <span class="scroll-note">Scroll for more ↓</span>
+</div>
 
-<div class="home-past-talks">
+<div class="past-talks-list">
 
-  <div class="home-past-talk">
-    <div class="home-talk-year">Jan 2026</div>
-    <div class="home-talk-content">
-      <strong>Workshop on Empirical Operations Management (WEOM)</strong><br>
-      Singapore
+  <div class="past-talk-row">
+    <div class="past-talk-date">Jan 2026</div>
+    <div class="past-talk-info">
+      <div class="past-talk-name">
+        Workshop on Empirical Operations Management (WEOM)
+      </div>
+      <div class="past-talk-location">Singapore</div>
     </div>
   </div>
 
-  <div class="home-past-talk">
-    <div class="home-talk-year">Oct 2025</div>
-    <div class="home-talk-content">
-      <strong>INFORMS Annual Meeting</strong><br>
-      Atlanta, USA
+  <div class="past-talk-row">
+    <div class="past-talk-date">Oct 2025</div>
+    <div class="past-talk-info">
+      <div class="past-talk-name">INFORMS Annual Meeting</div>
+      <div class="past-talk-location">Atlanta, USA</div>
     </div>
   </div>
 
-  <div class="home-past-talk">
-    <div class="home-talk-year">Sep 2025</div>
-    <div class="home-talk-content">
-      <strong>Analytics for X Conference</strong><br>
-      Singapore
+  <div class="past-talk-row">
+    <div class="past-talk-date">Sep 2025</div>
+    <div class="past-talk-info">
+      <div class="past-talk-name">Analytics for X Conference</div>
+      <div class="past-talk-location">
+        National University of Singapore, Singapore
+      </div>
     </div>
   </div>
 
-  <div class="home-past-talk">
-    <div class="home-talk-year">Jul 2025</div>
-    <div class="home-talk-content">
-      <strong>INFORMS International Meeting</strong><br>
-      Singapore
+  <div class="past-talk-row">
+    <div class="past-talk-date">Jul 2025</div>
+    <div class="past-talk-info">
+      <div class="past-talk-name">INFORMS International Meeting</div>
+      <div class="past-talk-location">Singapore</div>
     </div>
   </div>
 
-  <div class="home-past-talk">
-    <div class="home-talk-year">Oct 2024</div>
-    <div class="home-talk-content">
-      <strong>CBS-NBS Research Day on Emerging Technology, Risks, and Markets</strong><br>
-      Bangkok, Thailand
+  <div class="past-talk-row">
+    <div class="past-talk-date">Oct 2024</div>
+    <div class="past-talk-info">
+      <div class="past-talk-name">
+        CBS-NBS Research Day on Emerging Technology, Risks, and Markets
+      </div>
+      <div class="past-talk-location">Bangkok, Thailand</div>
     </div>
   </div>
 
-  <div class="home-past-talk">
-    <div class="home-talk-year">May 2024</div>
-    <div class="home-talk-content">
-      <strong>Singapore Rising Scholars Conference</strong><br>
-      Singapore
+  <div class="past-talk-row">
+    <div class="past-talk-date">May 2024</div>
+    <div class="past-talk-info">
+      <div class="past-talk-name">
+        Singapore Rising Scholars Conference
+      </div>
+      <div class="past-talk-location">Singapore</div>
     </div>
   </div>
 
-  <div class="home-past-talk">
-    <div class="home-talk-year">May 2024</div>
-    <div class="home-talk-content">
-      <strong>Conference on Health IT and Analytics (CHITA)</strong><br>
-      Washington, D.C., USA
+  <div class="past-talk-row">
+    <div class="past-talk-date">May 2024</div>
+    <div class="past-talk-info">
+      <div class="past-talk-name">
+        Conference on Health IT and Analytics (CHITA)
+      </div>
+      <div class="past-talk-location">Washington, D.C., USA</div>
     </div>
   </div>
 
-  <div class="home-past-talk">
-    <div class="home-talk-year">Apr 2024</div>
-    <div class="home-talk-content">
-      <strong>Production and Operations Management Society (POMS) Annual Conference</strong><br>
-      Minneapolis, USA
+  <div class="past-talk-row">
+    <div class="past-talk-date">Apr 2024</div>
+    <div class="past-talk-info">
+      <div class="past-talk-name">
+        Production and Operations Management Society (POMS) Annual Conference
+      </div>
+      <div class="past-talk-location">Minneapolis, USA</div>
     </div>
   </div>
 
-  <div class="home-past-talk">
-    <div class="home-talk-year">Apr 2024</div>
-    <div class="home-talk-content">
-      <strong>Asian Management Research Consortium</strong><br>
-      Singapore
+  <div class="past-talk-row">
+    <div class="past-talk-date">Apr 2024</div>
+    <div class="past-talk-info">
+      <div class="past-talk-name">
+        Asian Management Research Consortium
+      </div>
+      <div class="past-talk-location">Singapore</div>
     </div>
   </div>
 
-  <div class="home-past-talk">
-    <div class="home-talk-year">May 2023</div>
-    <div class="home-talk-content">
-      <strong>Singapore Rising Scholars Conference</strong><br>
-      Singapore
+  <div class="past-talk-row">
+    <div class="past-talk-date">May 2023</div>
+    <div class="past-talk-info">
+      <div class="past-talk-name">
+        Singapore Rising Scholars Conference
+      </div>
+      <div class="past-talk-location">Singapore</div>
     </div>
   </div>
 
-  <div class="home-past-talk">
-    <div class="home-talk-year">Jan 2023</div>
-    <div class="home-talk-content">
-      <strong>POMS-HK International Conference</strong><br>
-      Hong Kong
+  <div class="past-talk-row">
+    <div class="past-talk-date">Jan 2023</div>
+    <div class="past-talk-info">
+      <div class="past-talk-name">
+        POMS-HK International Conference
+      </div>
+      <div class="past-talk-location">Hong Kong</div>
     </div>
   </div>
 
 </div>
 
-
-
-<!-- =========================================================
-     LAST UPDATED
-========================================================= -->
 
 <div class="home-updated">
   Last updated: Aug 2026
