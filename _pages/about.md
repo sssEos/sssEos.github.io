@@ -324,7 +324,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
     display: none;
   }
 }
-
+</style>
 
 <!-- =========================================================
      COMPACT RESEARCH + EDUCATION
@@ -384,7 +384,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
       <div class="home-education-row">
 
         <div>
-          M.Sc., Business Analytics · NTU
+          M.Sc., Business Analytics (Dean's Honours List) · NTU
         </div>
 
         <div class="home-education-year">
