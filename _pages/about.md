@@ -34,6 +34,123 @@ Education
   - University of Melbourne (Faculty of Business and Economics, 2016)
 <br/>
 
+
+<style>
+/* ===== Homepage Talks Section ===== */
+
+.home-talk-featured {
+  margin: 16px 0 22px 0;
+  padding: 16px 20px;
+  border: 1px solid #d8e3ee;
+  border-left: 5px solid #52789d;
+  border-radius: 6px;
+  background: linear-gradient(90deg, #f5f8fb 0%, #ffffff 100%);
+}
+
+.home-talk-label {
+  margin-bottom: 6px;
+  font-size: 0.78em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #52789d;
+}
+
+.home-talk-title {
+  margin-bottom: 8px;
+  font-size: 1.05em;
+  font-weight: 700;
+  line-height: 1.45;
+  color: #444;
+}
+
+.home-talk-details {
+  font-size: 0.93em;
+  line-height: 1.65;
+  color: #60656a;
+}
+
+.home-past-talks-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 18px 0 7px 0;
+  font-weight: 600;
+  color: #4b4f53;
+}
+
+.home-scroll-hint {
+  font-size: 0.75em;
+  font-weight: 400;
+  color: #999;
+}
+
+.home-past-talks {
+  max-height: 210px;
+  overflow-y: auto;
+  padding-right: 10px;
+  border-top: 1px solid #e3e6e8;
+  border-bottom: 1px solid #e3e6e8;
+  scrollbar-width: thin;
+  scrollbar-color: #b8c0c7 transparent;
+}
+
+.home-past-talk {
+  display: flex;
+  gap: 18px;
+  padding: 12px 4px;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 0.91em;
+  line-height: 1.5;
+}
+
+.home-past-talk:last-child {
+  border-bottom: none;
+}
+
+.home-talk-year {
+  flex: 0 0 42px;
+  font-weight: 600;
+  color: #858b90;
+}
+
+.home-talk-content {
+  flex: 1;
+  color: #5d6267;
+}
+
+.home-talk-content strong {
+  color: #444;
+  font-weight: 600;
+}
+
+/* Scrollbar: Chrome / Safari */
+.home-past-talks::-webkit-scrollbar {
+  width: 6px;
+}
+
+.home-past-talks::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.home-past-talks::-webkit-scrollbar-thumb {
+  background-color: #b8c0c7;
+  border-radius: 10px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .home-past-talk {
+    gap: 10px;
+  }
+
+  .home-scroll-hint {
+    display: none;
+  }
+}
+</style>
+
+
 Last updated: Jun, 2026
 
 {% comment %} 
