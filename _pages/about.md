@@ -347,7 +347,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
     <div class="education-row">
       <div class="education-main">
-        <span class="education-degree">M.Sc. in Business Analytics</span>,
+        <span class="education-degree">M.Sc. in Business Analytics (Dean's Honors List)</span>,
         <span class="education-school">Nanyang Technological University</span>
       </div>
 
@@ -422,59 +422,94 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
   <!-- Past Talks -->
 
-  <div class="home-past-talks-header">
-    <span>Past Talks</span>
-    <span class="home-scroll-hint">Scroll for more ↓</span>
+<div class="home-past-talks">
+
+  <div class="home-past-talk">
+    <div class="home-talk-year">Jan 2026</div>
+    <div class="home-talk-content">
+      <strong>Workshop on Empirical Operations Management (WEOM)</strong><br>
+      Singapore
+    </div>
   </div>
 
-
-  <div class="home-past-talks">
-
-    <div class="home-past-talk">
-
-      <div class="home-talk-year">
-        Oct 2025
-      </div>
-
-      <div class="home-talk-content">
-        <strong>INFORMS Annual Meeting</strong>
-        &nbsp;·&nbsp; Atlanta, USA
-      </div>
-
+  <div class="home-past-talk">
+    <div class="home-talk-year">Oct 2025</div>
+    <div class="home-talk-content">
+      <strong>INFORMS Annual Meeting</strong><br>
+      Atlanta, USA
     </div>
+  </div>
 
-
-    <div class="home-past-talk">
-
-      <div class="home-talk-year">
-        Sep 2025
-      </div>
-
-      <div class="home-talk-content">
-        <strong>Analytics for X Conference</strong>
-        &nbsp;·&nbsp; National University of Singapore
-      </div>
-
+  <div class="home-past-talk">
+    <div class="home-talk-year">Sep 2025</div>
+    <div class="home-talk-content">
+      <strong>Analytics for X Conference</strong><br>
+      National University of Singapore, Singapore
     </div>
+  </div>
 
-
-    <!-- Add additional talks here -->
-
-    <!--
-    <div class="home-past-talk">
-
-      <div class="home-talk-year">
-        Jun 2025
-      </div>
-
-      <div class="home-talk-content">
-        <strong>MSOM Conference</strong>
-        &nbsp;·&nbsp; City, Country
-      </div>
-
+  <div class="home-past-talk">
+    <div class="home-talk-year">Jul 2025</div>
+    <div class="home-talk-content">
+      <strong>INFORMS International Meeting</strong><br>
+      Singapore
     </div>
-    -->
+  </div>
 
+  <div class="home-past-talk">
+    <div class="home-talk-year">Oct 2024</div>
+    <div class="home-talk-content">
+      <strong>CBS-NBS Research Day on Emerging Technology, Risks, and Markets</strong><br>
+      Bangkok, Thailand
+    </div>
+  </div>
+
+  <div class="home-past-talk">
+    <div class="home-talk-year">May 2024</div>
+    <div class="home-talk-content">
+      <strong>Singapore Rising Scholars Conference</strong><br>
+      Singapore
+    </div>
+  </div>
+
+  <div class="home-past-talk">
+    <div class="home-talk-year">May 2024</div>
+    <div class="home-talk-content">
+      <strong>Conference on Health IT and Analytics (CHITA)</strong><br>
+      Washington, D.C., USA
+    </div>
+  </div>
+
+  <div class="home-past-talk">
+    <div class="home-talk-year">Apr 2024</div>
+    <div class="home-talk-content">
+      <strong>Production and Operations Management Society (POMS) Annual Conference</strong><br>
+      Minneapolis, USA
+    </div>
+  </div>
+
+  <div class="home-past-talk">
+    <div class="home-talk-year">Apr 2024</div>
+    <div class="home-talk-content">
+      <strong>Asian Management Research Consortium</strong><br>
+      Singapore
+    </div>
+  </div>
+
+  <div class="home-past-talk">
+    <div class="home-talk-year">May 2023</div>
+    <div class="home-talk-content">
+      <strong>Singapore Rising Scholars Conference</strong><br>
+      Singapore
+    </div>
+  </div>
+
+  <div class="home-past-talk">
+    <div class="home-talk-year">Jan 2023</div>
+    <div class="home-talk-content">
+      <strong>POMS-HK International Conference</strong><br>
+      Hong Kong
+    </div>
   </div>
 
 </div>
