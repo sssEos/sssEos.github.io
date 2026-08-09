@@ -391,11 +391,6 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
 <div class="home-section">
 
-  <h2 class="home-section-title">
-    Talks
-  </h2>
-
-
   <!-- Upcoming Talk -->
 
   <div class="home-talk-featured">
@@ -421,6 +416,11 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
 
   <!-- Past Talks -->
+  
+  <div class="home-past-talks-header">
+    <span>Past Talks</span>
+    <span class="home-scroll-hint">Scroll for more ↓</span>
+  </div>
 
 <div class="home-past-talks">
 
