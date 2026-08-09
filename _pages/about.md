@@ -70,6 +70,9 @@ Education
   color: #60656a;
 }
 
+
+/* ===== Past Talks ===== */
+
 .home-past-talks-header {
   display: flex;
   justify-content: space-between;
@@ -86,11 +89,14 @@ Education
 }
 
 .home-past-talks {
-  max-height: 210px;
+  /* REVISION: compact scrollable area */
+  max-height: 180px;
   overflow-y: auto;
+
   padding-right: 10px;
   border-top: 1px solid #e3e6e8;
   border-bottom: 1px solid #e3e6e8;
+
   scrollbar-width: thin;
   scrollbar-color: #b8c0c7 transparent;
 }
@@ -109,7 +115,10 @@ Education
 }
 
 .home-talk-year {
-  flex: 0 0 42px;
+  /* REVISION: wider so "Oct 2025" stays on one line */
+  flex: 0 0 75px;
+  white-space: nowrap;
+
   font-weight: 600;
   color: #858b90;
 }
@@ -124,7 +133,9 @@ Education
   font-weight: 600;
 }
 
-/* Scrollbar: Chrome / Safari */
+
+/* Scrollbar */
+
 .home-past-talks::-webkit-scrollbar {
   width: 6px;
 }
@@ -138,10 +149,21 @@ Education
   border-radius: 10px;
 }
 
+.home-past-talks::-webkit-scrollbar-thumb:hover {
+  background-color: #969fa7;
+}
+
+
 /* Mobile */
+
 @media (max-width: 600px) {
+
   .home-past-talk {
     gap: 10px;
+  }
+
+  .home-talk-year {
+    flex: 0 0 68px;
   }
 
   .home-scroll-hint {
@@ -149,6 +171,7 @@ Education
   }
 }
 </style>
+
 
 Talks
 ========
@@ -158,39 +181,46 @@ Talks
   <div class="home-talk-label">Upcoming Talk</div>
 
   <div class="home-talk-title">
-    Reducing Prescription Errors Through Information Intervention: A Field Experiment in Healthcare Operations
+    Reducing Prescription Errors Through Information Intervention:
+    A Field Experiment in Healthcare Operations
   </div>
 
   <div class="home-talk-details">
-    <strong>INFORMS Annual Meeting (2026)</strong><br>
-    Session: [TBA]<br>
-    📅 [TBA]<br>
-    📍 [TBA]
+    <strong>INFORMS Annual Meeting 2026</strong><br>
+    Session: TBA<br>
+    📅 TBA<br>
+    📍 TBA
   </div>
 
 </div>
 
+
 <div class="home-past-talks-header">
   <span>Past Talks</span>
-  <span class="home-scroll-hint">Scroll to explore ↓</span>
+  <!-- REVISION: shorter wording -->
+  <span class="home-scroll-hint">Scroll for more ↓</span>
 </div>
+
 
 <div class="home-past-talks">
 
   <div class="home-past-talk">
     <div class="home-talk-year">Oct 2025</div>
     <div class="home-talk-content">
-      <strong>INFORMS Annual Meeting, Atlanta, USA </strong><br>
+      <!-- REVISION: conference and location separated -->
+      <strong>INFORMS Annual Meeting</strong><br>
+      Atlanta, USA
     </div>
   </div>
 
   <div class="home-past-talk">
     <div class="home-talk-year">Sep 2025</div>
     <div class="home-talk-content">
-      <strong>Analytics For X Conference, National University of Singapor</strong><br>
+      <!-- REVISION: capitalization + Singapore typo fixed -->
+      <strong>Analytics for X Conference</strong><br>
+      National University of Singapore, Singapore
     </div>
   </div>
-
   
 
 </div>
@@ -199,9 +229,7 @@ Talks
 <br/>
 
 
-
-
-Last updated: Jun, 2026
+Last updated: Aug, 2026
 
 {% comment %} 
 This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
