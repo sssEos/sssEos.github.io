@@ -150,6 +150,56 @@ Education
 }
 </style>
 
+Talks
+========
+
+<div class="home-talk-featured">
+
+  <div class="home-talk-label">Upcoming Talk</div>
+
+  <div class="home-talk-title">
+    Choosing a Doctor Under Ambiguity: Patient–Physician Gender Concordance
+  </div>
+
+  <div class="home-talk-details">
+    <strong>INFORMS Annual Meeting (2026)</strong><br>
+    Session: [TBA]<br>
+    📅 [TBA]<br>
+    📍 [TBA]
+  </div>
+
+</div>
+
+<div class="home-past-talks-header">
+  <span>Past Talks</span>
+  <span class="home-scroll-hint">Scroll to explore ↓</span>
+</div>
+
+<div class="home-past-talks">
+
+  <div class="home-past-talk">
+    <div class="home-talk-year">Oct 2025</div>
+    <div class="home-talk-content">
+      <strong>INFORMS Annual Meeting, Atlanta, USA </strong><br>
+    </div>
+  </div>
+
+  <div class="home-past-talk">
+    <div class="home-talk-year">Sep 2025</div>
+    <div class="home-talk-content">
+      <strong>Analytics For X Conference, National University of Singapor</strong><br>
+    </div>
+  </div>
+
+  
+
+</div>
+
+
+<br/>
+
+
+
 
 Last updated: Jun, 2026
 
