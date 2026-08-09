@@ -79,7 +79,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 }
 
 .education-degree {
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .education-school {
@@ -347,7 +347,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
     <div class="education-row">
       <div class="education-main">
-        <span class="education-degree">M.Sc. in Business Analytics (Dean's Honors List)</span>,
+        <span class="education-degree">M.Sc. in Business Analytics (Dean's Honours List)</span>,
         <span class="education-school">Nanyang Technological University</span>
       </div>
 
@@ -444,7 +444,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
     <div class="home-talk-year">Sep 2025</div>
     <div class="home-talk-content">
       <strong>Analytics for X Conference</strong><br>
-      National University of Singapore, Singapore
+      Singapore
     </div>
   </div>
 
