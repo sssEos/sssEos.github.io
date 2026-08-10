@@ -681,7 +681,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
         </div>
 
         <div class="past-talk-location">
-          National University of Singapore, Singapore
+          Singapore
         </div>
 
       </div>
