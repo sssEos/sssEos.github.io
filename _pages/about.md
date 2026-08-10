@@ -3,95 +3,88 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Business School, Nanyang Technological University, where I am fortunate to be advised by Prof. [Vivek Choudhary](https://sites.google.com/view/vkchoudhary) and Prof. [Anandasivam Gopal](https://dr.ntu.edu.sg/cris/rp/rp01345).
-
-<div style="margin: 18px 0; padding: 13px 18px; border: 1px solid #d8e3ee; border-left: 5px solid #52789d; border-radius: 6px; background: linear-gradient(90deg, #f3f7fb 0%, #ffffff 100%); font-size: 1.08em; line-height: 1.5;">
-  <strong>I am on the 2026–2027 academic job market.</strong>
-</div>
-
-📧 Email: xiaodan001@e.ntu.edu.sg
-
 <style>
 
 /* =========================================================
-   HOMEPAGE — COMPACT SUPPORTING INFORMATION
+   GENERAL
 ========================================================= */
 
-.home-summary {
-  display: grid;
-  grid-template-columns: 0.82fr 1.55fr;
-  gap: 42px;
-
-  margin: 36px 0 30px 0;
-  padding: 20px 22px;
-
-  background: #fafbfc;
-  border: 1px solid #edf0f2;
-  border-radius: 7px;
+.home-section {
+  margin: 34px 0;
 }
 
-
-/* Small section headings */
-
-.home-summary-heading {
-  margin: 0 0 12px 0;
+.home-section-label {
+  margin-bottom: 12px;
 
   font-size: 0.76em;
-  font-weight: 600;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-
-  color: #74797e;
-}
-
-
-
-
-/* =========================================================
-   RESEARCH — TWO COLUMNS
-========================================================= */
-
-.research-section {
-  margin: 34px 0 30px 0;
-}
-
-.compact-section-label {
-  margin-bottom: 11px;
-
-  font-size: 0.74em;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
 
-  color: #7d8287;
+  color: #777d82;
 }
 
-.research-columns {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 28px;
 
-  padding: 16px 18px;
+/* =========================================================
+   JOB MARKET
+   MAIN HIGHLIGHT #1
+========================================================= */
+
+.job-market-box {
+  margin: 18px 0;
+  padding: 13px 18px;
+
+  border: 1px solid #d8e3ee;
+  border-left: 5px solid #52789d;
+  border-radius: 6px;
+
+  background: linear-gradient(
+    90deg,
+    #f3f7fb 0%,
+    #ffffff 100%
+  );
+
+  font-size: 1.08em;
+  line-height: 1.5;
+}
+
+
+/* =========================================================
+   RESEARCH
+   SEPARATE SECTION
+========================================================= */
+
+.research-box {
+  padding: 18px 20px;
 
   background: #fafbfc;
   border: 1px solid #edf0f2;
   border-radius: 7px;
+}
+
+
+/* Topics | Methodologies */
+
+.research-columns {
+  display: grid;
+  grid-template-columns: 1.45fr 1fr;
+  gap: 36px;
 }
 
 .research-subheading {
   margin-bottom: 9px;
 
-  font-size: 0.72em;
+  font-size: 0.70em;
   font-weight: 600;
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  color: #969b9f;
+  color: #999ea3;
 }
 
 .research-labels {
@@ -105,24 +98,24 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
   padding: 6px 12px;
 
-  font-size: 0.84em;
+  font-size: 0.82em;
   font-weight: 400;
   line-height: 1.25;
 
-  color: #5e6368;
+  color: #5d6267;
   background: #ffffff;
 
-  border: 1px solid #e2e6e9;
+  border: 1px solid #e0e4e7;
   border-radius: 16px;
 }
 
 
 /* =========================================================
-   EDUCATION — SEPARATE SECTION
+   EDUCATION
+   SEPARATE SECTION
 ========================================================= */
 
-.education-section {
-  margin: 30px 0 40px 0;
+.education-box {
   padding: 18px 20px;
 
   background: #fafbfc;
@@ -137,7 +130,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 .education-row {
   display: grid;
   grid-template-columns: 1fr auto;
-  gap: 20px;
+  gap: 22px;
 
   padding: 6px 0;
 
@@ -153,16 +146,19 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
 .education-year {
   font-weight: 400;
-  color: #9a9ea2;
+  color: #999ea2;
 
   white-space: nowrap;
 }
+
+
+/* Exchange = secondary information */
 
 .education-extra {
   margin-top: 8px;
   padding-top: 8px;
 
-  border-top: 1px solid #eceeef;
+  border-top: 1px solid #eceff1;
 
   font-size: 0.77em;
   line-height: 1.5;
@@ -172,39 +168,12 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
 
 /* =========================================================
-   MOBILE
-========================================================= */
-
-@media (max-width: 700px) {
-
-  .research-columns {
-    grid-template-columns: 1fr;
-    gap: 18px;
-  }
-
-  .education-section {
-    padding: 16px;
-  }
-
-  .education-row {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
-
-  .education-year {
-    margin-top: 1px;
-    font-size: 0.92em;
-  }
-
-}
-
-
-/* =========================================================
-   UPCOMING TALK — MAIN HIGHLIGHT #2
+   UPCOMING TALK
+   MAIN HIGHLIGHT #2
 ========================================================= */
 
 .upcoming-section {
-  margin: 0;
+  margin: 40px 0 0 0;
 }
 
 .upcoming-talk-card {
@@ -288,7 +257,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 }
 
 
-/* Scroll area */
+/* Scroll box */
 
 .past-talks-list {
   max-height: 205px;
@@ -304,7 +273,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 }
 
 
-/* Individual talk */
+/* Each talk */
 
 .past-talk-row {
   display: grid;
@@ -348,7 +317,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 }
 
 
-/* Chrome / Safari scrollbar */
+/* Scrollbar: Chrome / Safari */
 
 .past-talks-list::-webkit-scrollbar {
   width: 5px;
@@ -369,7 +338,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 ========================================================= */
 
 .home-updated {
-  margin-top: 34px;
+  margin-top: 32px;
 
   font-size: 0.72em;
   color: #a3a7ab;
@@ -382,20 +351,26 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
 @media (max-width: 700px) {
 
-  .home-summary {
-    grid-template-columns: 1fr;
-    gap: 22px;
-
-    margin: 30px 0 38px 0;
-    padding: 18px;
+  .home-section {
+    margin: 28px 0;
   }
 
-  .home-education-row {
+  .research-columns {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .research-box,
+  .education-box {
+    padding: 16px;
+  }
+
+  .education-row {
     grid-template-columns: 1fr;
     gap: 0;
   }
 
-  .home-education-year {
+  .education-year {
     margin-top: 1px;
     font-size: 0.92em;
   }
@@ -412,165 +387,227 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
   .scroll-note {
     display: none;
   }
+
 }
+
 </style>
 
+
+I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Business School, Nanyang Technological University, where I am fortunate to be advised by Prof. [Vivek Choudhary](https://sites.google.com/view/vkchoudhary) and Prof. [Anandasivam Gopal](https://dr.ntu.edu.sg/cris/rp/rp01345).
+
+
 <!-- =========================================================
-     COMPACT RESEARCH + EDUCATION
-     Supporting information only
+     JOB MARKET
 ========================================================= -->
 
-<div class="home-summary">
+<div class="job-market-box">
+  <strong>I am on the 2026–2027 academic job market.</strong>
+</div>
+
+
+📧 Email: xiaodan001@e.ntu.edu.sg
+
 
 
 <!-- =========================================================
      RESEARCH
+     SEPARATE SECTION
 ========================================================= -->
 
-<div class="research-section">
+<div class="home-section">
 
-  <div class="compact-section-label">
+  <div class="home-section-label">
     Research
   </div>
 
-  <div class="research-columns">
+  <div class="research-box">
 
-    <!-- Topics -->
-    <div>
-
-      <div class="research-subheading">
-        Topics
-      </div>
-
-      <div class="research-labels">
-
-        <span class="research-label">
-          Behavioral Operations
-        </span>
-
-        <span class="research-label">
-          Healthcare Operations
-        </span>
-
-      </div>
-
-    </div>
+    <div class="research-columns">
 
 
-    <!-- Methodologies -->
-    <div>
+      <!-- TOPICS -->
 
-      <div class="research-subheading">
-        Methodologies
-      </div>
+      <div>
 
-      <div class="research-labels">
+        <div class="research-subheading">
+          Topics
+        </div>
 
-        <span class="research-label">
-          Econometrics
-        </span>
+        <div class="research-labels">
 
-        <span class="research-label">
-          Field Experiments
-        </span>
+          <span class="research-label">
+            Healthcare Operations
+          </span>
+
+          <span class="research-label">
+            Behavioral Operations
+          </span>
+
+          <span class="research-label">
+            AI &amp; Digital Health
+          </span>
+
+        </div>
 
       </div>
+
+
+      <!-- METHODOLOGIES -->
+
+      <div>
+
+        <div class="research-subheading">
+          Methodologies
+        </div>
+
+        <div class="research-labels">
+
+          <span class="research-label">
+            Econometrics
+          </span>
+
+          <span class="research-label">
+            Field Experiments
+          </span>
+          
+          <span class="research-label">
+            Data Analytics
+          </span>
+
+
+
+        </div>
+
+      </div>
+
 
     </div>
 
   </div>
 
 </div>
+
 
 
 <!-- =========================================================
      EDUCATION
+     COMPLETELY SEPARATE SECTION
 ========================================================= -->
 
-<div class="education-section">
+<div class="home-section">
 
-  <div class="compact-section-label">
+  <div class="home-section-label">
     Education
   </div>
 
-  <div class="education-list">
+  <div class="education-box">
 
-    <div class="education-row">
-      <div class="education-main">
-        Ph.D., Operations Management · NTU
+
+    <div class="education-list">
+
+
+      <div class="education-row">
+
+        <div class="education-main">
+          Ph.D., Operations Management · NTU
+        </div>
+
+        <div class="education-year">
+          Present
+        </div>
+
       </div>
-      <div class="education-year">
-        Present
+
+
+      <div class="education-row">
+
+        <div class="education-main">
+          M.Sc., Business Analytics (Dean's Honours List) · NTU
+        </div>
+
+        <div class="education-year">
+          2022
+        </div>
+
       </div>
+
+
+      <div class="education-row">
+
+        <div class="education-main">
+          B.Econ. (Honours) · Nanjing Audit University
+        </div>
+
+        <div class="education-year">
+          2017
+        </div>
+
+      </div>
+
+
     </div>
 
 
-    <div class="education-row">
-      <div class="education-main">
-        M.Sc., Business Analytics (Dean's Honours List) · NTU
-      </div>
-      <div class="education-year">
-        2022
-      </div>
+    <div class="education-extra">
+      Exchange · National University of Singapore (2023–2024)
+      &nbsp;&nbsp;·&nbsp;&nbsp;
+      University of Melbourne (2016)
     </div>
 
-
-    <div class="education-row">
-      <div class="education-main">
-        B.Econ. (Honours) · Nanjing Audit University
-      </div>
-      <div class="education-year">
-        2017
-      </div>
-    </div>
 
   </div>
 
-
-  <div class="education-extra">
-    Exchange · National University of Singapore (2023–2024)
-    &nbsp;&nbsp;·&nbsp;&nbsp;
-    University of Melbourne (2016)
-  </div>
-
 </div>
-</div>
+
+
 
 <!-- =========================================================
-     MAIN HIGHLIGHT #2 — UPCOMING TALK
+     UPCOMING TALK
+     COMPLETELY SEPARATE SECTION
 ========================================================= -->
 
 <div class="upcoming-section">
 
   <div class="upcoming-talk-card">
 
+
     <div class="upcoming-label">
       Upcoming Talk
     </div>
+
 
     <div class="upcoming-title">
       Reducing Prescription Errors Through Information Intervention:
       A Field Experiment in Healthcare Operations
     </div>
 
+
     <div class="upcoming-conference">
       INFORMS Annual Meeting 2026
     </div>
 
+
     <div class="upcoming-meta">
+
       Session: TBA
+
       &nbsp;&nbsp;·&nbsp;&nbsp;
+
       Date &amp; Time: TBA
+
       &nbsp;&nbsp;·&nbsp;&nbsp;
+
       Location: TBA
+
     </div>
+
 
   </div>
 
 
 
   <!-- =======================================================
-       PAST TALKS — SCROLLABLE
+       PAST TALKS
   ======================================================== -->
 
   <div class="past-talks-heading">
