@@ -27,7 +27,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
   grid-template-columns: 0.82fr 1.55fr;
   gap: 42px;
 
-  margin: 36px 0 44px 0;
+  margin: 36px 0 30px 0;
   padding: 20px 22px;
 
   background: #fafbfc;
@@ -181,7 +181,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 ========================================================= */
 
 .upcoming-section {
-  margin: 44px 0 0 0;
+  margin: 0;
 }
 
 .upcoming-talk-card {
@@ -495,9 +495,9 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
 </div>
 
+</div>
 
-
-
+</div>
 <!-- =========================================================
      MAIN HIGHLIGHT #2 — UPCOMING TALK
 ========================================================= -->
