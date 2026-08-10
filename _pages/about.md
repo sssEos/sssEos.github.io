@@ -53,7 +53,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
 
 /* =========================================================
-   RESEARCH — LABEL STYLE
+   RESEARCH — TWO COLUMNS
 ========================================================= */
 
 .research-section {
@@ -69,6 +69,29 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
   text-transform: uppercase;
 
   color: #7d8287;
+}
+
+.research-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px;
+
+  padding: 16px 18px;
+
+  background: #fafbfc;
+  border: 1px solid #edf0f2;
+  border-radius: 7px;
+}
+
+.research-subheading {
+  margin-bottom: 9px;
+
+  font-size: 0.72em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #969b9f;
 }
 
 .research-labels {
@@ -87,7 +110,7 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
   line-height: 1.25;
 
   color: #5e6368;
-  background: #f8f9fa;
+  background: #ffffff;
 
   border: 1px solid #e2e6e9;
   border-radius: 16px;
@@ -95,14 +118,16 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
 
 /* =========================================================
-   EDUCATION — SEPARATE, COMPACT SECTION
+   EDUCATION — SEPARATE SECTION
 ========================================================= */
 
 .education-section {
-  margin: 30px 0 42px 0;
-  padding-top: 18px;
+  margin: 30px 0 40px 0;
+  padding: 18px 20px;
 
-  border-top: 1px solid #eceff1;
+  background: #fafbfc;
+  border: 1px solid #edf0f2;
+  border-radius: 7px;
 }
 
 .education-list {
@@ -133,14 +158,11 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
   white-space: nowrap;
 }
 
-
-/* Exchange = secondary information */
-
 .education-extra {
   margin-top: 8px;
   padding-top: 8px;
 
-  border-top: 1px dashed #eceeef;
+  border-top: 1px solid #eceeef;
 
   font-size: 0.77em;
   line-height: 1.5;
@@ -155,12 +177,13 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 
 @media (max-width: 700px) {
 
-  .research-section {
-    margin: 28px 0 26px 0;
+  .research-columns {
+    grid-template-columns: 1fr;
+    gap: 18px;
   }
 
   .education-section {
-    margin: 26px 0 34px 0;
+    padding: 16px;
   }
 
   .education-row {
@@ -410,23 +433,50 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
     Research
   </div>
 
-  <div class="research-labels">
+  <div class="research-columns">
 
-    <span class="research-label">
-      Behavioral Operations
-    </span>
+    <!-- Topics -->
+    <div>
 
-    <span class="research-label">
-      Healthcare Operations
-    </span>
+      <div class="research-subheading">
+        Topics
+      </div>
 
-    <span class="research-label">
-      Econometrics
-    </span>
+      <div class="research-labels">
 
-    <span class="research-label">
-      Field Experiments
-    </span>
+        <span class="research-label">
+          Behavioral Operations
+        </span>
+
+        <span class="research-label">
+          Healthcare Operations
+        </span>
+
+      </div>
+
+    </div>
+
+
+    <!-- Methodologies -->
+    <div>
+
+      <div class="research-subheading">
+        Methodologies
+      </div>
+
+      <div class="research-labels">
+
+        <span class="research-label">
+          Econometrics
+        </span>
+
+        <span class="research-label">
+          Field Experiments
+        </span>
+
+      </div>
+
+    </div>
 
   </div>
 
@@ -443,45 +493,35 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
     Education
   </div>
 
-
   <div class="education-list">
 
     <div class="education-row">
-
       <div class="education-main">
         Ph.D., Operations Management · NTU
       </div>
-
       <div class="education-year">
         Present
       </div>
-
     </div>
 
 
     <div class="education-row">
-
       <div class="education-main">
         M.Sc., Business Analytics (Dean's Honours List) · NTU
       </div>
-
       <div class="education-year">
         2022
       </div>
-
     </div>
 
 
     <div class="education-row">
-
       <div class="education-main">
         B.Econ. (Honours) · Nanjing Audit University
       </div>
-
       <div class="education-year">
         2017
       </div>
-
     </div>
 
   </div>
@@ -494,10 +534,8 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
   </div>
 
 </div>
-
 </div>
 
-</div>
 <!-- =========================================================
      MAIN HIGHLIGHT #2 — UPCOMING TALK
 ========================================================= -->
