@@ -89,7 +89,7 @@ redirect_from:
 
 .research-labels {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: flex-start;
   gap: 8px;
 }
 
