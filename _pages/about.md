@@ -448,7 +448,7 @@ redirect_from:
 
 I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Business School, Nanyang Technological University, where I am fortunate to be advised by Prof. [Vivek Choudhary](https://sites.google.com/view/vkchoudhary) and Prof. [Anandasivam Gopal](https://dr.ntu.edu.sg/cris/rp/rp01345). 
 
-My empirical research seeks to improve healthcare by understanding how people respond to information and technology, and by designing data-driven interventions that make care safer, more accessible, and more effective.
+My empirical research is driven by a desire to improve how healthcare is delivered and operated. I study how people respond to information and technology, and how data-driven interventions can make care safer, more accessible, and more effective.
 
 
 <!-- =========================================================
