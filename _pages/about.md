@@ -363,12 +363,21 @@ redirect_from:
 
   .research-columns {
     grid-template-columns: 1fr;
-    gap: 20px;
+    gap: 14px;
+  }
+  
+  .research-box {
+    padding: 14px;
   }
 
-  .research-box,
+  .research-columns .research-label {
+    font-size: 0.78em;
+    padding: 5px 9px;
+    white-space: normal;
+  }
+  
   .education-box {
-    padding: 16px;
+    padding: 18px;
   }
 
   .education-row {
