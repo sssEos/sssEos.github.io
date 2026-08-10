@@ -50,63 +50,129 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 }
 
 
-/* =========================================================
-   RESEARCH
-========================================================= */
-
-.home-research {
-  font-size: 0.88em;
-  line-height: 1.75;
-
-  color: #575c61;
-}
-
-.home-research-methods {
-  margin-top: 5px;
-
-  font-size: 0.92em;
-  color: #8a8f94;
-}
 
 
 /* =========================================================
-   EDUCATION
-   Intentionally regular weight — no bold
+   RESEARCH — LABEL STYLE
 ========================================================= */
 
-.home-education {
+.research-section {
+  margin: 34px 0 30px 0;
+}
+
+.compact-section-label {
+  margin-bottom: 11px;
+
+  font-size: 0.74em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+
+  color: #7d8287;
+}
+
+.research-labels {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.research-label {
+  display: inline-block;
+
+  padding: 6px 12px;
+
+  font-size: 0.84em;
+  font-weight: 400;
+  line-height: 1.25;
+
+  color: #5e6368;
+  background: #f8f9fa;
+
+  border: 1px solid #e2e6e9;
+  border-radius: 16px;
+}
+
+
+/* =========================================================
+   EDUCATION — SEPARATE, COMPACT SECTION
+========================================================= */
+
+.education-section {
+  margin: 30px 0 42px 0;
+  padding-top: 18px;
+
+  border-top: 1px solid #eceff1;
+}
+
+.education-list {
+  width: 100%;
+}
+
+.education-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+
+  padding: 6px 0;
+
   font-size: 0.86em;
   line-height: 1.5;
 
-  color: #5c6166;
+  color: #60656a;
 }
 
-.home-education-row {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 16px;
-
-  padding: 4px 0;
-}
-
-.home-education-row,
-.home-education-row * {
+.education-main {
   font-weight: 400;
 }
 
-.home-education-year {
-  color: #989da1;
+.education-year {
+  font-weight: 400;
+  color: #9a9ea2;
+
   white-space: nowrap;
 }
 
-.home-education-extra {
-  margin-top: 7px;
-  padding-top: 7px;
 
-  border-top: 1px solid #eceeef;
+/* Exchange = secondary information */
 
-  font-size: 0.84em;
-  color: #969a9e;
+.education-extra {
+  margin-top: 8px;
+  padding-top: 8px;
+
+  border-top: 1px dashed #eceeef;
+
+  font-size: 0.77em;
+  line-height: 1.5;
+
+  color: #969b9f;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+  .research-section {
+    margin: 28px 0 26px 0;
+  }
+
+  .education-section {
+    margin: 26px 0 34px 0;
+  }
+
+  .education-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .education-year {
+    margin-top: 1px;
+    font-size: 0.92em;
+  }
+
 }
 
 
@@ -334,88 +400,101 @@ I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Busines
 <div class="home-summary">
 
 
-  <!-- RESEARCH -->
+<!-- =========================================================
+     RESEARCH
+========================================================= -->
 
-  <div>
+<div class="research-section">
 
-    <div class="home-summary-heading">
-      Research
-    </div>
-
-    <div class="home-research">
-
-      Behavioral Operations<br>
-      Healthcare Operations
-
-      <div class="home-research-methods">
-        Econometrics · Field Experiments
-      </div>
-
-    </div>
-
+  <div class="compact-section-label">
+    Research
   </div>
 
+  <div class="research-labels">
 
+    <span class="research-label">
+      Behavioral Operations
+    </span>
 
-  <!-- EDUCATION -->
+    <span class="research-label">
+      Healthcare Operations
+    </span>
 
-  <div>
+    <span class="research-label">
+      Econometrics
+    </span>
 
-    <div class="home-summary-heading">
-      Education
-    </div>
-
-    <div class="home-education">
-
-
-      <div class="home-education-row">
-
-        <div>
-          Ph.D., Operations Management · NTU
-        </div>
-
-        <div class="home-education-year">
-          Present
-        </div>
-
-      </div>
-
-
-      <div class="home-education-row">
-
-        <div>
-          M.Sc., Business Analytics (Dean's Honours List) · NTU
-        </div>
-
-        <div class="home-education-year">
-          2022
-        </div>
-
-      </div>
-
-
-      <div class="home-education-row">
-
-        <div>
-          B.Econ. (Honours) · Nanjing Audit University
-        </div>
-
-        <div class="home-education-year">
-          2017
-        </div>
-
-      </div>
-
-
-      <div class="home-education-extra">
-        Exchange · NUS (2023–2024) · University of Melbourne (2016)
-      </div>
-
-    </div>
+    <span class="research-label">
+      Field Experiments
+    </span>
 
   </div>
 
 </div>
+
+
+<!-- =========================================================
+     EDUCATION
+========================================================= -->
+
+<div class="education-section">
+
+  <div class="compact-section-label">
+    Education
+  </div>
+
+
+  <div class="education-list">
+
+    <div class="education-row">
+
+      <div class="education-main">
+        Ph.D., Operations Management · NTU
+      </div>
+
+      <div class="education-year">
+        Present
+      </div>
+
+    </div>
+
+
+    <div class="education-row">
+
+      <div class="education-main">
+        M.Sc., Business Analytics (Dean's Honours List) · NTU
+      </div>
+
+      <div class="education-year">
+        2022
+      </div>
+
+    </div>
+
+
+    <div class="education-row">
+
+      <div class="education-main">
+        B.Econ. (Honours) · Nanjing Audit University
+      </div>
+
+      <div class="education-year">
+        2017
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <div class="education-extra">
+    Exchange · National University of Singapore (2023–2024)
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    University of Melbourne (2016)
+  </div>
+
+</div>
+
 
 
 
