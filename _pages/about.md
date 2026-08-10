@@ -361,21 +361,54 @@ redirect_from:
     margin: 28px 0;
   }
 
+
+  /* =====================================================
+     RESEARCH — KEEP TWO COLUMNS ON MOBILE
+  ===================================================== */
+
   .research-columns {
-    grid-template-columns: 1fr;
-    gap: 14px;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 12px;
+    width: 100%;
   }
-  
+
   .research-box {
-    padding: 14px;
+    padding: 14px 12px;
+  }
+
+  .research-subheading {
+    font-size: 0.67em;
+    margin-bottom: 8px;
+  }
+
+  /* Each side remains a vertical list */
+  .research-columns .research-labels {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+    width: 100%;
   }
 
   .research-columns .research-label {
-    font-size: 0.78em;
-    padding: 5px 9px;
+    display: inline-block;
+    max-width: 100%;
+    box-sizing: border-box;
+
+    font-size: 0.75em;
+    line-height: 1.25;
+
+    padding: 5px 8px;
+
     white-space: normal;
   }
-  
+
+
+  /* =====================================================
+     EDUCATION
+  ===================================================== */
+
   .education-box {
     padding: 18px;
   }
@@ -389,6 +422,11 @@ redirect_from:
     margin-top: 1px;
     font-size: 0.92em;
   }
+
+
+  /* =====================================================
+     TALKS
+  ===================================================== */
 
   .upcoming-talk-card {
     padding: 18px;
@@ -409,6 +447,7 @@ redirect_from:
 
 
 I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Business School, Nanyang Technological University, where I am fortunate to be advised by Prof. [Vivek Choudhary](https://sites.google.com/view/vkchoudhary) and Prof. [Anandasivam Gopal](https://dr.ntu.edu.sg/cris/rp/rp01345). 
+
 My empirical research seeks to improve healthcare by understanding how people respond to information and technology, and by designing data-driven interventions that make care safer, more accessible, and more effective.
 
 
