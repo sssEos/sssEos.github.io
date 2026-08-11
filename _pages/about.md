@@ -690,7 +690,7 @@ My empirical research is driven by a desire to improve how healthcare is deliver
       <div class="past-talk-info">
 
         <div class="past-talk-name">
-          Workshop on Empirical Operations Management (WEOM)
+          3rd Workshop on Empirical Operations Management (WEOM)
         </div>
 
         <div class="past-talk-location">
