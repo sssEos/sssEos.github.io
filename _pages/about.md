@@ -904,7 +904,7 @@ My empirical research is driven by a desire to improve how healthcare is deliver
         </div>
 
         <div class="past-talk-location">
-          Hong Kong SAR, China
+          Hong Kong, China
         </div>
 
       </div>
