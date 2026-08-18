@@ -459,8 +459,8 @@ My empirical research is driven by a desire to improve how healthcare is deliver
   <strong>I am on the 2026–2027 academic job market.</strong>
 </div>
 
-Some of the most rewarding moments in my research come from working with practitioners and policymakers. If you're facing a hard problem or chasing a new idea, feel free to reach out — I'd genuinely enjoy the conversation. 📧 Email: xiaodan001@e.ntu.edu.sg
-
+Some of the most rewarding research comes from working with practitioners and policymakers to turn real-world challenges into useful insights. If you’re facing a hard problem or exploring a new idea, feel free to reach out.
+📧 Email: xiaodan001@e.ntu.edu.sg
 
 
 <!-- =========================================================
