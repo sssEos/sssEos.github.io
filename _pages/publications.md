@@ -20,12 +20,13 @@ author_profile: true
     <i>Major Revision at M&amp;SOM (2nd Round)</i>
   </p>
 
-  <ul style="margin-top: 0; margin-bottom: 14px; padding-left: 22px; line-height: 1.6;">
-    <li>Best Student Paper, Operational Research Society of Singapore (ORSS), Analytics for X 2025</li>
+  <ul style="margin-top: 0; margin-bottom: 14px; padding-left: 22px; line-height: 1.6;color: #607487;">
+    <li>Winner, Best Student Paper, Operational Research Society of Singapore (ORSS), Analytics for X 2025</li>
+    <li>winner, Best Poster Presentation, CBS–NBS Research Day on Emerging Technology, Risks, and Markets 2024</li>
     <li>Finalist, Best Student Paper Award, INFORMS Service Science 2026</li>
-    <li>Finalist, Junior Scholar Paper Competition, College of Behavior in Operations Management (CBOM), POMS 2024</li>
-    <li>Best Poster Presentation, CBS–NBS Research Day on Emerging Technology, Risks, and Markets 2024</li>
+    <li>Finalist, Junior Scholar Paper Competition, College of Behavior in Operations Management (CBOM) 2024</li>
   </ul>
+
 
   <p style="margin: 0; font-size: 14.5px; color: #666; line-height: 1.5;">
     <span style="font-weight: 600; color: #444;">Media:</span>
