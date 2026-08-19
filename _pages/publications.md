@@ -56,7 +56,7 @@ author_profile: true
   </p>
 
   <ul style="margin-top: 0; margin-bottom: 0; padding-left: 22px; line-height: 1.6;color: #3F6B8A;">
-    <li>Winner, 2025 M&amp;SOM Data-Driven Research Challenge</li>
+    <li>Winner, M&amp;SOM Data-Driven Research Challenge 2025</li>
   </ul>
 
 </div>
