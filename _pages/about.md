@@ -182,17 +182,17 @@ redirect_from:
 }
 
 .upcoming-label {
-  margin-bottom: 18px;
-  font-size: 0.78rem;
-  font-weight: 700;
+  margin-bottom: 14px;
+  font-size: 0.78em;
+  font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  opacity: 0.62;
+  color: #8a8f93;
 }
 
 .upcoming-talk-card {
-  padding: 16px 0 18px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  padding: 14px 0;
+  border-bottom: 1px solid #eceeef;
 }
 
 .upcoming-talk-card:last-child {
@@ -202,49 +202,59 @@ redirect_from:
 /* Talk title */
 .upcoming-title {
   margin-bottom: 4px;
-  font-size: 1.05rem;
+  font-size: 1.02em;
   font-weight: 600;
   line-height: 1.4;
+  color: #4f5458;
 }
 
 /* Conference */
 .upcoming-conference {
-  margin-bottom: 6px;
-  font-size: 0.9rem;
+  margin-bottom: 5px;
+  font-size: 0.88em;
   font-weight: 500;
   line-height: 1.4;
-  opacity: 0.78;
+  color: #73787c;
 }
 
-/* General date/location line */
+/* Basic date / location */
 .upcoming-meta {
-  font-size: 0.82rem;
-  line-height: 1.5;
-  opacity: 0.55;
+  font-size: 0.80em;
+  line-height: 1.45;
+  color: #999ea2;
 }
 
-/* INFORMS session rows */
+/* Session + details on same row */
 .upcoming-session-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  column-gap: 18px;
   align-items: baseline;
-  gap: 10px;
+
   margin-top: 5px;
-  font-size: 0.82rem;
+
+  font-size: 0.80em;
   line-height: 1.45;
 }
 
 .upcoming-session {
   font-weight: 500;
-  opacity: 0.68;
+  color: #7d8286;
 }
 
 .upcoming-session-meta {
   font-weight: 400;
-  opacity: 0.5;
+  color: #999ea2;
+  white-space: nowrap;
 }
 
 /* Mobile */
 @media (max-width: 700px) {
+
+  .upcoming-talk-card {
+    padding: 13px 0;
+  }
+
   .upcoming-session-row {
     display: block;
   }
@@ -252,9 +262,10 @@ redirect_from:
   .upcoming-session-meta {
     display: block;
     margin-top: 1px;
+    white-space: normal;
   }
-}
 
+}
   
 
 /* =========================================================
@@ -636,12 +647,6 @@ Some of the most rewarding research comes from working with practitioners and po
 </div>
 
 
-
-<!-- =========================================================
-     UPCOMING TALK
-     COMPLETELY SEPARATE SECTION
-========================================================= -->
-
 <!-- =========================================================
      UPCOMING TALKS
 ========================================================= -->
@@ -656,8 +661,7 @@ Some of the most rewarding research comes from working with practitioners and po
   <div class="upcoming-talk-card">
 
     <div class="upcoming-title">
-      Last-Mile Healthcare as an Access-Production Problem:
-      A CARE Agenda for SDG 3
+      Last-Mile Healthcare: A CARE Agenda for SDG 3
     </div>
 
     <div class="upcoming-conference">
@@ -686,6 +690,7 @@ Some of the most rewarding research comes from working with practitioners and po
       <span class="upcoming-session">
         Service Science Best Student Paper Award II
       </span>
+
       <span class="upcoming-session-meta">
         Nov 2 · 2:45–4:00 PM · Moscone South-20
       </span>
@@ -695,6 +700,7 @@ Some of the most rewarding research comes from working with practitioners and po
       <span class="upcoming-session">
         Causal Evidence and Precision Healthcare
       </span>
+
       <span class="upcoming-session-meta">
         Nov 2 · 4:15–5:30 PM · Moscone South-204
       </span>
@@ -703,6 +709,7 @@ Some of the most rewarding research comes from working with practitioners and po
   </div>
 
 </div>
+
 
   <!-- =======================================================
        PAST TALKS
@@ -957,7 +964,6 @@ Some of the most rewarding research comes from working with practitioners and po
 
   </div>
 
-</div>
 
 
 
