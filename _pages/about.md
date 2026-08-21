@@ -182,49 +182,62 @@ redirect_from:
 }
 
 .upcoming-label {
-  margin-bottom: 14px;
+  margin-bottom: 12px;
+
   font-size: 0.78em;
   font-weight: 600;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+
   color: #8a8f93;
 }
 
 .upcoming-talk-card {
-  padding: 14px 0;
-  border-bottom: 1px solid #eceeef;
+  margin-bottom: 14px;
+  padding: 14px 18px;
+
+  background: linear-gradient(
+    90deg,
+    #f3f7fb 0%,
+    #ffffff 100%
+  );
+
+  border: 1px solid #d8e3ee;
+  border-left: 4px solid #52789d;
+  border-radius: 6px;
 }
 
 .upcoming-talk-card:last-child {
-  border-bottom: none;
+  margin-bottom: 0;
 }
 
-/* Talk title */
 .upcoming-title {
   margin-bottom: 4px;
+
   font-size: 1.02em;
   font-weight: 600;
   line-height: 1.4;
+
   color: #4f5458;
 }
 
-/* Conference */
 .upcoming-conference {
   margin-bottom: 5px;
+
   font-size: 0.88em;
   font-weight: 500;
   line-height: 1.4;
+
   color: #73787c;
 }
 
-/* Basic date / location */
 .upcoming-meta {
   font-size: 0.80em;
   line-height: 1.45;
+
   color: #999ea2;
 }
 
-/* Session + details on same row */
 .upcoming-session-row {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
@@ -248,11 +261,15 @@ redirect_from:
   white-space: nowrap;
 }
 
-/* Mobile */
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
 @media (max-width: 700px) {
 
   .upcoming-talk-card {
-    padding: 13px 0;
+    padding: 13px 14px;
   }
 
   .upcoming-session-row {
@@ -266,7 +283,6 @@ redirect_from:
   }
 
 }
-  
 
 /* =========================================================
    PAST TALKS
