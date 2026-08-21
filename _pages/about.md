@@ -705,7 +705,7 @@ Some of the most rewarding research comes from working with practitioners and po
 
     <div class="upcoming-eventline">
       <span class="upcoming-conference">
-        5th Symposium on Environmental and Social Sustainability in Supply Chains
+        5th Symposium on Environmental and Social Sustainability
       </span>
       <span class="upcoming-details">
         Oct 31 · UC Berkeley · TBA
