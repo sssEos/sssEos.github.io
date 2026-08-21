@@ -32,7 +32,6 @@ redirect_from:
 
 /* =========================================================
    JOB MARKET
-   MAIN HIGHLIGHT #1
 ========================================================= */
 
 .job-market-box {
@@ -56,7 +55,6 @@ redirect_from:
 
 /* =========================================================
    RESEARCH
-   SEPARATE SECTION
 ========================================================= */
 
 .research-box {
@@ -66,9 +64,6 @@ redirect_from:
   border: 1px solid #edf0f2;
   border-radius: 7px;
 }
-
-
-/* Topics | Methodologies */
 
 .research-columns {
   display: grid;
@@ -86,7 +81,7 @@ redirect_from:
 
   color: #969b9f;
 }
-  
+
 .research-columns .research-labels {
   display: grid;
   grid-template-columns: 1fr;
@@ -115,10 +110,8 @@ redirect_from:
 }
 
 
-
 /* =========================================================
    EDUCATION
-   SEPARATE SECTION
 ========================================================= */
 
 .education-box {
@@ -156,9 +149,6 @@ redirect_from:
 
   white-space: nowrap;
 }
-
-
-/* Exchange = secondary information */
 
 .education-extra {
   margin-top: 8px;
@@ -228,7 +218,7 @@ redirect_from:
 }
 
 
-/* Conference + date/location on one line */
+/* Conference + date/location */
 
 .upcoming-eventline {
   display: flex;
@@ -247,8 +237,10 @@ redirect_from:
 
 .upcoming-details {
   flex-shrink: 0;
+
   font-weight: 400;
   color: #999ea2;
+
   white-space: nowrap;
 }
 
@@ -285,32 +277,12 @@ redirect_from:
 
 .upcoming-session-meta {
   flex-shrink: 0;
+
   color: #9ba0a4;
   white-space: nowrap;
 }
 
 
-/* Mobile */
-
-@media (max-width: 700px) {
-
-  .upcoming-talk-card {
-    padding: 14px;
-  }
-
-  .upcoming-eventline,
-  .upcoming-session-row {
-    display: block;
-  }
-
-  .upcoming-details,
-  .upcoming-session-meta {
-    display: block;
-    margin-top: 2px;
-    white-space: normal;
-  }
-
-}
 /* =========================================================
    PAST TALKS
 ========================================================= */
@@ -432,13 +404,225 @@ redirect_from:
 
 @media (max-width: 700px) {
 
+  /* =====================================================
+     GENERAL
+  ===================================================== */
+
   .home-section {
     margin: 28px 0;
   }
 
 
   /* =====================================================
-     RESEARCH — KEEP TWO COLUMNS ON MOBILE
+     RESEARCH — KEEP TWO COLUMNS
+  ===================================================== */
+
+  .research-columns {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 12px;
+    width: 100%;
+  }
+
+  .research-box {
+    padding: 14px 12px;
+  }
+
+  .research-subheading {
+    margin-bottom: 8px;
+    font-size: 0.67em;
+  }
+
+  .research-columns .research-labels {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 7px;
+    width: 100%;
+  }
+
+  .research-columns .research-label {
+    display: inline-block;
+
+    max-width: 100%;
+    box-sizing: border-box;
+
+    padding: 5px 8px;
+
+    font-size: 0.75em;
+    line-height: 1.25;
+
+    white-space: normal;
+  }
+
+
+  /* =====================================================
+     EDUCATION — KEEP YEAR ON SAME ROW
+  ===================================================== */
+
+  .education-box {
+    padding: 14px 12px;
+  }
+
+  .education-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+    align-items: baseline;
+  }
+
+  .education-main {
+    min-width: 0;
+  }
+
+  .education-year {
+    margin-top: 0;
+
+    font-size: 0.90em;
+
+    white-space: nowrap;
+  }
+
+
+  /* =====================================================
+     UPCOMING TALKS
+  ===================================================== */
+
+  .upcoming-talk-card {
+    padding: 13px 14px;
+  }
+
+
+  /* Conference on first line;
+     date/location immediately underneath */
+
+  .upcoming-eventline {
+    display: block;
+  }
+
+  .upcoming-details {
+    display: block;
+
+    margin-top: 2px;
+
+    font-size: 0.90em;
+
+    white-space: nowrap;
+  }
+
+
+  /* Session name */
+
+  .upcoming-session-row {
+    display: block;
+
+    margin-top: 7px;
+  }
+
+  .upcoming-session-row:first-child {
+    margin-top: 0;
+  }
+
+  .upcoming-session {
+    display: block;
+  }
+
+
+  /* Keep TIME + VENUE together on one line */
+
+  .upcoming-session-meta {
+    display: block;
+
+    margin-top: 1px;
+
+    font-size: 0.88em;
+    line-height: 1.35;
+
+    white-space: nowrap;
+  }
+
+
+  /* =====================================================
+     PAST TALKS
+  ===================================================== */
+
+  .past-talk-row {
+    grid-template-columns: 67px minmax(0, 1fr);
+    gap: 10px;
+  }
+
+
+  /* Force visible scroll area */
+
+  .past-talks-list {
+    overflow-y: scroll;
+
+    padding-right: 7px;
+
+    scrollbar-width: auto;
+    scrollbar-color: #aeb4b9 #f1f3f4;
+  }
+
+
+  /* More visible scrollbar — Chrome / Safari */
+
+  .past-talks-list::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  .past-talks-list::-webkit-scrollbar-track {
+    background: #f1f3f4;
+    border-radius: 10px;
+  }
+
+  .past-talks-list::-webkit-scrollbar-thumb {
+    background: #aeb4b9;
+    border-radius: 10px;
+  }
+
+
+  /* Hide desktop "Scroll for more ↓" */
+
+  .scroll-note {
+    display: none;
+  }
+
+
+  /* Small mobile-only ↓ */
+
+  .past-talks-heading::after {
+    content: "↓";
+
+    margin-left: auto;
+
+    font-size: 0.90em;
+    font-weight: 400;
+
+    color: #9ba0a4;
+  }
+
+}
+
+</style>
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+  /* =====================================================
+     GENERAL
+  ===================================================== */
+
+  .home-section {
+    margin: 28px 0;
+  }
+
+
+  /* =====================================================
+     RESEARCH — KEEP TWO COLUMNS
   ===================================================== */
 
   .research-columns {
@@ -457,7 +641,6 @@ redirect_from:
     margin-bottom: 8px;
   }
 
-  /* Each side remains a vertical list */
   .research-columns .research-labels {
     display: flex;
     flex-direction: column;
@@ -471,20 +654,20 @@ redirect_from:
     max-width: 100%;
     box-sizing: border-box;
 
+    padding: 5px 8px;
+
     font-size: 0.75em;
     line-height: 1.25;
-
-    padding: 5px 8px;
 
     white-space: normal;
   }
 
 
   /* =====================================================
-     EDUCATION
+     EDUCATION — KEEP YEAR ON SAME ROW
   ===================================================== */
 
-.education-box {
+  .education-box {
     padding: 14px 12px;
   }
 
@@ -506,16 +689,15 @@ redirect_from:
   }
 
 
-
   /* =====================================================
-     TALKS
+     UPCOMING TALKS
   ===================================================== */
 
   .upcoming-talk-card {
     padding: 13px 14px;
   }
 
-  /* Conference can wrap naturally */
+  /* Conference and date/location */
   .upcoming-eventline {
     display: block;
   }
@@ -523,11 +705,12 @@ redirect_from:
   .upcoming-details {
     display: block;
     margin-top: 2px;
+
+    font-size: 0.90em;
     white-space: nowrap;
   }
 
-  /* Session name on one line,
-     time + venue together on next line */
+  /* Session name */
   .upcoming-session-row {
     display: block;
     margin-top: 7px;
@@ -537,22 +720,63 @@ redirect_from:
     display: block;
   }
 
+  /* Keep meeting time + full venue on same line */
   .upcoming-session-meta {
     display: block;
     margin-top: 1px;
+
+    font-size: 0.90em;
     white-space: nowrap;
-    font-size: 0.95em;
   }
 
-}
 
-  .past-talk-row {
-    grid-template-columns: 67px 1fr;
-    gap: 10px;
+  /* =====================================================
+     PAST TALKS
+  ===================================================== */
+
+  /* Make scrolling visually clearer */
+  .past-talks-list {
+    overflow-y: scroll;
+    padding-right: 7px;
+
+    scrollbar-width: auto;
+    scrollbar-color: #aeb4b9 #f1f3f4;
   }
 
+  /* More visible scrollbar: Chrome / Safari */
+  .past-talks-list::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  .past-talks-list::-webkit-scrollbar-track {
+    background: #f1f3f4;
+    border-radius: 10px;
+  }
+
+  .past-talks-list::-webkit-scrollbar-thumb {
+    background: #aeb4b9;
+    border-radius: 10px;
+  }
+
+  /* Hide desktop "Scroll for more ↓" */
   .scroll-note {
     display: none;
+  }
+
+  /* Small ↓ indicator on mobile */
+  .past-talks-heading::after {
+    content: "↓";
+    margin-left: auto;
+
+    font-size: 0.85em;
+    font-weight: 400;
+    color: #9ba0a4;
+  }
+
+  /* Keep past-talk entries compact */
+  .past-talk-row {
+    grid-template-columns: 67px minmax(0, 1fr);
+    gap: 10px;
   }
 
 }
