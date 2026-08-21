@@ -623,42 +623,46 @@ Some of the most rewarding research comes from working with practitioners and po
 
 <div class="upcoming-section">
 
+  <div class="upcoming-label">
+    Upcoming Talks
+  </div>
+
   <div class="upcoming-talk-card">
 
+    <div class="upcoming-title">
+      Last-Mile Healthcare as an Access-Production Problem:
+      A CARE Agenda for SDG 3
+    </div>
 
-    <div class="upcoming-label">
-  Upcoming Talks
-</div>
+    <div class="upcoming-conference">
+      5th Symposium on Environmental and Social Sustainability in Supply Chains
+    </div>
 
-<div class="upcoming-title">
-  Reducing Prescription Errors Through Information Intervention:
-  A Field Experiment in Healthcare Operations
-</div>
+    <div class="upcoming-meta">
+      Oct 31 · UC Berkeley · Time &amp; Room TBA
+    </div>
 
-<div class="upcoming-conference">
-  INFORMS Annual Meeting 2026, San Francisco
-</div>
-
-<div class="upcoming-meta">
-
-  <div>
-    <strong>Session:</strong> Service Science Best Student Paper Award II
-    &nbsp;&nbsp;·&nbsp;&nbsp;
-    <strong>Date &amp; Time:</strong> Monday, November 2, 2:45 PM–4:00 PM
-    &nbsp;&nbsp;·&nbsp;&nbsp;
-    <strong>Room:</strong> Moscone South-20 (Hall E/Exhibit Level)
   </div>
 
-  <div style="margin-top: 8px;">
-    <strong>Session:</strong> Causal Evidence and Precision Healthcare
-    &nbsp;&nbsp;·&nbsp;&nbsp;
-    <strong>Date &amp; Time:</strong> Monday, November 2, 4:15 PM–5:30 PM
-    &nbsp;&nbsp;·&nbsp;&nbsp;
-    <strong>Room:</strong> Moscone South-204 (Level 2)
+  <div class="upcoming-talk-card">
+
+    <div class="upcoming-title">
+      Reducing Prescription Errors Through Information Intervention:
+      A Field Experiment in Healthcare Operations
+    </div>
+
+    <div class="upcoming-conference">
+      INFORMS Annual Meeting 2026, San Francisco
+    </div>
+
+    <div class="upcoming-meta">
+      Nov 2 · 2:45–4:00 PM · Moscone South-20 (Hall E/Exhibit Level) <br>
+      Nov 2 · 4:15–5:30 PM · Moscone South-204 (Level 2)
+    </div>
+
   </div>
 
 </div>
-
 
 
 
