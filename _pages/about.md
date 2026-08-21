@@ -627,37 +627,38 @@ Some of the most rewarding research comes from working with practitioners and po
 
 
     <div class="upcoming-label">
-      Upcoming Talk
-    </div>
+  Upcoming Talks
+</div>
 
+<div class="upcoming-title">
+  Reducing Prescription Errors Through Information Intervention:
+  A Field Experiment in Healthcare Operations
+</div>
 
-    <div class="upcoming-title">
-      Reducing Prescription Errors Through Information Intervention:
-      A Field Experiment in Healthcare Operations
-    </div>
+<div class="upcoming-conference">
+  INFORMS Annual Meeting 2026, San Francisco
+</div>
 
+<div class="upcoming-meta">
 
-    <div class="upcoming-conference">
-      INFORMS Annual Meeting 2026
-    </div>
-
-
-    <div class="upcoming-meta">
-
-      Session: TBA
-
-      &nbsp;&nbsp;·&nbsp;&nbsp;
-
-      Date &amp; Time: TBA
-
-      &nbsp;&nbsp;·&nbsp;&nbsp;
-
-      Location: TBA
-
-    </div>
-
-
+  <div>
+    <strong>Session:</strong> Service Science Best Student Paper Award II
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <strong>Date &amp; Time:</strong> Monday, November 2, 2:45 PM–4:00 PM
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <strong>Room:</strong> Moscone South-20 (Hall E/Exhibit Level)
   </div>
+
+  <div style="margin-top: 8px;">
+    <strong>Session:</strong> Causal Evidence and Precision Healthcare
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <strong>Date &amp; Time:</strong> Monday, November 2, 4:15 PM–5:30 PM
+    &nbsp;&nbsp;·&nbsp;&nbsp;
+    <strong>Room:</strong> Moscone South-204 (Level 2)
+  </div>
+
+</div>
+
 
 
 
