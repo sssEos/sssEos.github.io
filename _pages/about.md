@@ -116,36 +116,45 @@ redirect_from:
 
 
 
-/* =====================================================
-   EDUCATION — MOBILE
-===================================================== */
+/* =========================================================
+   EDUCATION
+   SEPARATE SECTION
+========================================================= */
 
 .education-box {
+  padding: 18px 20px;
+
+  background: #fafbfc;
+  border: 1px solid #edf0f2;
+  border-radius: 7px;
+}
+
+.education-list {
   width: 100%;
-  box-sizing: border-box;
-  padding: 14px 12px;
 }
 
 .education-row {
-  grid-template-columns: 1fr;
-  gap: 1px;
-  padding: 5px 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 22px;
+
+  padding: 6px 0;
+
+  font-size: 0.86em;
+  line-height: 1.5;
+
+  color: #60656a;
 }
 
 .education-main {
-  font-size: 0.84em;
-  line-height: 1.45;
+  font-weight: 400;
 }
 
 .education-year {
-  margin-top: 0;
-  font-size: 0.78em;
+  font-weight: 400;
   color: #999ea2;
-}
 
-.education-extra {
-  font-size: 0.74em;
-  line-height: 1.45;
+  white-space: nowrap;
 }
 
 
