@@ -630,7 +630,7 @@ Some of the most rewarding research comes from working with practitioners and po
   <div class="upcoming-talk-card">
 
     <div class="upcoming-title">
-      Last-Mile Healthcare as an Access-Production Problem:
+      Last-Mile Healthcare:
       A CARE Agenda for SDG 3
     </div>
 
@@ -662,7 +662,6 @@ Some of the most rewarding research comes from working with practitioners and po
 
   </div>
 
-</div>
 
 
 
