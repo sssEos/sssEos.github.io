@@ -484,19 +484,27 @@ redirect_from:
      EDUCATION
   ===================================================== */
 
-  .education-box {
-    padding: 18px;
+.education-box {
+    padding: 14px 12px;
   }
 
   .education-row {
-    grid-template-columns: 1fr;
-    gap: 0;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 10px;
+    align-items: baseline;
+  }
+
+  .education-main {
+    min-width: 0;
   }
 
   .education-year {
-    margin-top: 1px;
-    font-size: 0.92em;
+    margin-top: 0;
+    font-size: 0.90em;
+    white-space: nowrap;
   }
+
 
 
   /* =====================================================
@@ -504,8 +512,39 @@ redirect_from:
   ===================================================== */
 
   .upcoming-talk-card {
-    padding: 18px;
+    padding: 13px 14px;
   }
+
+  /* Conference can wrap naturally */
+  .upcoming-eventline {
+    display: block;
+  }
+
+  .upcoming-details {
+    display: block;
+    margin-top: 2px;
+    white-space: nowrap;
+  }
+
+  /* Session name on one line,
+     time + venue together on next line */
+  .upcoming-session-row {
+    display: block;
+    margin-top: 7px;
+  }
+
+  .upcoming-session {
+    display: block;
+  }
+
+  .upcoming-session-meta {
+    display: block;
+    margin-top: 1px;
+    white-space: nowrap;
+    font-size: 0.95em;
+  }
+
+}
 
   .past-talk-row {
     grid-template-columns: 67px 1fr;
