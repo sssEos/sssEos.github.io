@@ -735,10 +735,10 @@ Some of the most rewarding research comes from working with practitioners and po
 
       <div class="upcoming-session-row">
         <span class="upcoming-session">
-          Service Science Best Student Paper Award II
+          Service Science Best Student Paper Award
         </span>
         <span class="upcoming-session-meta">
-          2:45–4:00 PM · South-20
+          2:45–4:00 PM · Moscone South-20 (Hall E/Exhibit Level)
         </span>
       </div>
 
@@ -747,7 +747,7 @@ Some of the most rewarding research comes from working with practitioners and po
           Causal Evidence and Precision Healthcare
         </span>
         <span class="upcoming-session-meta">
-          4:15–5:30 PM · South-204
+          4:15–5:30 PM · Moscone South-204 (Level 2)
         </span>
       </div>
 
