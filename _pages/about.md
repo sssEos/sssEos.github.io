@@ -182,26 +182,26 @@ redirect_from:
 }
 
 .upcoming-label {
-  margin-bottom: 14px;
+  margin-bottom: 18px;
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  opacity: 0.65;
+  opacity: 0.62;
 }
 
 .upcoming-talk-card {
-  padding: 16px 0;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 16px 0 18px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
 }
 
 .upcoming-talk-card:last-child {
   border-bottom: none;
 }
 
-/* Paper title */
+/* Talk title */
 .upcoming-title {
-  margin-bottom: 5px;
+  margin-bottom: 4px;
   font-size: 1.05rem;
   font-weight: 600;
   line-height: 1.4;
@@ -209,29 +209,53 @@ redirect_from:
 
 /* Conference */
 .upcoming-conference {
-  margin-bottom: 7px;
-  font-size: 0.92rem;
+  margin-bottom: 6px;
+  font-size: 0.9rem;
   font-weight: 500;
   line-height: 1.4;
-  opacity: 0.82;
+  opacity: 0.78;
 }
 
-/* Session name */
+/* General date/location line */
+.upcoming-meta {
+  font-size: 0.82rem;
+  line-height: 1.5;
+  opacity: 0.55;
+}
+
+/* INFORMS session rows */
+.upcoming-session-row {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-top: 5px;
+  font-size: 0.82rem;
+  line-height: 1.45;
+}
+
 .upcoming-session {
-  margin-top: 8px;
-  font-size: 0.84rem;
   font-weight: 500;
-  line-height: 1.35;
   opacity: 0.68;
 }
 
-/* Date, time, location */
-.upcoming-meta {
-  margin-top: 2px;
-  font-size: 0.82rem;
-  line-height: 1.45;
-  opacity: 0.55;
+.upcoming-session-meta {
+  font-weight: 400;
+  opacity: 0.5;
 }
+
+/* Mobile */
+@media (max-width: 700px) {
+  .upcoming-session-row {
+    display: block;
+  }
+
+  .upcoming-session-meta {
+    display: block;
+    margin-top: 1px;
+  }
+}
+
+  
 
 /* =========================================================
    PAST TALKS
@@ -618,11 +642,16 @@ Some of the most rewarding research comes from working with practitioners and po
      COMPLETELY SEPARATE SECTION
 ========================================================= -->
 
+<!-- =========================================================
+     UPCOMING TALKS
+========================================================= -->
+
 <div class="upcoming-section">
 
   <div class="upcoming-label">
     Upcoming Talks
   </div>
+
 
   <div class="upcoming-talk-card">
 
@@ -653,26 +682,27 @@ Some of the most rewarding research comes from working with practitioners and po
       INFORMS Annual Meeting 2026 · San Francisco
     </div>
 
-    <div class="upcoming-session">
-      Service Science Best Student Paper Award II
+    <div class="upcoming-session-row">
+      <span class="upcoming-session">
+        Service Science Best Student Paper Award II
+      </span>
+      <span class="upcoming-session-meta">
+        Nov 2 · 2:45–4:00 PM · Moscone South-20
+      </span>
     </div>
 
-    <div class="upcoming-meta">
-      Nov 2 · 2:45–4:00 PM · Moscone South-20
-    </div>
-
-    <div class="upcoming-session">
-      Causal Evidence and Precision Healthcare
-    </div>
-
-    <div class="upcoming-meta">
-      Nov 2 · 4:15–5:30 PM · Moscone South-204
+    <div class="upcoming-session-row">
+      <span class="upcoming-session">
+        Causal Evidence and Precision Healthcare
+      </span>
+      <span class="upcoming-session-meta">
+        Nov 2 · 4:15–5:30 PM · Moscone South-204
+      </span>
     </div>
 
   </div>
 
 </div>
-
 
   <!-- =======================================================
        PAST TALKS
