@@ -175,66 +175,34 @@ redirect_from:
 
 /* =========================================================
    UPCOMING TALK
-   MAIN HIGHLIGHT #2
+   MAIN HIGHLIGHT
 ========================================================= */
 
-.upcoming-section {
-  margin: 40px 0 0 0;
-}
-
 .upcoming-talk-card {
-  padding: 20px 22px;
-
-  border: 1px solid #d8e3ee;
-  border-left: 5px solid #52789d;
-  border-radius: 6px;
-
-  background: linear-gradient(
-    90deg,
-    #f4f7fa 0%,
-    #ffffff 100%
-  );
-}
-
-.upcoming-label {
-  margin-bottom: 8px;
-
-  font-size: 0.72em;
-  font-weight: 700;
-  letter-spacing: 0.10em;
-  text-transform: uppercase;
-
-  color: #52789d;
+  margin-bottom: 24px;
 }
 
 .upcoming-title {
-  max-width: 760px;
-
-  margin-bottom: 11px;
-
-  font-size: 1.02em;
-  font-weight: 600;
-  line-height: 1.5;
-
-  color: #474c51;
+  margin-bottom: 5px;
 }
 
 .upcoming-conference {
-  margin-bottom: 4px;
+  margin-bottom: 6px;
+}
 
+.upcoming-session {
+  margin-top: 8px;
   font-size: 0.88em;
   font-weight: 500;
-
-  color: #60656a;
+  opacity: 0.72;
 }
 
 .upcoming-meta {
-  font-size: 0.82em;
-  line-height: 1.6;
-
-  color: #858a8f;
+  margin-top: 2px;
+  font-size: 0.86em;
+  opacity: 0.62;
+  line-height: 1.5;
 }
-
 
 /* =========================================================
    PAST TALKS
@@ -630,7 +598,7 @@ Some of the most rewarding research comes from working with practitioners and po
   <div class="upcoming-talk-card">
 
     <div class="upcoming-title">
-      Last-Mile Healthcare:
+      Last-Mile Healthcare as an Access-Production Problem:
       A CARE Agenda for SDG 3
     </div>
 
@@ -644,6 +612,7 @@ Some of the most rewarding research comes from working with practitioners and po
 
   </div>
 
+
   <div class="upcoming-talk-card">
 
     <div class="upcoming-title">
@@ -652,17 +621,30 @@ Some of the most rewarding research comes from working with practitioners and po
     </div>
 
     <div class="upcoming-conference">
-      INFORMS Annual Meeting 2026, San Francisco
+      INFORMS Annual Meeting 2026 · San Francisco
+    </div>
+
+    <div class="upcoming-session">
+      Service Science Best Student Paper Award II
     </div>
 
     <div class="upcoming-meta">
-      Nov 2 · 2:45–4:00 PM · Moscone South-20 (Hall E/Exhibit Level) <br>
-      Nov 2 · 4:15–5:30 PM · Moscone South-204 (Level 2)
+      Nov 2 · 2:45–4:00 PM · Moscone South-20
+    </div>
+
+    <div class="upcoming-session">
+      Causal Evidence and Precision Healthcare
+    </div>
+
+    <div class="upcoming-meta">
+      Nov 2 · 4:15–5:30 PM · Moscone South-204
     </div>
 
   </div>
 
+</div>
 
+  
 
 
   <!-- =======================================================
