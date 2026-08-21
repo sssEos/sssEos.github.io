@@ -192,9 +192,12 @@ redirect_from:
   color: #8a8f93;
 }
 
+
+/* Card */
+
 .upcoming-talk-card {
   margin-bottom: 14px;
-  padding: 14px 18px;
+  padding: 15px 18px;
 
   background: linear-gradient(
     90deg,
@@ -211,8 +214,11 @@ redirect_from:
   margin-bottom: 0;
 }
 
+
+/* Talk title */
+
 .upcoming-title {
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 
   font-size: 1.02em;
   font-weight: 600;
@@ -221,69 +227,90 @@ redirect_from:
   color: #4f5458;
 }
 
-.upcoming-conference {
-  margin-bottom: 5px;
 
-  font-size: 0.88em;
-  font-weight: 500;
+/* Conference + date/location on one line */
+
+.upcoming-eventline {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 18px;
+
+  font-size: 0.84em;
   line-height: 1.4;
+}
 
+.upcoming-conference {
+  font-weight: 500;
   color: #73787c;
 }
 
-.upcoming-meta {
-  font-size: 0.80em;
-  line-height: 1.45;
-
-  color: #999ea2;
-}
-
-.upcoming-session-row {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  column-gap: 18px;
-  align-items: baseline;
-
-  margin-top: 5px;
-
-  font-size: 0.80em;
-  line-height: 1.45;
-}
-
-.upcoming-session {
-  font-weight: 500;
-  color: #7d8286;
-}
-
-.upcoming-session-meta {
+.upcoming-details {
+  flex-shrink: 0;
   font-weight: 400;
   color: #999ea2;
   white-space: nowrap;
 }
 
 
-/* =========================================================
-   MOBILE
-========================================================= */
+/* Session information */
+
+.upcoming-sessions {
+  margin-top: 8px;
+  padding-top: 7px;
+
+  border-top: 1px solid rgba(82, 120, 157, 0.12);
+}
+
+.upcoming-session-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 18px;
+
+  margin-top: 3px;
+
+  font-size: 0.78em;
+  line-height: 1.4;
+}
+
+.upcoming-session-row:first-child {
+  margin-top: 0;
+}
+
+.upcoming-session {
+  font-weight: 400;
+  color: #7f858a;
+}
+
+.upcoming-session-meta {
+  flex-shrink: 0;
+  color: #9ba0a4;
+  white-space: nowrap;
+}
+
+
+/* Mobile */
 
 @media (max-width: 700px) {
 
   .upcoming-talk-card {
-    padding: 13px 14px;
+    padding: 14px;
   }
 
+  .upcoming-eventline,
   .upcoming-session-row {
     display: block;
   }
 
+  .upcoming-details,
   .upcoming-session-meta {
     display: block;
-    margin-top: 1px;
+    margin-top: 2px;
     white-space: normal;
   }
 
 }
-
 /* =========================================================
    PAST TALKS
 ========================================================= */
@@ -663,10 +690,6 @@ Some of the most rewarding research comes from working with practitioners and po
 </div>
 
 
-<!-- =========================================================
-     UPCOMING TALKS
-========================================================= -->
-
 <div class="upcoming-section">
 
   <div class="upcoming-label">
@@ -680,12 +703,13 @@ Some of the most rewarding research comes from working with practitioners and po
       Last-Mile Healthcare: A CARE Agenda for SDG 3
     </div>
 
-    <div class="upcoming-conference">
-      5th Symposium on Environmental and Social Sustainability in Supply Chains
-    </div>
-
-    <div class="upcoming-meta">
-      Oct 31 · UC Berkeley · Time &amp; Room TBA
+    <div class="upcoming-eventline">
+      <span class="upcoming-conference">
+        5th Symposium on Environmental and Social Sustainability in Supply Chains
+      </span>
+      <span class="upcoming-details">
+        Oct 31 · UC Berkeley · TBA
+      </span>
     </div>
 
   </div>
@@ -698,28 +722,35 @@ Some of the most rewarding research comes from working with practitioners and po
       A Field Experiment in Healthcare Operations
     </div>
 
-    <div class="upcoming-conference">
-      INFORMS Annual Meeting 2026 · San Francisco
-    </div>
-
-    <div class="upcoming-session-row">
-      <span class="upcoming-session">
-        Service Science Best Student Paper Award II
+    <div class="upcoming-eventline">
+      <span class="upcoming-conference">
+        INFORMS Annual Meeting 2026
       </span>
-
-      <span class="upcoming-session-meta">
-        Nov 2 · 2:45–4:00 PM · Moscone South-20
+      <span class="upcoming-details">
+        Nov 2 · San Francisco
       </span>
     </div>
 
-    <div class="upcoming-session-row">
-      <span class="upcoming-session">
-        Causal Evidence and Precision Healthcare
-      </span>
+    <div class="upcoming-sessions">
 
-      <span class="upcoming-session-meta">
-        Nov 2 · 4:15–5:30 PM · Moscone South-204
-      </span>
+      <div class="upcoming-session-row">
+        <span class="upcoming-session">
+          Service Science Best Student Paper Award II
+        </span>
+        <span class="upcoming-session-meta">
+          2:45–4:00 PM · South-20
+        </span>
+      </div>
+
+      <div class="upcoming-session-row">
+        <span class="upcoming-session">
+          Causal Evidence and Precision Healthcare
+        </span>
+        <span class="upcoming-session-meta">
+          4:15–5:30 PM · South-204
+        </span>
+      </div>
+
     </div>
 
   </div>
