@@ -174,34 +174,63 @@ redirect_from:
 
 
 /* =========================================================
-   UPCOMING TALK
-   MAIN HIGHLIGHT
+   UPCOMING TALKS
 ========================================================= */
 
-.upcoming-talk-card {
-  margin-bottom: 24px;
+.upcoming-section {
+  margin-top: 28px;
 }
 
+.upcoming-label {
+  margin-bottom: 14px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.65;
+}
+
+.upcoming-talk-card {
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.upcoming-talk-card:last-child {
+  border-bottom: none;
+}
+
+/* Paper title */
 .upcoming-title {
   margin-bottom: 5px;
+  font-size: 1.05rem;
+  font-weight: 600;
+  line-height: 1.4;
 }
 
+/* Conference */
 .upcoming-conference {
-  margin-bottom: 6px;
+  margin-bottom: 7px;
+  font-size: 0.92rem;
+  font-weight: 500;
+  line-height: 1.4;
+  opacity: 0.82;
 }
 
+/* Session name */
 .upcoming-session {
   margin-top: 8px;
-  font-size: 0.88em;
+  font-size: 0.84rem;
   font-weight: 500;
-  opacity: 0.72;
+  line-height: 1.35;
+  opacity: 0.68;
 }
 
+/* Date, time, location */
 .upcoming-meta {
   margin-top: 2px;
-  font-size: 0.86em;
-  opacity: 0.62;
-  line-height: 1.5;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  opacity: 0.55;
 }
 
 /* =========================================================
@@ -643,8 +672,6 @@ Some of the most rewarding research comes from working with practitioners and po
   </div>
 
 </div>
-
-  
 
 
   <!-- =======================================================
