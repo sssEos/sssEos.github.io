@@ -7,155 +7,642 @@ author_profile: true
 
 {% include base_path %}
 
-<h1>Published Teaching Cases</h1>
+<style>
 
-<div style="border: 1px solid #ddd; border-radius: 16px; padding: 32px; margin-top: 20px; margin-bottom: 36px; background-color: #fff;">
+/* =========================================================
+   TEACHING PAGE
+========================================================= */
 
-  <div style="margin-bottom: 28px;">
-    <h2 style="margin-top: 0; margin-bottom: 8px; font-size: 22px;">
+.teaching-page {
+  color: #4f555a;
+}
+
+
+/* =========================================================
+   SECTION TITLES
+========================================================= */
+
+.teaching-section-title {
+  margin: 48px 0 20px;
+
+  font-size: 1.55em;
+  font-weight: 600;
+  line-height: 1.3;
+
+  color: #333;
+}
+
+.teaching-section-title:first-child {
+  margin-top: 0;
+}
+
+
+/* =========================================================
+   CARDS
+========================================================= */
+
+.teaching-card {
+  width: 100%;
+  box-sizing: border-box;
+
+  margin-bottom: 36px;
+  padding: 28px 32px;
+
+  background: #fff;
+
+  border: 1px solid #ddd;
+  border-radius: 16px;
+}
+
+
+/* =========================================================
+   TEACHING CASES
+========================================================= */
+
+.case-item {
+  margin-bottom: 28px;
+}
+
+.case-item:last-child {
+  margin-bottom: 0;
+}
+
+.case-title {
+  margin: 0 0 8px;
+
+  font-size: 1.08em;
+  font-weight: 600;
+  line-height: 1.4;
+
+  color: #444a4f;
+}
+
+.case-link {
+  margin-left: 7px;
+
+  font-size: 0.72em;
+  font-weight: 400;
+
+  white-space: nowrap;
+}
+
+.case-authors {
+  margin: 0 0 8px;
+
+  font-size: 0.90em;
+  line-height: 1.5;
+
+  color: #5d6368;
+}
+
+.case-award {
+  margin: 0;
+
+  font-size: 0.88em;
+  line-height: 1.5;
+
+  color: #666;
+}
+
+.case-award a {
+  color: inherit;
+
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.case-divider {
+  margin: 26px 0;
+
+  border: none;
+  border-top: 1px solid #eee;
+}
+
+
+/* =========================================================
+   TEACHING EXPERIENCE
+========================================================= */
+
+.teaching-role {
+  margin: 0 0 12px;
+
+  text-align: center;
+
+  font-size: 1.14em;
+  font-weight: 600;
+
+  color: #444a4f;
+}
+
+.teaching-role-divider {
+  margin: 0 0 26px;
+
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.teaching-course-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  gap: 20px;
+}
+
+.teaching-course {
+  min-width: 0;
+
+  font-size: 0.92em;
+  line-height: 1.5;
+
+  color: #555c61;
+}
+
+.teaching-term {
+  flex-shrink: 0;
+
+  font-size: 0.88em;
+
+  color: #777d82;
+
+  white-space: nowrap;
+}
+
+
+/* Evaluation */
+
+.teaching-evaluation {
+  margin: 12px 0 0;
+  padding-left: 22px;
+
+  font-size: 0.90em;
+  line-height: 1.5;
+
+  color: #555c61;
+}
+
+.teaching-evaluation-note {
+  color: #777d82;
+}
+
+
+/* =========================================================
+   STUDENT COMMENTS
+========================================================= */
+
+.comments-title {
+  margin: 28px 0 0;
+
+  font-size: 0.98em;
+  font-weight: 600;
+
+  color: #4b5156;
+}
+
+.comments-box {
+  margin-top: 14px;
+  padding: 20px 24px;
+
+  background: #f5f5f7;
+
+  border-radius: 14px;
+
+  font-size: 0.88em;
+  font-style: italic;
+  line-height: 1.65;
+
+  color: #5b6166;
+}
+
+.comments-box p {
+  margin: 0 0 16px;
+}
+
+.comments-box p:last-child {
+  margin-bottom: 0;
+}
+
+
+/* =========================================================
+   CLASS PHOTO
+========================================================= */
+
+.class-photo-title {
+  margin: 40px 0 12px;
+
+  font-size: 1.18em;
+  font-weight: 600;
+
+  color: #444a4f;
+}
+
+.class-photo {
+  display: block;
+
+  width: 100%;
+  height: auto;
+
+  margin-top: 8px;
+
+  border-radius: 12px;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 700px) {
+
+  /* Match homepage overall body scale */
+
+  .teaching-page {
+    font-size: 0.94em;
+  }
+
+
+  /* Section titles */
+
+  .teaching-section-title {
+    margin: 34px 0 15px;
+
+    font-size: 1.28em;
+    line-height: 1.3;
+  }
+
+
+  /* Cards */
+
+  .teaching-card {
+    margin-bottom: 28px;
+    padding: 18px 15px;
+
+    border-radius: 13px;
+  }
+
+
+  /* Cases */
+
+  .case-item {
+    margin-bottom: 22px;
+  }
+
+  .case-title {
+    font-size: 0.96em;
+    line-height: 1.38;
+  }
+
+  .case-link {
+    margin-left: 4px;
+
+    font-size: 0.70em;
+
+    white-space: normal;
+  }
+
+  .case-authors {
+    font-size: 0.80em;
+    line-height: 1.45;
+  }
+
+  .case-award {
+    font-size: 0.78em;
+    line-height: 1.45;
+  }
+
+  .case-divider {
+    margin: 21px 0;
+  }
+
+
+  /* Teaching role */
+
+  .teaching-role {
+    font-size: 1em;
+  }
+
+  .teaching-role-divider {
+    margin-bottom: 20px;
+  }
+
+
+  /* Keep course + semester on same row */
+
+  .teaching-course-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+
+    gap: 8px;
+    align-items: baseline;
+  }
+
+  .teaching-course {
+    font-size: 0.80em;
+    line-height: 1.4;
+  }
+
+  .teaching-term {
+    font-size: 0.76em;
+
+    white-space: nowrap;
+  }
+
+
+  /* Evaluation */
+
+  .teaching-evaluation {
+    padding-left: 18px;
+
+    font-size: 0.79em;
+    line-height: 1.45;
+  }
+
+
+  /* Comments */
+
+  .comments-title {
+    margin-top: 23px;
+
+    font-size: 0.88em;
+  }
+
+  .comments-box {
+    margin-top: 11px;
+    padding: 15px 14px;
+
+    font-size: 0.77em;
+    line-height: 1.55;
+
+    border-radius: 11px;
+  }
+
+  .comments-box p {
+    margin-bottom: 13px;
+  }
+
+
+  /* Class photo */
+
+  .class-photo-title {
+    margin-top: 32px;
+
+    font-size: 1em;
+  }
+
+}
+
+</style>
+
+
+<div class="teaching-page">
+
+
+<!-- =========================================================
+     PUBLISHED TEACHING CASES
+========================================================= -->
+
+<h1 class="teaching-section-title">
+  Published Teaching Cases
+</h1>
+
+
+<div class="teaching-card">
+
+
+  <div class="case-item">
+
+    <h2 class="case-title">
+
       The Robots are Coming: Ready Player One?
-      <a href="https://hbsp.harvard.edu/product/NTU325-PDF-ENG" 
-         target="_blank" 
-         rel="noopener noreferrer"
-         style="font-size: 15px; font-weight: normal; margin-left: 8px;">
+
+      <a
+        class="case-link"
+        href="https://hbsp.harvard.edu/product/NTU325-PDF-ENG"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         (Harvard Business Case Link)
       </a>
+
     </h2>
 
-    <p style="margin-bottom: 8px;">
-      Ritwika Chattopadhyay, Jitesh K Choudhary, Xiaodan Shao, Vivek Choudhary
+
+    <p class="case-authors">
+      Ritwika Chattopadhyay, Jitesh K Choudhary, Xiaodan Shao,
+      Vivek Choudhary
     </p>
 
-    <p style="margin-bottom: 0; color: #555;">
-      2024, 2025 Featured in the       
-      <a href="https://www.ntu.edu.sg/asiacase/home/best-selling-top-10"
-     target="_blank"
-     rel="noopener noreferrer"
-     style="color: inherit; text-decoration: underline; text-underline-offset: 3px;">
-    <b>Top 10 ABCC Best Selling Cases</b>
-  </a>.
+
+    <p class="case-award">
+
+      2024, 2025 Featured in the
+
+      <a
+        href="https://www.ntu.edu.sg/asiacase/home/best-selling-top-10"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <b>Top 10 ABCC Best Selling Cases</b>
+      </a>.
+
     </p>
+
   </div>
 
-  <hr style="border: none; border-top: 1px solid #eee; margin: 28px 0;">
 
-  <div>
-    <h2 style="margin-top: 0; margin-bottom: 8px; font-size: 22px;">
-      RX: AI, Putting Machine Learning into Medical Prescription – The Case of HealthPlix
-      <a href="https://hbsp.harvard.edu/product/NTU329-PDF-ENG" 
-         target="_blank" 
-         rel="noopener noreferrer"
-         style="font-size: 15px; font-weight: normal; margin-left: 8px;">
+  <hr class="case-divider">
+
+
+  <div class="case-item">
+
+    <h2 class="case-title">
+
+      RX: AI, Putting Machine Learning into Medical Prescription –
+      The Case of HealthPlix
+
+      <a
+        class="case-link"
+        href="https://hbsp.harvard.edu/product/NTU329-PDF-ENG"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         (Harvard Business Case Link)
       </a>
+
     </h2>
 
-    <p style="margin-bottom: 8px;">
-      Xiaodan Shao, Manlu Chen, Vivek Choudhary, Lalit Sharma, Burhanuddin Pithawala, Arnab Majumdar
+
+    <p class="case-authors">
+      Xiaodan Shao, Manlu Chen, Vivek Choudhary, Lalit Sharma,
+      Burhanuddin Pithawala, Arnab Majumdar
     </p>
 
-    <p style="margin-bottom: 0; color: #555;">
-      2023, 2024 Featured in the   
-      <a href="https://www.ntu.edu.sg/asiacase/home/best-selling-top-10"
-     target="_blank"
-     rel="noopener noreferrer"
-     style="color: inherit; text-decoration: underline; text-underline-offset: 3px;">
-    <b>Top 10 ABCC Best Selling Cases</b>
-  </a>.
+
+    <p class="case-award">
+
+      2023, 2024 Featured in the
+
+      <a
+        href="https://www.ntu.edu.sg/asiacase/home/best-selling-top-10"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <b>Top 10 ABCC Best Selling Cases</b>
+      </a>.
+
     </p>
+
   </div>
+
 
 </div>
 
-<h1 style="margin-top: 48px;">Teaching Experience</h1>
 
-<div style="border: 1px solid #ddd; border-radius: 16px; padding: 32px; margin-top: 20px; margin-bottom: 36px; background-color: #fff;">
+<!-- =========================================================
+     TEACHING EXPERIENCE
+========================================================= -->
 
-  <h2 style="text-align: center; margin-top: 0; margin-bottom: 12px;">
+<h1 class="teaching-section-title">
+  Teaching Experience
+</h1>
+
+
+<!-- Instructor -->
+
+<div class="teaching-card">
+
+  <h2 class="teaching-role">
     Instructor
   </h2>
 
-  <hr style="border: none; border-top: 1px solid #ddd; margin-bottom: 28px;">
+  <hr class="teaching-role-divider">
 
-  <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 20px; flex-wrap: wrap;">
-    <div>
-      <b>Statistics &amp; Analysis</b>, Core Course for the BSc in Business, NTU
+
+  <div class="teaching-course-row">
+
+    <div class="teaching-course">
+      <b>Statistics &amp; Analysis</b>,
+      Core Course for the BSc in Business, NTU
     </div>
 
-<div style="color: #666; white-space: nowrap;">
-  Spring 2026
-</div>
+    <div class="teaching-term">
+      Spring 2026
+    </div>
 
   </div>
 
-  <ul style="margin-top: 12px; margin-bottom: 0; padding-left: 22px;">
+
+  <ul class="teaching-evaluation">
+
     <li>
-      Teaching evaluation: <b>4.7/5.0</b>
-      <span style="color: #666;">(University Average: 4.4)</span>
+      Teaching evaluation:
+      <b>4.7/5.0</b>
+
+      <span class="teaching-evaluation-note">
+        (University Average: 4.4)
+      </span>
     </li>
+
   </ul>
 
-  <h3 style="margin-top: 30px; margin-bottom: 0;">
+
+  <h3 class="comments-title">
     Selected Student Comments
   </h3>
 
-  <div style="background-color: #f5f5f7; border-radius: 14px; padding: 22px 26px; margin-top: 16px; font-style: italic; color: #555; line-height: 1.75;">
 
-<p style="margin-top: 0;">
-  “She is very meticulous in her teaching such that she ensures we understand the topic by providing a very in-depth explanation, coupled with practice examples. She is very warm as a person and very approachable. She is very objective and fair to all her students.”
-</p>
+  <div class="comments-box">
 
-<p>
-  “Very good at teaching the concepts and idea behind the concepts! She always explains why we learn certain things, which is very helpful for learning. She is very patient and friendly. She is very engaging and she encourages students to answer questions and reassures them even when they are unsure of their answers.”
-</p>
+    <p>
+      “She is very meticulous in her teaching such that she ensures we
+      understand the topic by providing a very in-depth explanation,
+      coupled with practice examples. She is very warm as a person and very
+      approachable. She is very objective and fair to all her students.”
+    </p>
 
-<p>
-  “Gave very good examples in class to help me further understand statistics. She provides us with extra materials for our own practice and also teaches us additional knowledge that might be useful. She also checks in with me from time to time to see whether I am doing well and offers encouragement.”
-</p>
+    <p>
+      “Very good at teaching the concepts and idea behind the concepts!
+      She always explains why we learn certain things, which is very helpful
+      for learning. She is very patient and friendly. She is very engaging
+      and she encourages students to answer questions and reassures them
+      even when they are unsure of their answers.”
+    </p>
 
-<p>
-  “Extremely passionate and well-versed in her teaching. Always diligent in helping students and opens additional office hours near quizzes. Very warm and engaging, and always teaches with compassion and understanding. She motivates students to learn.”
-</p>
+    <p>
+      “Gave very good examples in class to help me further understand
+      statistics. She provides us with extra materials for our own practice
+      and also teaches us additional knowledge that might be useful.
+      She also checks in with me from time to time to see whether I am
+      doing well and offers encouragement.”
+    </p>
 
-<p style="margin-bottom: 0;">
-  “She is incredibly helpful and understanding. She is genuinely sincere in her teaching and in the way she communicates with the class. She also creates her own slides, which are easier to understand.”
-</p>
+    <p>
+      “Extremely passionate and well-versed in her teaching. Always diligent
+      in helping students and opens additional office hours near quizzes.
+      Very warm and engaging, and always teaches with compassion and
+      understanding. She motivates students to learn.”
+    </p>
+
+    <p>
+      “She is incredibly helpful and understanding. She is genuinely sincere
+      in her teaching and in the way she communicates with the class.
+      She also creates her own slides, which are easier to understand.”
+    </p>
 
   </div>
 
 </div>
 
-<div style="border: 1px solid #ddd; border-radius: 16px; padding: 32px; margin-top: 20px; margin-bottom: 36px; background-color: #fff;">
 
-  <h2 style="text-align: center; margin-top: 0; margin-bottom: 12px;">
+<!-- Teaching Assistant -->
+
+<div class="teaching-card">
+
+  <h2 class="teaching-role">
     Teaching Assistant
   </h2>
 
-  <hr style="border: none; border-top: 1px solid #ddd; margin-bottom: 28px;">
+  <hr class="teaching-role-divider">
 
-  <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 20px; flex-wrap: wrap;">
-    <div>
-      <b>Operations &amp; Supply Chain Management</b>, EMBA, NTU
+
+  <div class="teaching-course-row">
+
+    <div class="teaching-course">
+      <b>Operations &amp; Supply Chain Management</b>,
+      EMBA, NTU
     </div>
 
-<div style="color: #666; white-space: nowrap;">
-  Spring 2026
-</div>
+    <div class="teaching-term">
+      Spring 2026
+    </div>
 
   </div>
 
 </div>
 
 
-<h2 style="margin-top: 40px;">Selected Class Photo</h2>
+<!-- =========================================================
+     CLASS PHOTO
+========================================================= -->
+
+<h2 class="class-photo-title">
+  Selected Class Photo
+</h2>
 
 <p>
-  <img src="{{ base_path }}/images/Class photo.jpg"
-       alt="Class photo"
-       style="width: 100%; height: auto; border-radius: 12px; margin-top: 8px;">
+  <img
+    class="class-photo"
+    src="{{ base_path }}/images/Class photo.jpg"
+    alt="Class photo"
+  >
 </p>
 
-  
-<!-- {% for post in site.teaching reversed %}
+
+</div>
+
+
+<!--
+{% for post in site.teaching reversed %}
   {% include archive-single.html %}
-{% endfor %} -->
+{% endfor %}
+-->
