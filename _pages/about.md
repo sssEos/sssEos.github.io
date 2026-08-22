@@ -891,11 +891,11 @@ redirect_from:
         <div class="upcoming-eventline">
 
           <span class="upcoming-conference">
-            5th Symposium on Environmental and Social Sustainability
+            5th Symposium on Environmental and Social Sustainability in Supply Chains
           </span>
 
           <span class="upcoming-details">
-            UC Berkeley Campus · Time &amp; Venue TBA
+            UC Berkeley Campus · Time &amp; Room TBA
           </span>
 
         </div>
