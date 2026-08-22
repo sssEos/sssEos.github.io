@@ -11,117 +11,25 @@ redirect_from:
 <style>
 
 /* =========================================================
-   HOME — DESIGN SYSTEM
+   HOME DESIGN SYSTEM
 ========================================================= */
 
 :root {
-  --home-text: #4f5458;
-  --home-text-soft: #666c71;
-  --home-muted: #92989d;
-  --home-light: #a5aaae;
+  --accent: #52789d;
+  --accent-dark: #456987;
+  --accent-soft: #f6f9fc;
 
-  --home-blue: #52789d;
-  --home-blue-soft: #f3f7fb;
-  --home-blue-line: #d8e3ee;
+  --text-main: #4f555a;
+  --text-secondary: #6f767c;
+  --text-muted: #969da3;
 
-  --home-bg-soft: #fafbfc;
-  --home-border: #e8ebed;
-  --home-border-light: #f0f1f2;
+  --border: #e2e7eb;
+  --border-soft: #edf0f2;
 }
 
 
 /* =========================================================
-   INTRO / HERO
-========================================================= */
-
-.home-hero {
-  margin: 4px 0 36px;
-}
-
-.home-intro {
-  max-width: 820px;
-
-  font-size: 1em;
-  line-height: 1.62;
-
-  color: var(--home-text);
-}
-
-.home-intro p {
-  margin: 0 0 18px;
-}
-
-.home-intro a {
-  text-underline-offset: 2px;
-}
-
-
-/* =========================================================
-   JOB MARKET
-========================================================= */
-
-.job-market-strip {
-  display: flex;
-  align-items: center;
-
-  margin: 25px 0 20px;
-  padding: 12px 17px;
-
-  background: linear-gradient(
-    90deg,
-    var(--home-blue-soft) 0%,
-    #ffffff 100%
-  );
-
-  border: 1px solid var(--home-blue-line);
-  border-left: 4px solid var(--home-blue);
-  border-radius: 6px;
-
-  color: var(--home-text);
-}
-
-.job-market-strip strong {
-  font-size: 1.02em;
-  font-weight: 600;
-}
-
-
-/* =========================================================
-   COLLABORATION + CONTACT
-========================================================= */
-
-.home-collab {
-  margin-top: 4px;
-
-  font-size: 0.96em;
-  line-height: 1.58;
-
-  color: var(--home-text);
-}
-
-.home-contact {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-
-  margin-top: 12px;
-
-  font-size: 0.92em;
-  color: var(--home-text-soft);
-}
-
-.home-contact a {
-  color: var(--home-text-soft);
-  text-decoration: none;
-}
-
-.home-contact a:hover {
-  color: var(--home-blue);
-}
-
-
-/* =========================================================
-   SHARED SECTION HEADING
+   GENERAL
 ========================================================= */
 
 .home-section {
@@ -133,66 +41,140 @@ redirect_from:
   align-items: center;
   gap: 12px;
 
-  margin-bottom: 12px;
+  margin-bottom: 13px;
 }
 
 .home-section-label {
   flex-shrink: 0;
 
-  font-size: 0.75em;
-  font-weight: 600;
-
+  font-size: 0.73em;
+  font-weight: 650;
   letter-spacing: 0.09em;
   text-transform: uppercase;
 
-  color: #81878c;
+  color: #7f878d;
 }
 
 .home-section-line {
   width: 100%;
   height: 1px;
 
-  background: #eef0f2;
+  background: linear-gradient(
+    90deg,
+    #dfe5ea,
+    transparent
+  );
+}
+
+
+/* =========================================================
+   INTRODUCTION
+========================================================= */
+
+.home-intro {
+  color: var(--text-main);
+}
+
+.home-intro p {
+  margin: 0 0 18px;
+
+  line-height: 1.62;
+}
+
+
+/* =========================================================
+   JOB MARKET
+   TEXT EMPHASIS ONLY
+========================================================= */
+
+.job-market {
+  margin: 25px 0 22px;
+}
+
+.job-market-label {
+  margin-bottom: 4px;
+
+  font-size: 0.66em;
+  font-weight: 650;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: #9aa0a5;
+}
+
+.job-market-text {
+  font-size: 1.08em;
+  font-weight: 600;
+  line-height: 1.4;
+
+  color: var(--accent-dark);
+}
+
+
+/* =========================================================
+   COLLABORATION + CONTACT
+========================================================= */
+
+.home-collab {
+  margin-top: 2px;
+
+  line-height: 1.58;
+
+  color: var(--text-main);
+}
+
+.home-contact {
+  margin-top: 15px;
+
+  font-size: 0.94em;
+
+  color: var(--text-secondary);
+}
+
+.home-contact a {
+  color: var(--text-secondary);
+  text-decoration: none;
+}
+
+.home-contact a:hover {
+  color: var(--accent);
 }
 
 
 /* =========================================================
    RESEARCH
+   OPEN / NO OUTER BOX
 ========================================================= */
 
-.research-box {
+.research-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-  padding: 18px 22px;
+  gap: 46px;
 
-  background: var(--home-bg-soft);
-
-  border: 1px solid var(--home-border);
-  border-radius: 8px;
+  padding: 4px 0 2px;
 }
 
-.research-column:first-child {
-  padding-right: 28px;
+
+/* Research column */
+
+.research-group {
+  min-width: 0;
 }
 
-.research-column:last-child {
-  padding-left: 28px;
+.research-group-heading {
+  margin-bottom: 6px;
 
-  border-left: 1px solid #e8ebed;
-}
-
-.research-subheading {
-  margin-bottom: 7px;
-
-  font-size: 0.69em;
-  font-weight: 600;
-
-  letter-spacing: 0.07em;
+  font-size: 0.68em;
+  font-weight: 650;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 
-  color: var(--home-muted);
+  color: #8a9196;
 }
+
+
+/* Research items */
 
 .research-list {
   margin: 0;
@@ -204,31 +186,36 @@ redirect_from:
 .research-item {
   position: relative;
 
-  padding: 7px 0 7px 13px;
+  padding: 8px 0 8px 15px;
 
-  font-size: 0.84em;
+  font-size: 0.85em;
+  font-weight: 400;
   line-height: 1.35;
 
-  color: #62686d;
+  color: #60676d;
 }
 
 .research-item + .research-item {
   border-top: 1px solid #eef0f2;
 }
 
-/* tiny visual marker — not a pill */
+
+/* Small accent mark */
+
 .research-item::before {
   content: "";
 
   position: absolute;
+
   left: 0;
   top: 50%;
 
-  width: 4px;
-  height: 4px;
+  width: 5px;
+  height: 5px;
 
-  background: #8ea9c1;
   border-radius: 50%;
+
+  background: #8ca9c1;
 
   transform: translateY(-50%);
 }
@@ -250,57 +237,65 @@ redirect_from:
 
 .upcoming-card {
   display: grid;
-  grid-template-columns: 72px minmax(0, 1fr);
+  grid-template-columns: 68px minmax(0, 1fr);
 
-  gap: 18px;
+  gap: 17px;
 
-  padding: 16px 18px;
+  padding: 17px 19px;
 
-  background: #ffffff;
+  background: linear-gradient(
+    115deg,
+    #f6f9fc 0%,
+    #fbfcfd 100%
+  );
 
-  border: 1px solid var(--home-border);
-  border-radius: 8px;
+  border: 1px solid #e1e9ef;
+  border-radius: 10px;
+
+  box-shadow:
+    0 4px 14px rgba(55, 75, 95, 0.025);
 
   transition:
-    border-color 0.18s ease,
-    box-shadow 0.18s ease;
+    transform 0.17s ease,
+    border-color 0.17s ease,
+    box-shadow 0.17s ease;
 }
 
 .upcoming-card:hover {
-  border-color: #d5dfe7;
+  transform: translateY(-1px);
+
+  border-color: #d3e0ea;
 
   box-shadow:
-    0 4px 16px rgba(45, 60, 75, 0.04);
+    0 6px 18px rgba(55, 75, 95, 0.045);
 }
 
 
-/* Date block */
+/* Date */
 
 .upcoming-date {
-  padding-top: 3px;
+  padding-top: 2px;
 
   text-align: center;
 }
 
 .upcoming-date-month {
-  font-size: 0.66em;
-  font-weight: 600;
-
-  letter-spacing: 0.08em;
-
-  color: var(--home-blue);
-
+  font-size: 0.63em;
+  font-weight: 650;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
+
+  color: var(--accent);
 }
 
 .upcoming-date-day {
-  margin-top: -1px;
+  margin-top: 1px;
 
-  font-size: 1.45em;
+  font-size: 1.42em;
   font-weight: 600;
-  line-height: 1.15;
+  line-height: 1.05;
 
-  color: #5b6670;
+  color: #5d6973;
 }
 
 
@@ -311,13 +306,13 @@ redirect_from:
 }
 
 .upcoming-title {
-  margin-bottom: 4px;
+  margin-bottom: 5px;
 
   font-size: 1em;
   font-weight: 600;
-  line-height: 1.4;
+  line-height: 1.38;
 
-  color: var(--home-text);
+  color: var(--text-main);
 }
 
 .upcoming-eventline {
@@ -325,33 +320,34 @@ redirect_from:
   justify-content: space-between;
   align-items: baseline;
 
-  gap: 15px;
+  gap: 14px;
 
-  font-size: 0.82em;
+  font-size: 0.80em;
   line-height: 1.4;
 }
 
 .upcoming-conference {
   font-weight: 500;
-  color: #73797e;
+
+  color: var(--text-secondary);
 }
 
 .upcoming-details {
   flex-shrink: 0;
 
-  color: var(--home-muted);
+  color: var(--text-muted);
 
   white-space: nowrap;
 }
 
 
-/* Sessions */
+/* Session information */
 
 .upcoming-sessions {
   margin-top: 9px;
   padding-top: 7px;
 
-  border-top: 1px solid #eef0f2;
+  border-top: 1px solid rgba(82, 120, 157, 0.12);
 }
 
 .upcoming-session-row {
@@ -362,16 +358,16 @@ redirect_from:
 
   padding: 2px 0;
 
-  font-size: 0.76em;
+  font-size: 0.74em;
   line-height: 1.4;
 }
 
 .upcoming-session {
-  color: #777d82;
+  color: #777e84;
 }
 
 .upcoming-session-meta {
-  color: #969ca1;
+  color: #969da2;
 
   white-space: nowrap;
 }
@@ -386,7 +382,7 @@ redirect_from:
   justify-content: space-between;
   align-items: center;
 
-  margin: 28px 0 7px;
+  margin: 27px 0 7px;
 }
 
 .past-talks-title {
@@ -407,7 +403,7 @@ redirect_from:
 /* Scroll container */
 
 .past-talks-list {
-  max-height: 210px;
+  max-height: 205px;
   overflow-y: auto;
 
   padding-right: 7px;
@@ -420,7 +416,7 @@ redirect_from:
 }
 
 
-/* Individual past talk */
+/* Each past talk */
 
 .past-talk-row {
   display: grid;
@@ -430,7 +426,7 @@ redirect_from:
 
   padding: 10px 3px;
 
-  border-bottom: 1px solid var(--home-border-light);
+  border-bottom: 1px solid #f0f1f2;
 }
 
 .past-talk-row:last-child {
@@ -469,7 +465,7 @@ redirect_from:
 }
 
 
-/* Scrollbar — Chrome / Safari */
+/* Scrollbar */
 
 .past-talks-list::-webkit-scrollbar {
   width: 5px;
@@ -492,7 +488,7 @@ redirect_from:
 .home-updated {
   margin-top: 30px;
 
-  font-size: 0.7em;
+  font-size: 0.70em;
 
   color: #a6aaae;
 }
@@ -504,106 +500,97 @@ redirect_from:
 
 @media (max-width: 700px) {
 
-  /* Intro */
-
-  .home-hero {
-    margin-bottom: 30px;
-  }
-
-  .home-intro {
-    font-size: 0.94em;
-    line-height: 1.55;
-  }
-
-  .home-intro p {
-    margin-bottom: 15px;
-  }
-
-
-  /* Job market */
-
-  .job-market-strip {
-    margin: 21px 0 17px;
-    padding: 11px 13px;
-  }
-
-  .job-market-strip strong {
-    font-size: 0.96em;
-  }
-
-
-  /* Sections */
+  /* General */
 
   .home-section {
     margin: 31px 0;
   }
 
 
+  /* Introduction */
+
+  .home-intro {
+    font-size: 0.94em;
+  }
+
+  .home-intro p {
+    line-height: 1.56;
+  }
+
+
+  /* Job market */
+
+  .job-market {
+    margin: 21px 0 19px;
+  }
+
+  .job-market-label {
+    font-size: 0.60em;
+  }
+
+  .job-market-text {
+    font-size: 0.96em;
+  }
+
+
   /* Research */
 
-  .research-box {
+  .research-layout {
     grid-template-columns:
       minmax(0, 1fr)
       minmax(0, 1fr);
 
-    padding: 14px 12px;
+    gap: 18px;
   }
 
-  .research-column:first-child {
-    padding-right: 10px;
-  }
-
-  .research-column:last-child {
-    padding-left: 10px;
-  }
-
-  .research-subheading {
-    font-size: 0.64em;
+  .research-group-heading {
+    font-size: 0.61em;
   }
 
   .research-item {
-    padding: 6px 0 6px 10px;
+    padding: 7px 0 7px 11px;
 
-    font-size: 0.73em;
+    font-size: 0.72em;
     line-height: 1.3;
   }
 
   .research-item::before {
-    width: 3px;
-    height: 3px;
+    width: 4px;
+    height: 4px;
   }
 
 
   /* Upcoming talks */
 
   .upcoming-card {
-    grid-template-columns: 52px minmax(0, 1fr);
+    grid-template-columns: 50px minmax(0, 1fr);
 
     gap: 11px;
 
-    padding: 13px 12px;
+    padding: 14px 12px;
+
+    border-radius: 9px;
   }
 
   .upcoming-date-month {
-    font-size: 0.61em;
+    font-size: 0.58em;
   }
 
   .upcoming-date-day {
-    font-size: 1.25em;
+    font-size: 1.20em;
   }
 
   .upcoming-title {
-    font-size: 0.91em;
-    line-height: 1.35;
+    font-size: 0.90em;
   }
 
 
-  /* Conference then date/location */
+  /* Conference */
 
   .upcoming-eventline {
     display: block;
 
-    font-size: 0.75em;
+    font-size: 0.73em;
   }
 
   .upcoming-details {
@@ -622,20 +609,18 @@ redirect_from:
 
     padding: 3px 0;
 
-    font-size: 0.70em;
+    font-size: 0.68em;
   }
 
   .upcoming-session {
     display: block;
   }
 
-  /* Keep meeting time + venue together */
+  /* Keep time + full location together */
   .upcoming-session-meta {
     display: block;
 
     margin-top: 1px;
-
-    font-size: 0.96em;
 
     white-space: nowrap;
   }
@@ -673,7 +658,7 @@ redirect_from:
   }
 
 
-  /* Mobile: tiny scroll cue */
+  /* Mobile scroll cue */
 
   .scroll-note {
     display: none;
@@ -695,59 +680,70 @@ redirect_from:
 
 
 <!-- =========================================================
-     INTRO
+     INTRODUCTION
 ========================================================= -->
 
-<div class="home-hero">
+<div class="home-intro">
 
-  <div class="home-intro">
-
-    <p>
-      I am Xiaodan Shao, a Ph.D. candidate in Operations Management at
-      Nanyang Business School, Nanyang Technological University, where I am
-      fortunate to be advised by Prof.
-      <a href="https://sites.google.com/view/vkchoudhary">Vivek Choudhary</a>
-      and Prof.
-      <a href="https://dr.ntu.edu.sg/cris/rp/rp01345">Anandasivam Gopal</a>.
-    </p>
-
-    <p>
-      My empirical research is driven by a desire to improve how healthcare
-      is delivered and operated. I study how people and organizations across
-      the healthcare system respond to information and technology, and how
-      data-driven interventions can make care safer, more accessible, and
-      more effective.
-    </p>
-
-  </div>
-
-
-  <!-- Job Market -->
-
-  <div class="job-market-strip">
-    <strong>
-      I am on the 2026–2027 academic job market.
-    </strong>
-  </div>
-
-
-  <!-- Collaboration -->
-
-  <div class="home-collab">
-    Some of the most rewarding research comes from working with practitioners
-    and policymakers to turn real-world challenges into useful insights.
-    If you’re facing a hard problem or exploring a new idea, feel free to
-    reach out.
-  </div>
-
-  <div class="home-contact">
-    <span>📧</span>
-    <span>Email:</span>
-    <a href="mailto:xiaodan001@e.ntu.edu.sg">
-      xiaodan001@e.ntu.edu.sg
+  <p>
+    I am Xiaodan Shao, a Ph.D. candidate in Operations Management at
+    Nanyang Business School, Nanyang Technological University, where I am
+    fortunate to be advised by Prof.
+    <a href="https://sites.google.com/view/vkchoudhary">
+      Vivek Choudhary
     </a>
+    and Prof.
+    <a href="https://dr.ntu.edu.sg/cris/rp/rp01345">
+      Anandasivam Gopal
+    </a>.
+  </p>
+
+  <p>
+    My empirical research is driven by a desire to improve how healthcare
+    is delivered and operated. I study how people and organizations across
+    the healthcare system respond to information and technology, and how
+    data-driven interventions can make care safer, more accessible, and
+    more effective.
+  </p>
+
+</div>
+
+
+<!-- =========================================================
+     JOB MARKET
+========================================================= -->
+
+<div class="job-market">
+
+  <div class="job-market-label">
+    Job Market
   </div>
 
+  <div class="job-market-text">
+    I am on the 2026–2027 academic job market.
+  </div>
+
+</div>
+
+
+<!-- =========================================================
+     COLLABORATION
+========================================================= -->
+
+<div class="home-collab">
+
+  Some of the most rewarding research comes from working with practitioners
+  and policymakers to turn real-world challenges into useful insights.
+  If you’re facing a hard problem or exploring a new idea, feel free to
+  reach out.
+
+</div>
+
+<div class="home-contact">
+  📧 Email:
+  <a href="mailto:xiaodan001@e.ntu.edu.sg">
+    xiaodan001@e.ntu.edu.sg
+  </a>
 </div>
 
 
@@ -758,23 +754,29 @@ redirect_from:
 <div class="home-section">
 
   <div class="home-section-heading">
+
     <div class="home-section-label">
       Research
     </div>
 
     <div class="home-section-line"></div>
+
   </div>
 
 
-  <div class="research-box">
+  <div class="research-layout">
 
-    <div class="research-column">
 
-      <div class="research-subheading">
+    <!-- Topics -->
+
+    <div class="research-group">
+
+      <div class="research-group-heading">
         Topics
       </div>
 
       <ul class="research-list">
+
         <li class="research-item">
           Healthcare Operations
         </li>
@@ -786,18 +788,22 @@ redirect_from:
         <li class="research-item">
           AI &amp; Digital Health
         </li>
+
       </ul>
 
     </div>
 
 
-    <div class="research-column">
+    <!-- Methodologies -->
 
-      <div class="research-subheading">
+    <div class="research-group">
+
+      <div class="research-group-heading">
         Methodologies
       </div>
 
       <ul class="research-list">
+
         <li class="research-item">
           Econometrics
         </li>
@@ -809,6 +815,7 @@ redirect_from:
         <li class="research-item">
           Data Analytics
         </li>
+
       </ul>
 
     </div>
@@ -838,11 +845,12 @@ redirect_from:
   <div class="upcoming-list">
 
 
-    <!-- Oct 31 -->
+    <!-- OCTOBER 31 -->
 
     <div class="upcoming-card">
 
       <div class="upcoming-date">
+
         <div class="upcoming-date-month">
           Oct
         </div>
@@ -850,6 +858,7 @@ redirect_from:
         <div class="upcoming-date-day">
           31
         </div>
+
       </div>
 
 
@@ -859,14 +868,15 @@ redirect_from:
           Last-Mile Healthcare: A CARE Agenda for SDG 3
         </div>
 
+
         <div class="upcoming-eventline">
 
           <span class="upcoming-conference">
-            5th Symposium on Environmental and Social Sustainability
+            5th Symposium on Environmental and Social Sustainability in Supply Chains
           </span>
 
           <span class="upcoming-details">
-            UC Berkeley · TBA
+            UC Berkeley Campus · Time &amp; Room TBA
           </span>
 
         </div>
@@ -876,7 +886,7 @@ redirect_from:
     </div>
 
 
-    <!-- Nov 2 -->
+    <!-- NOVEMBER 2 -->
 
     <div class="upcoming-card">
 
@@ -916,10 +926,11 @@ redirect_from:
 
         <div class="upcoming-sessions">
 
+
           <div class="upcoming-session-row">
 
             <span class="upcoming-session">
-              Service Science Best Student Paper Award
+              Service Science Best Student Paper Award II
             </span>
 
             <span class="upcoming-session-meta">
@@ -940,6 +951,7 @@ redirect_from:
             </span>
 
           </div>
+
 
         </div>
 
@@ -1200,6 +1212,7 @@ redirect_from:
 
     </div>
 
+
   </div>
 
 </div>
@@ -1216,7 +1229,7 @@ redirect_from:
 
 {% comment %}
 
-This is the front page of a website that is powered by the academicpages
-template and hosted on GitHub Pages.
+This is the front page of a website powered by the academicpages template
+and hosted on GitHub Pages.
 
 {% endcomment %}
