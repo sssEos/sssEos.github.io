@@ -47,7 +47,7 @@ redirect_from:
   flex-shrink: 0;
 
   font-size: 0.73em;
-  font-weight: 650;
+  font-weight: 600;
   letter-spacing: 0.09em;
   text-transform: uppercase;
 
@@ -83,29 +83,10 @@ redirect_from:
 
 /* =========================================================
    JOB MARKET
-   TEXT-ONLY HIGHLIGHT
 ========================================================= */
 
 .job-market {
-  position: relative;
-
   margin: 26px 0 23px;
-  padding-left: 15px;
-}
-
-.job-market::before {
-  content: "";
-
-  position: absolute;
-
-  left: 0;
-  top: 3px;
-  bottom: 3px;
-
-  width: 3px;
-
-  background: var(--accent);
-  border-radius: 4px;
 }
 
 .job-market-text {
@@ -155,27 +136,50 @@ redirect_from:
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-  gap: 55px;
+  gap: 56px;
 
-  padding-top: 1px;
+  padding-top: 2px;
 }
 
 
-/* Topics / Methodologies */
+/* Group headings */
 
 .research-group-heading {
-  margin-bottom: 13px;
+  position: relative;
 
-  font-size: 0.78em;
-  font-weight: 650;
-  letter-spacing: 0.02em;
+  display: inline-block;
+
+  margin-bottom: 14px;
+  padding-bottom: 5px;
+
+  font-size: 0.76em;
+  font-weight: 600;
+  letter-spacing: 0.035em;
   text-transform: uppercase;
 
-  color: #34383c;
+  color: #42484d;
 }
 
 
-/* Labels */
+/* Small underline accent */
+
+.research-group-heading::after {
+  content: "";
+
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+
+  width: 24px;
+  height: 2px;
+
+  background: #6f93b3;
+  border-radius: 2px;
+}
+
+
+/* Tags */
 
 .research-tags {
   display: flex;
@@ -195,23 +199,31 @@ redirect_from:
 
   padding: 7px 13px;
 
-  font-size: 0.84em;
+  font-size: 0.83em;
   font-weight: 400;
   line-height: 1.25;
 
-  color: #454b50;
+  color: #4f5962;
 
-  background: #f6f7f8;
+  background: linear-gradient(
+    180deg,
+    #fbfcfd 0%,
+    #f5f7f9 100%
+  );
 
-  border: 1px solid #e0e3e6;
-  border-radius: 20px;
+  border: 1px solid #dde3e8;
+  border-radius: 18px;
+
+  box-shadow:
+    0 2px 5px rgba(60, 78, 95, 0.025);
 
   white-space: nowrap;
 
   transition:
-    background 0.16s ease,
+    transform 0.16s ease,
     border-color 0.16s ease,
-    transform 0.16s ease;
+    background 0.16s ease,
+    box-shadow 0.16s ease;
 }
 
 
@@ -227,18 +239,36 @@ redirect_from:
 
   flex-shrink: 0;
 
-  background: #3b82f6;
+  background: #5d8db7;
+
   border-radius: 50%;
+
+  box-shadow:
+    0 0 0 2px rgba(93, 141, 183, 0.08);
 }
 
 
-/* Very subtle hover */
+/* Hover */
 
 .research-tag:hover {
-  background: #f2f5f8;
-  border-color: #d3dae0;
-
   transform: translateY(-1px);
+
+  background: #f3f7fa;
+
+  border-color: #cbd9e4;
+
+  box-shadow:
+    0 4px 9px rgba(60, 78, 95, 0.05);
+}
+
+
+/* Slight variation for methodologies */
+
+.research-group:nth-child(2) .research-tag::before {
+  background: #7896ad;
+
+  box-shadow:
+    0 0 0 2px rgba(120, 150, 173, 0.08);
 }
 
 
@@ -304,7 +334,7 @@ redirect_from:
 
 .upcoming-date-month {
   font-size: 0.63em;
-  font-weight: 650;
+  font-weight: 600;
 
   letter-spacing: 0.09em;
   text-transform: uppercase;
@@ -368,7 +398,7 @@ redirect_from:
 }
 
 
-/* Sessions */
+/* Session information */
 
 .upcoming-sessions {
   margin-top: 9px;
@@ -492,7 +522,7 @@ redirect_from:
 }
 
 
-/* Scrollbar — Chrome / Safari */
+/* Scrollbar */
 
 .past-talks-list::-webkit-scrollbar {
   width: 5px;
@@ -528,9 +558,7 @@ redirect_from:
 
 @media (max-width: 700px) {
 
-  /* =====================================================
-     GENERAL
-  ===================================================== */
+  /* General */
 
   .home-section {
     margin: 31px 0;
@@ -541,9 +569,7 @@ redirect_from:
   }
 
 
-  /* =====================================================
-     INTRODUCTION
-  ===================================================== */
+  /* Introduction */
 
   .home-intro {
     font-size: 0.94em;
@@ -554,18 +580,10 @@ redirect_from:
   }
 
 
-  /* =====================================================
-     JOB MARKET
-  ===================================================== */
+  /* Job market */
 
   .job-market {
     margin: 21px 0 19px;
-
-    padding-left: 12px;
-  }
-
-  .job-market::before {
-    width: 2px;
   }
 
   .job-market-text {
@@ -573,9 +591,7 @@ redirect_from:
   }
 
 
-  /* =====================================================
-     RESEARCH
-  ===================================================== */
+  /* Research */
 
   .research-layout {
     grid-template-columns:
@@ -586,9 +602,15 @@ redirect_from:
   }
 
   .research-group-heading {
-    margin-bottom: 9px;
+    margin-bottom: 10px;
+    padding-bottom: 4px;
 
-    font-size: 0.66em;
+    font-size: 0.64em;
+  }
+
+  .research-group-heading::after {
+    width: 18px;
+    height: 2px;
   }
 
   .research-tags {
@@ -601,8 +623,10 @@ redirect_from:
 
     padding: 6px 8px;
 
-    font-size: 0.70em;
+    font-size: 0.69em;
     line-height: 1.25;
+
+    border-radius: 16px;
 
     white-space: normal;
   }
@@ -615,9 +639,7 @@ redirect_from:
   }
 
 
-  /* =====================================================
-     UPCOMING TALKS
-  ===================================================== */
+  /* Upcoming Talks */
 
   .upcoming-card {
     grid-template-columns: 48px minmax(0, 1fr);
@@ -673,7 +695,6 @@ redirect_from:
     display: block;
   }
 
-  /* Keep time + full venue together */
   .upcoming-session-meta {
     display: block;
 
@@ -683,9 +704,7 @@ redirect_from:
   }
 
 
-  /* =====================================================
-     PAST TALKS
-  ===================================================== */
+  /* Past Talks */
 
   .past-talk-row {
     grid-template-columns: 64px minmax(0, 1fr);
@@ -719,7 +738,7 @@ redirect_from:
   }
 
 
-  /* Mobile-only scroll cue */
+  /* Mobile scroll cue */
 
   .scroll-note {
     display: none;
@@ -796,7 +815,6 @@ redirect_from:
 
 </div>
 
-
 <div class="home-contact">
 
   📧 Email:
@@ -827,8 +845,6 @@ redirect_from:
   <div class="research-layout">
 
 
-    <!-- Topics -->
-
     <div class="research-group">
 
       <div class="research-group-heading">
@@ -854,8 +870,6 @@ redirect_from:
     </div>
 
 
-    <!-- Methodologies -->
-
     <div class="research-group">
 
       <div class="research-group-heading">
@@ -879,7 +893,6 @@ redirect_from:
       </div>
 
     </div>
-
 
   </div>
 
@@ -906,9 +919,7 @@ redirect_from:
   <div class="upcoming-list">
 
 
-    <!-- =====================================================
-         OCTOBER 31
-    ====================================================== -->
+    <!-- OCTOBER 31 -->
 
     <div class="upcoming-card">
 
@@ -931,7 +942,6 @@ redirect_from:
           Last-Mile Healthcare: A CARE Agenda for SDG 3
         </div>
 
-
         <div class="upcoming-eventline">
 
           <span class="upcoming-conference">
@@ -949,9 +959,7 @@ redirect_from:
     </div>
 
 
-    <!-- =====================================================
-         NOVEMBER 2
-    ====================================================== -->
+    <!-- NOVEMBER 2 -->
 
     <div class="upcoming-card">
 
@@ -975,7 +983,6 @@ redirect_from:
           A Field Experiment in Healthcare Operations
         </div>
 
-
         <div class="upcoming-eventline">
 
           <span class="upcoming-conference">
@@ -990,7 +997,6 @@ redirect_from:
 
 
         <div class="upcoming-sessions">
-
 
           <div class="upcoming-session-row">
 
@@ -1016,7 +1022,6 @@ redirect_from:
             </span>
 
           </div>
-
 
         </div>
 
@@ -1048,13 +1053,11 @@ redirect_from:
 
 
     <div class="past-talk-row">
-
       <div class="past-talk-date">
         Jan 2026
       </div>
 
       <div class="past-talk-info">
-
         <div class="past-talk-name">
           3rd Workshop on Empirical Operations Management (WEOM)
         </div>
@@ -1062,20 +1065,16 @@ redirect_from:
         <div class="past-talk-location">
           Singapore
         </div>
-
       </div>
-
     </div>
 
 
     <div class="past-talk-row">
-
       <div class="past-talk-date">
         Oct 2025
       </div>
 
       <div class="past-talk-info">
-
         <div class="past-talk-name">
           INFORMS Annual Meeting
         </div>
@@ -1083,20 +1082,16 @@ redirect_from:
         <div class="past-talk-location">
           Atlanta, USA
         </div>
-
       </div>
-
     </div>
 
 
     <div class="past-talk-row">
-
       <div class="past-talk-date">
         Sep 2025
       </div>
 
       <div class="past-talk-info">
-
         <div class="past-talk-name">
           Analytics for X Conference
         </div>
@@ -1104,20 +1099,16 @@ redirect_from:
         <div class="past-talk-location">
           Singapore
         </div>
-
       </div>
-
     </div>
 
 
     <div class="past-talk-row">
-
       <div class="past-talk-date">
         Jul 2025
       </div>
 
       <div class="past-talk-info">
-
         <div class="past-talk-name">
           INFORMS International Meeting
         </div>
@@ -1125,20 +1116,16 @@ redirect_from:
         <div class="past-talk-location">
           Singapore
         </div>
-
       </div>
-
     </div>
 
 
     <div class="past-talk-row">
-
       <div class="past-talk-date">
         Oct 2024
       </div>
 
       <div class="past-talk-info">
-
         <div class="past-talk-name">
           CBS-NBS Research Day on Emerging Technology, Risks, and Markets
         </div>
@@ -1146,20 +1133,16 @@ redirect_from:
         <div class="past-talk-location">
           Bangkok, Thailand
         </div>
-
       </div>
-
     </div>
 
 
     <div class="past-talk-row">
-
       <div class="past-talk-date">
         May 2024
       </div>
 
       <div class="past-talk-info">
-
         <div class="past-talk-name">
           Singapore Rising Scholars Conference
         </div>
@@ -1167,20 +1150,16 @@ redirect_from:
         <div class="past-talk-location">
           Singapore
         </div>
-
       </div>
-
     </div>
 
 
     <div class="past-talk-row">
-
       <div class="past-talk-date">
         May 2024
       </div>
 
       <div class="past-talk-info">
-
         <div class="past-talk-name">
           Conference on Health IT and Analytics (CHITA)
         </div>
@@ -1188,20 +1167,16 @@ redirect_from:
         <div class="past-talk-location">
           Washington, D.C., USA
         </div>
-
       </div>
-
     </div>
 
 
     <div class="past-talk-row">
-
       <div class="past-talk-date">
         Apr 2024
       </div>
 
       <div class="past-talk-info">
-
         <div class="past-talk-name">
           Production and Operations Management Society (POMS) Annual Conference
         </div>
@@ -1209,20 +1184,16 @@ redirect_from:
         <div class="past-talk-location">
           Minneapolis, USA
         </div>
-
       </div>
-
     </div>
 
 
     <div class="past-talk-row">
-
       <div class="past-talk-date">
         Apr 2024
       </div>
 
       <div class="past-talk-info">
-
         <div class="past-talk-name">
           Asian Management Research Consortium
         </div>
@@ -1230,20 +1201,16 @@ redirect_from:
         <div class="past-talk-location">
           Singapore
         </div>
-
       </div>
-
     </div>
 
 
     <div class="past-talk-row">
-
       <div class="past-talk-date">
         May 2023
       </div>
 
       <div class="past-talk-info">
-
         <div class="past-talk-name">
           Singapore Rising Scholars Conference
         </div>
@@ -1251,20 +1218,16 @@ redirect_from:
         <div class="past-talk-location">
           Singapore
         </div>
-
       </div>
-
     </div>
 
 
     <div class="past-talk-row">
-
       <div class="past-talk-date">
         Jan 2023
       </div>
 
       <div class="past-talk-info">
-
         <div class="past-talk-name">
           POMS-HK International Conference
         </div>
@@ -1272,9 +1235,7 @@ redirect_from:
         <div class="past-talk-location">
           Hong Kong, China
         </div>
-
       </div>
-
     </div>
 
 
