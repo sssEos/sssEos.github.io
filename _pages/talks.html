@@ -4,18 +4,22 @@ title: ""
 permalink: /talks/
 author_profile: true
 ---
+
 <style>
 
 /* =========================================================
-   PAGE SECTION
+   SECTION TITLES
 ========================================================= */
 
-.education-section {
+.page-section {
   margin-top: 48px;
-  margin-bottom: 36px;
 }
 
-.education-title {
+.page-section:first-of-type {
+  margin-top: 48px;
+}
+
+.page-section-title {
   margin: 0 0 20px 0;
 
   font-size: 1.8em;
@@ -27,24 +31,26 @@ author_profile: true
 
 
 /* =========================================================
-   EDUCATION CARD
+   SHARED CARD STYLE
 ========================================================= */
 
-.education-box {
+.page-card {
   width: 100%;
   box-sizing: border-box;
 
-  padding: 28px 32px;
+  padding: 32px;
 
   background-color: #fff;
 
   border: 1px solid #ddd;
   border-radius: 16px;
+
+  margin-bottom: 36px;
 }
 
 
 /* =========================================================
-   EDUCATION LIST
+   EDUCATION
 ========================================================= */
 
 .education-list {
@@ -57,7 +63,6 @@ author_profile: true
   align-items: baseline;
 
   gap: 24px;
-
   padding: 8px 0;
 
   font-size: 0.92em;
@@ -68,22 +73,18 @@ author_profile: true
 
 .education-main {
   min-width: 0;
-
   font-weight: 400;
 }
 
 .education-year {
   font-weight: 400;
-
   color: #888;
 
   white-space: nowrap;
 }
 
 
-/* =========================================================
-   EXCHANGE
-========================================================= */
+/* Exchange information */
 
 .education-extra {
   margin-top: 14px;
@@ -99,34 +100,101 @@ author_profile: true
 
 
 /* =========================================================
+   R PACKAGE
+========================================================= */
+
+.package-title {
+  margin: 0 0 8px 0;
+
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.package-doc {
+  margin-left: 8px;
+
+  font-size: 15px;
+  font-weight: 400;
+
+  white-space: nowrap;
+}
+
+.package-description {
+  margin: 0 0 18px 0;
+
+  color: #555;
+
+  line-height: 1.7;
+}
+
+
+/* Code box */
+
+.package-code {
+  margin: 0;
+
+  padding: 20px 24px;
+
+  overflow-x: auto;
+
+  background-color: #f5f5f7;
+  border-radius: 14px;
+
+  line-height: 1.6;
+}
+
+
+/* =========================================================
+   GRANT
+========================================================= */
+
+.grant-text {
+  margin: 0;
+
+  color: #555;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================================
    MOBILE
 ========================================================= */
 
 @media (max-width: 700px) {
 
-  .education-section {
+  /* Section */
+
+  .page-section {
     margin-top: 36px;
-    margin-bottom: 28px;
   }
 
-  .education-title {
+  .page-section-title {
     margin-bottom: 16px;
 
     font-size: 1.55em;
   }
 
-  .education-box {
+
+  /* Cards */
+
+  .page-card {
     padding: 20px 16px;
+
+    margin-bottom: 28px;
+
     border-radius: 14px;
   }
 
-  /* Keep degree and year on the SAME ROW */
+
+  /* Education */
+
   .education-row {
     grid-template-columns: minmax(0, 1fr) auto;
     align-items: baseline;
 
     gap: 8px;
-
     padding: 7px 0;
 
     font-size: 0.84em;
@@ -139,6 +207,7 @@ author_profile: true
 
   .education-year {
     font-size: 0.92em;
+
     white-space: nowrap;
   }
 
@@ -150,21 +219,59 @@ author_profile: true
     line-height: 1.5;
   }
 
+
+  /* R Package */
+
+  .package-title {
+    font-size: 1.15em;
+  }
+
+  .package-doc {
+    margin-left: 5px;
+
+    font-size: 0.72em;
+  }
+
+  .package-description {
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+
+  .package-code {
+    padding: 16px;
+
+    font-size: 0.82em;
+  }
+
+
+  /* Grant */
+
+  .grant-text {
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+
 }
 
 </style>
 
-<div class="education-section">
 
-  <h1 class="education-title">
+<!-- =========================================================
+     EDUCATION
+========================================================= -->
+
+<div class="page-section">
+
+  <h1 class="page-section-title">
     Education
   </h1>
 
-  <div class="education-box">
+  <div class="page-card">
 
     <div class="education-list">
 
       <div class="education-row">
+
         <div class="education-main">
           Ph.D., Operations Management · NTU
         </div>
@@ -172,9 +279,12 @@ author_profile: true
         <div class="education-year">
           Present
         </div>
+
       </div>
 
+
       <div class="education-row">
+
         <div class="education-main">
           M.Sc., Business Analytics (Dean's Honours List) · NTU
         </div>
@@ -182,9 +292,12 @@ author_profile: true
         <div class="education-year">
           2022
         </div>
+
       </div>
 
+
       <div class="education-row">
+
         <div class="education-main">
           B.Econ. (Honours) · Nanjing Audit University
         </div>
@@ -192,9 +305,11 @@ author_profile: true
         <div class="education-year">
           2017
         </div>
+
       </div>
 
     </div>
+
 
     <div class="education-extra">
       Exchange · National University of Singapore (2023–2024)
@@ -206,25 +321,43 @@ author_profile: true
 
 </div>
 
-<h1 style="margin-top: 48px;">R Package</h1>
 
-<div style="border: 1px solid #ddd; border-radius: 16px; padding: 32px; margin-top: 20px; margin-bottom: 36px; background-color: #fff;">
+<!-- =========================================================
+     R PACKAGE
+========================================================= -->
 
-  <h2 style="margin-top: 0; margin-bottom: 8px; font-size: 22px;">
-    outlierfix
-    <a href="https://rdrr.io/github/sssEos/outlierfix/man/fixout_conti.html"
-       target="_blank"
-       rel="noopener noreferrer"
-       style="font-size: 15px; font-weight: normal; margin-left: 8px;">
-      (Documentation)
-    </a>
-  </h2>
+<div class="page-section">
 
-  <p style="margin-bottom: 18px; color: #555; line-height: 1.7;">
-    <b>outlierfix</b> is an R package I developed to support empirical analysis. It helps researchers detect and manage outliers in continuous variables, making data-cleaning decisions more systematic, transparent, and easier to document across research projects. Jump right in — install it with the commands below! Feedback and suggestions are always welcome! 😊
-  </p>
+  <h1 class="page-section-title">
+    R Package
+  </h1>
 
-  <pre style="background-color: #f5f5f7; border-radius: 14px; padding: 20px 24px; overflow-x: auto; line-height: 1.6;"><code># install.packages("devtools")
+  <div class="page-card">
+
+    <h2 class="package-title">
+      outlierfix
+
+      <a
+        class="package-doc"
+        href="https://rdrr.io/github/sssEos/outlierfix/man/fixout_conti.html"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        (Documentation)
+      </a>
+    </h2>
+
+
+    <p class="package-description">
+      <b>outlierfix</b> is an R package I developed to support empirical analysis.
+      It helps researchers detect and manage outliers in continuous variables,
+      making data-cleaning decisions more systematic, transparent, and easier
+      to document across research projects. Jump right in — install it with
+      the commands below! Feedback and suggestions are always welcome! 😊
+    </p>
+
+
+    <pre class="package-code"><code># install.packages("devtools")
 
 library(devtools)
 
@@ -232,24 +365,45 @@ install_github("sssEos/outlierfix")
 
 library(outlierfix)</code></pre>
 
-</div>
-
-<h1 style="margin-top: 48px;">Grant</h1>
-
-<div style="border: 1px solid #ddd; border-radius: 16px; padding: 32px; margin-top: 20px; margin-bottom: 36px; background-color: #fff;">
-
-  <p style="margin-bottom: 0;">
-    Singapore Ministry of Education Academic Research Funding (MOE-AcRF) Tier 1 Grant
-  </p>
+  </div>
 
 </div>
 
 
+<!-- =========================================================
+     GRANT
+========================================================= -->
+
+<div class="page-section">
+
+  <h1 class="page-section-title">
+    Grant
+  </h1>
+
+  <div class="page-card">
+
+    <p class="grant-text">
+      Singapore Ministry of Education Academic Research Funding
+      (MOE-AcRF) Tier 1 Grant
+    </p>
+
+  </div>
+
+</div>
+
+
+<!-- =========================================================
+     ORIGINAL TALKS ARCHIVE
+========================================================= -->
 
 <!--
 {% if site.talkmap_link == true %}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+<p style="text-decoration: underline;">
+  <a href="/talkmap.html">
+    See a map of all the places I've given a talk!
+  </a>
+</p>
 
 {% endif %}
 
