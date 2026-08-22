@@ -58,55 +58,106 @@ redirect_from:
 ========================================================= */
 
 .research-box {
-  padding: 18px 22px;
+  padding: 20px 22px;
 
   background: #fafbfc;
   border: 1px solid #edf0f2;
-  border-radius: 7px;
+  border-radius: 9px;
 }
+
+
+/* Topics | Methodologies */
 
 .research-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 55px;
+  gap: 44px;
 }
+
+
+/* Column headings */
 
 .research-subheading {
-  margin-bottom: 10px;
+  margin-bottom: 11px;
 
-  font-size: 0.72em;
+  font-size: 0.70em;
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 
-  color: #969b9f;
+  color: #8b9298;
 }
 
+
+/* Labels container */
+
 .research-columns .research-labels {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
   gap: 8px;
 }
 
+
+/* Individual labels */
+
 .research-columns .research-label {
-  display: inline-block;
-  width: auto;
+  display: inline-flex;
+  align-items: center;
 
-  padding: 6px 12px;
+  width: fit-content;
+  padding: 7px 12px;
 
-  font-size: 0.84em;
-  font-weight: 400;
+  font-size: 0.83em;
+  font-weight: 450;
   line-height: 1.25;
+
+  color: #596773;
+
+  background: linear-gradient(
+    90deg,
+    #f3f7fb 0%,
+    #ffffff 100%
+  );
+
+  border: 1px solid #dce5ed;
+  border-radius: 18px;
 
   white-space: nowrap;
 
-  color: #5e6368;
-  background: #ffffff;
+  transition:
+    border-color 0.18s ease,
+    background 0.18s ease,
+    transform 0.18s ease;
+}
 
-  border: 1px solid #e0e4e7;
-  border-radius: 16px;
+
+/* Small accent dot */
+
+.research-columns .research-label::before {
+  content: "";
+
+  width: 5px;
+  height: 5px;
+
+  margin-right: 8px;
+
+  background: #6f91b2;
+  border-radius: 50%;
+
+  flex-shrink: 0;
+}
+
+
+/* Subtle hover */
+
+.research-columns .research-label:hover {
+  border-color: #bdcfdf;
+
+  background: #f4f8fb;
+
+  transform: translateX(2px);
 }
 
 
@@ -417,44 +468,48 @@ redirect_from:
      RESEARCH — KEEP TWO COLUMNS
   ===================================================== */
 
-  .research-columns {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
-    gap: 12px;
-    width: 100%;
+  .research-box {
+    padding: 15px 12px;
   }
 
-  .research-box {
-    padding: 14px 12px;
+  /* Keep Topics + Methodologies side by side */
+  .research-columns {
+    grid-template-columns:
+      minmax(0, 1fr)
+      minmax(0, 1fr);
+
+    gap: 12px;
   }
 
   .research-subheading {
     margin-bottom: 8px;
-    font-size: 0.67em;
+
+    font-size: 0.66em;
   }
 
   .research-columns .research-labels {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-
     gap: 7px;
-    width: 100%;
   }
 
   .research-columns .research-label {
-    display: inline-block;
-
     max-width: 100%;
     box-sizing: border-box;
 
-    padding: 5px 8px;
+    padding: 6px 8px;
 
-    font-size: 0.75em;
+    font-size: 0.73em;
     line-height: 1.25;
 
     white-space: normal;
   }
+
+  .research-columns .research-label::before {
+    width: 4px;
+    height: 4px;
+
+    margin-right: 6px;
+  }
+
 
 
   /* =====================================================
@@ -704,77 +759,6 @@ Some of the most rewarding research comes from working with practitioners and po
 
 </div>
 
-
-
-<!-- =========================================================
-     EDUCATION
-     COMPLETELY SEPARATE SECTION
-========================================================= -->
-
-<div class="home-section">
-
-  <div class="home-section-label">
-    Education
-  </div>
-
-  <div class="education-box">
-
-
-    <div class="education-list">
-
-
-      <div class="education-row">
-
-        <div class="education-main">
-          Ph.D., Operations Management · NTU
-        </div>
-
-        <div class="education-year">
-          Present
-        </div>
-
-      </div>
-
-
-      <div class="education-row">
-
-        <div class="education-main">
-          M.Sc., Business Analytics (Dean's Honours List) · NTU
-        </div>
-
-        <div class="education-year">
-          2022
-        </div>
-
-      </div>
-
-
-      <div class="education-row">
-
-        <div class="education-main">
-          B.Econ. (Honours) · Nanjing Audit University
-        </div>
-
-        <div class="education-year">
-          2017
-        </div>
-
-      </div>
-
-
-    </div>
-
-
-    <div class="education-extra">
-      Exchange · National University of Singapore (2023–2024)
-      &nbsp;&nbsp;·&nbsp;&nbsp;
-      University of Melbourne (2016)
-    </div>
-
-
-  </div>
-
-</div>
 
 
 <div class="upcoming-section">
