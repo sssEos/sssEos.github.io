@@ -146,23 +146,23 @@ redirect_from:
 .research-tags {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
 
   gap: 9px;
 
-  /* Same width for all bubbles */
-  width: 190px;
-  max-width: 100%;
+  width: auto;
 }
 
 
 /* Individual bubble */
 
 .research-tag {
-  display: flex;
+  display: inline-flex;
   align-items: center;
 
-  /* Every label has identical width */
-  width: 100%;
+  /* Natural width based on content */
+  width: auto;
+  max-width: 100%;
   box-sizing: border-box;
 
   padding: 7px 13px;
@@ -238,6 +238,7 @@ redirect_from:
   box-shadow:
     0 0 0 2px rgba(120, 150, 173, 0.08);
 }
+
 
 
 /* =========================================================
@@ -590,14 +591,23 @@ redirect_from:
 
   /* Use full column width so all bubbles remain equal */
 
-  .research-tags {
-    width: 100%;
+ .research-tags {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
     gap: 7px;
+
+    width: auto;
+    max-width: 100%;
   }
 
   .research-tag {
-    width: 100%;
+    display: inline-flex;
+    align-items: center;
+
+    /* Still natural width on mobile */
+    width: auto;
     max-width: 100%;
 
     padding: 6px 8px;
@@ -607,6 +617,7 @@ redirect_from:
 
     border-radius: 16px;
 
+    /* Allow wrapping only when necessary */
     white-space: normal;
   }
 
@@ -616,7 +627,6 @@ redirect_from:
 
     margin-right: 6px;
   }
-
 
   /* =====================================================
      UPCOMING TALKS
