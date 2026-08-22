@@ -11,22 +11,48 @@ redirect_from:
 <style>
 
 /* =========================================================
-   GENERAL
+   HOME — DESIGN SYSTEM
 ========================================================= */
 
-.home-section {
-  margin: 34px 0;
+:root {
+  --home-text: #4f5458;
+  --home-text-soft: #666c71;
+  --home-muted: #92989d;
+  --home-light: #a5aaae;
+
+  --home-blue: #52789d;
+  --home-blue-soft: #f3f7fb;
+  --home-blue-line: #d8e3ee;
+
+  --home-bg-soft: #fafbfc;
+  --home-border: #e8ebed;
+  --home-border-light: #f0f1f2;
 }
 
-.home-section-label {
-  margin-bottom: 12px;
 
-  font-size: 0.76em;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+/* =========================================================
+   INTRO / HERO
+========================================================= */
 
-  color: #777d82;
+.home-hero {
+  margin: 4px 0 36px;
+}
+
+.home-intro {
+  max-width: 820px;
+
+  font-size: 1em;
+  line-height: 1.62;
+
+  color: var(--home-text);
+}
+
+.home-intro p {
+  margin: 0 0 18px;
+}
+
+.home-intro a {
+  text-underline-offset: 2px;
 }
 
 
@@ -34,22 +60,99 @@ redirect_from:
    JOB MARKET
 ========================================================= */
 
-.job-market-box {
-  margin: 18px 0;
-  padding: 13px 18px;
+.job-market-strip {
+  display: flex;
+  align-items: center;
 
-  border: 1px solid #d8e3ee;
-  border-left: 5px solid #52789d;
-  border-radius: 6px;
+  margin: 25px 0 20px;
+  padding: 12px 17px;
 
   background: linear-gradient(
     90deg,
-    #f3f7fb 0%,
+    var(--home-blue-soft) 0%,
     #ffffff 100%
   );
 
-  font-size: 1.08em;
-  line-height: 1.5;
+  border: 1px solid var(--home-blue-line);
+  border-left: 4px solid var(--home-blue);
+  border-radius: 6px;
+
+  color: var(--home-text);
+}
+
+.job-market-strip strong {
+  font-size: 1.02em;
+  font-weight: 600;
+}
+
+
+/* =========================================================
+   COLLABORATION + CONTACT
+========================================================= */
+
+.home-collab {
+  margin-top: 4px;
+
+  font-size: 0.96em;
+  line-height: 1.58;
+
+  color: var(--home-text);
+}
+
+.home-contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+
+  margin-top: 12px;
+
+  font-size: 0.92em;
+  color: var(--home-text-soft);
+}
+
+.home-contact a {
+  color: var(--home-text-soft);
+  text-decoration: none;
+}
+
+.home-contact a:hover {
+  color: var(--home-blue);
+}
+
+
+/* =========================================================
+   SHARED SECTION HEADING
+========================================================= */
+
+.home-section {
+  margin: 38px 0;
+}
+
+.home-section-heading {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  margin-bottom: 12px;
+}
+
+.home-section-label {
+  flex-shrink: 0;
+
+  font-size: 0.75em;
+  font-weight: 600;
+
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  color: #81878c;
+}
+
+.home-section-line {
+  width: 100%;
+  height: 1px;
+
+  background: #eef0f2;
 }
 
 
@@ -58,159 +161,76 @@ redirect_from:
 ========================================================= */
 
 .research-box {
-  padding: 20px 22px;
-
-  background: #fafbfc;
-  border: 1px solid #edf0f2;
-  border-radius: 9px;
-}
-
-
-/* Topics | Methodologies */
-
-.research-columns {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 44px;
+
+  padding: 18px 22px;
+
+  background: var(--home-bg-soft);
+
+  border: 1px solid var(--home-border);
+  border-radius: 8px;
 }
 
+.research-column:first-child {
+  padding-right: 28px;
+}
 
-/* Column headings */
+.research-column:last-child {
+  padding-left: 28px;
+
+  border-left: 1px solid #e8ebed;
+}
 
 .research-subheading {
-  margin-bottom: 11px;
+  margin-bottom: 7px;
 
-  font-size: 0.70em;
+  font-size: 0.69em;
   font-weight: 600;
-  letter-spacing: 0.08em;
+
+  letter-spacing: 0.07em;
   text-transform: uppercase;
 
-  color: #8b9298;
+  color: var(--home-muted);
 }
 
+.research-list {
+  margin: 0;
+  padding: 0;
 
-/* Labels container */
-
-.research-columns .research-labels {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-
-  gap: 8px;
+  list-style: none;
 }
 
+.research-item {
+  position: relative;
 
-/* Individual labels */
+  padding: 7px 0 7px 13px;
 
-.research-columns .research-label {
-  display: inline-flex;
-  align-items: center;
+  font-size: 0.84em;
+  line-height: 1.35;
 
-  width: fit-content;
-  padding: 7px 12px;
-
-  font-size: 0.83em;
-  font-weight: 450;
-  line-height: 1.25;
-
-  color: #596773;
-
-  background: linear-gradient(
-    90deg,
-    #f3f7fb 0%,
-    #ffffff 100%
-  );
-
-  border: 1px solid #dce5ed;
-  border-radius: 18px;
-
-  white-space: nowrap;
-
-  transition:
-    border-color 0.18s ease,
-    background 0.18s ease,
-    transform 0.18s ease;
+  color: #62686d;
 }
 
+.research-item + .research-item {
+  border-top: 1px solid #eef0f2;
+}
 
-/* Small accent dot */
-
-.research-columns .research-label::before {
+/* tiny visual marker — not a pill */
+.research-item::before {
   content: "";
 
-  width: 5px;
-  height: 5px;
+  position: absolute;
+  left: 0;
+  top: 50%;
 
-  margin-right: 8px;
+  width: 4px;
+  height: 4px;
 
-  background: #6f91b2;
+  background: #8ea9c1;
   border-radius: 50%;
 
-  flex-shrink: 0;
-}
-
-
-/* Subtle hover */
-
-.research-columns .research-label:hover {
-  border-color: #bdcfdf;
-
-  background: #f4f8fb;
-
-  transform: translateX(2px);
-}
-
-
-/* =========================================================
-   EDUCATION
-========================================================= */
-
-.education-box {
-  padding: 18px 20px;
-
-  background: #fafbfc;
-  border: 1px solid #edf0f2;
-  border-radius: 7px;
-}
-
-.education-list {
-  width: 100%;
-}
-
-.education-row {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 22px;
-
-  padding: 6px 0;
-
-  font-size: 0.86em;
-  line-height: 1.5;
-
-  color: #60656a;
-}
-
-.education-main {
-  font-weight: 400;
-}
-
-.education-year {
-  font-weight: 400;
-  color: #999ea2;
-
-  white-space: nowrap;
-}
-
-.education-extra {
-  margin-top: 8px;
-  padding-top: 8px;
-
-  border-top: 1px solid #eceff1;
-
-  font-size: 0.77em;
-  line-height: 1.5;
-
-  color: #969b9f;
+  transform: translateY(-50%);
 }
 
 
@@ -218,118 +238,141 @@ redirect_from:
    UPCOMING TALKS
 ========================================================= */
 
-.upcoming-section {
-  margin-top: 28px;
+.upcoming-list {
+  display: flex;
+  flex-direction: column;
+
+  gap: 11px;
 }
 
-.upcoming-label {
-  margin-bottom: 12px;
 
-  font-size: 0.78em;
+/* Talk card */
+
+.upcoming-card {
+  display: grid;
+  grid-template-columns: 72px minmax(0, 1fr);
+
+  gap: 18px;
+
+  padding: 16px 18px;
+
+  background: #ffffff;
+
+  border: 1px solid var(--home-border);
+  border-radius: 8px;
+
+  transition:
+    border-color 0.18s ease,
+    box-shadow 0.18s ease;
+}
+
+.upcoming-card:hover {
+  border-color: #d5dfe7;
+
+  box-shadow:
+    0 4px 16px rgba(45, 60, 75, 0.04);
+}
+
+
+/* Date block */
+
+.upcoming-date {
+  padding-top: 3px;
+
+  text-align: center;
+}
+
+.upcoming-date-month {
+  font-size: 0.66em;
   font-weight: 600;
+
   letter-spacing: 0.08em;
+
+  color: var(--home-blue);
+
   text-transform: uppercase;
+}
 
-  color: #8a8f93;
+.upcoming-date-day {
+  margin-top: -1px;
+
+  font-size: 1.45em;
+  font-weight: 600;
+  line-height: 1.15;
+
+  color: #5b6670;
 }
 
 
-/* Card */
+/* Talk content */
 
-.upcoming-talk-card {
-  margin-bottom: 14px;
-  padding: 15px 18px;
-
-  background: linear-gradient(
-    90deg,
-    #f3f7fb 0%,
-    #ffffff 100%
-  );
-
-  border: 1px solid #d8e3ee;
-  border-left: 4px solid #52789d;
-  border-radius: 6px;
+.upcoming-content {
+  min-width: 0;
 }
-
-.upcoming-talk-card:last-child {
-  margin-bottom: 0;
-}
-
-
-/* Talk title */
 
 .upcoming-title {
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 
-  font-size: 1.02em;
+  font-size: 1em;
   font-weight: 600;
   line-height: 1.4;
 
-  color: #4f5458;
+  color: var(--home-text);
 }
-
-
-/* Conference + date/location */
 
 .upcoming-eventline {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
-  gap: 18px;
 
-  font-size: 0.84em;
+  gap: 15px;
+
+  font-size: 0.82em;
   line-height: 1.4;
 }
 
 .upcoming-conference {
   font-weight: 500;
-  color: #73787c;
+  color: #73797e;
 }
 
 .upcoming-details {
   flex-shrink: 0;
 
-  font-weight: 400;
-  color: #999ea2;
+  color: var(--home-muted);
 
   white-space: nowrap;
 }
 
 
-/* Session information */
+/* Sessions */
 
 .upcoming-sessions {
-  margin-top: 8px;
+  margin-top: 9px;
   padding-top: 7px;
 
-  border-top: 1px solid rgba(82, 120, 157, 0.12);
+  border-top: 1px solid #eef0f2;
 }
 
 .upcoming-session-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 18px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
 
-  margin-top: 3px;
+  gap: 14px;
 
-  font-size: 0.78em;
+  padding: 2px 0;
+
+  font-size: 0.76em;
   line-height: 1.4;
 }
 
-.upcoming-session-row:first-child {
-  margin-top: 0;
-}
-
 .upcoming-session {
-  font-weight: 400;
-  color: #7f858a;
+  color: #777d82;
 }
 
 .upcoming-session-meta {
-  flex-shrink: 0;
+  color: #969ca1;
 
-  color: #9ba0a4;
   white-space: nowrap;
 }
 
@@ -343,31 +386,31 @@ redirect_from:
   justify-content: space-between;
   align-items: center;
 
-  margin: 22px 0 7px 0;
+  margin: 28px 0 7px;
 }
 
 .past-talks-title {
-  font-size: 0.87em;
+  font-size: 0.86em;
   font-weight: 500;
 
-  color: #666b70;
+  color: #696f74;
 }
 
 .scroll-note {
-  font-size: 0.69em;
+  font-size: 0.68em;
   font-weight: 400;
 
-  color: #a1a5a9;
+  color: #a1a6aa;
 }
 
 
-/* Scroll box */
+/* Scroll container */
 
 .past-talks-list {
-  max-height: 205px;
+  max-height: 210px;
   overflow-y: auto;
 
-  padding-right: 8px;
+  padding-right: 7px;
 
   border-top: 1px solid #eceeef;
   border-bottom: 1px solid #eceeef;
@@ -377,16 +420,17 @@ redirect_from:
 }
 
 
-/* Each talk */
+/* Individual past talk */
 
 .past-talk-row {
   display: grid;
-  grid-template-columns: 76px 1fr;
-  gap: 15px;
+  grid-template-columns: 76px minmax(0, 1fr);
 
-  padding: 11px 3px;
+  gap: 16px;
 
-  border-bottom: 1px solid #f0f1f2;
+  padding: 10px 3px;
+
+  border-bottom: 1px solid var(--home-border-light);
 }
 
 .past-talk-row:last-child {
@@ -394,34 +438,38 @@ redirect_from:
 }
 
 .past-talk-date {
-  font-size: 0.79em;
-  font-weight: 400;
+  padding-top: 1px;
 
-  color: #969b9f;
+  font-size: 0.77em;
+
+  color: #999ea2;
+
   white-space: nowrap;
 }
 
 .past-talk-info {
-  font-size: 0.83em;
-  line-height: 1.45;
+  min-width: 0;
 
-  color: #666b70;
+  font-size: 0.81em;
+  line-height: 1.4;
+
+  color: #656b70;
 }
 
 .past-talk-name {
-  font-weight: 400;
-  color: #575c61;
+  color: #5c6267;
 }
 
 .past-talk-location {
-  margin-top: 2px;
+  margin-top: 1px;
 
-  font-size: 0.93em;
-  color: #999da1;
+  font-size: 0.91em;
+
+  color: #a0a4a8;
 }
 
 
-/* Scrollbar: Chrome / Safari */
+/* Scrollbar — Chrome / Safari */
 
 .past-talks-list::-webkit-scrollbar {
   width: 5px;
@@ -442,10 +490,11 @@ redirect_from:
 ========================================================= */
 
 .home-updated {
-  margin-top: 32px;
+  margin-top: 30px;
 
-  font-size: 0.72em;
-  color: #a3a7ab;
+  font-size: 0.7em;
+
+  color: #a6aaae;
 }
 
 
@@ -455,105 +504,106 @@ redirect_from:
 
 @media (max-width: 700px) {
 
-  /* =====================================================
-     GENERAL
-  ===================================================== */
+  /* Intro */
+
+  .home-hero {
+    margin-bottom: 30px;
+  }
+
+  .home-intro {
+    font-size: 0.94em;
+    line-height: 1.55;
+  }
+
+  .home-intro p {
+    margin-bottom: 15px;
+  }
+
+
+  /* Job market */
+
+  .job-market-strip {
+    margin: 21px 0 17px;
+    padding: 11px 13px;
+  }
+
+  .job-market-strip strong {
+    font-size: 0.96em;
+  }
+
+
+  /* Sections */
 
   .home-section {
-    margin: 28px 0;
+    margin: 31px 0;
   }
 
 
-  /* =====================================================
-     RESEARCH — KEEP TWO COLUMNS
-  ===================================================== */
+  /* Research */
 
   .research-box {
-    padding: 15px 12px;
-  }
-
-  /* Keep Topics + Methodologies side by side */
-  .research-columns {
     grid-template-columns:
       minmax(0, 1fr)
       minmax(0, 1fr);
 
-    gap: 12px;
-  }
-
-  .research-subheading {
-    margin-bottom: 8px;
-
-    font-size: 0.66em;
-  }
-
-  .research-columns .research-labels {
-    gap: 7px;
-  }
-
-  .research-columns .research-label {
-    max-width: 100%;
-    box-sizing: border-box;
-
-    padding: 6px 8px;
-
-    font-size: 0.73em;
-    line-height: 1.25;
-
-    white-space: normal;
-  }
-
-  .research-columns .research-label::before {
-    width: 4px;
-    height: 4px;
-
-    margin-right: 6px;
-  }
-
-
-
-  /* =====================================================
-     EDUCATION — KEEP YEAR ON SAME ROW
-  ===================================================== */
-
-  .education-box {
     padding: 14px 12px;
   }
 
-  .education-row {
-    display: grid;
-    grid-template-columns: minmax(0, 1fr) auto;
-    gap: 8px;
-    align-items: baseline;
+  .research-column:first-child {
+    padding-right: 10px;
   }
 
-  .education-main {
-    min-width: 0;
+  .research-column:last-child {
+    padding-left: 10px;
   }
 
-  .education-year {
-    margin-top: 0;
-
-    font-size: 0.90em;
-
-    white-space: nowrap;
+  .research-subheading {
+    font-size: 0.64em;
   }
 
+  .research-item {
+    padding: 6px 0 6px 10px;
 
-  /* =====================================================
-     UPCOMING TALKS
-  ===================================================== */
+    font-size: 0.73em;
+    line-height: 1.3;
+  }
 
-  .upcoming-talk-card {
-    padding: 13px 14px;
+  .research-item::before {
+    width: 3px;
+    height: 3px;
   }
 
 
-  /* Conference on first line;
-     date/location immediately underneath */
+  /* Upcoming talks */
+
+  .upcoming-card {
+    grid-template-columns: 52px minmax(0, 1fr);
+
+    gap: 11px;
+
+    padding: 13px 12px;
+  }
+
+  .upcoming-date-month {
+    font-size: 0.61em;
+  }
+
+  .upcoming-date-day {
+    font-size: 1.25em;
+  }
+
+  .upcoming-title {
+    font-size: 0.91em;
+    line-height: 1.35;
+  }
+
+
+  /* Conference then date/location */
 
   .upcoming-eventline {
     display: block;
+
+    font-size: 0.75em;
   }
 
   .upcoming-details {
@@ -561,66 +611,52 @@ redirect_from:
 
     margin-top: 2px;
 
-    font-size: 0.90em;
-
     white-space: nowrap;
   }
 
 
-  /* Session name */
+  /* Sessions */
 
   .upcoming-session-row {
     display: block;
 
-    margin-top: 7px;
-  }
+    padding: 3px 0;
 
-  .upcoming-session-row:first-child {
-    margin-top: 0;
+    font-size: 0.70em;
   }
 
   .upcoming-session {
     display: block;
   }
 
-
-  /* Keep TIME + VENUE together on one line */
-
+  /* Keep meeting time + venue together */
   .upcoming-session-meta {
     display: block;
 
     margin-top: 1px;
 
-    font-size: 0.88em;
-    line-height: 1.35;
+    font-size: 0.96em;
 
     white-space: nowrap;
   }
 
 
-  /* =====================================================
-     PAST TALKS
-  ===================================================== */
+  /* Past talks */
 
   .past-talk-row {
-    grid-template-columns: 67px minmax(0, 1fr);
-    gap: 10px;
+    grid-template-columns: 64px minmax(0, 1fr);
+
+    gap: 9px;
   }
-
-
-  /* Force visible scroll area */
 
   .past-talks-list {
     overflow-y: scroll;
 
-    padding-right: 7px;
+    padding-right: 6px;
 
     scrollbar-width: auto;
     scrollbar-color: #aeb4b9 #f1f3f4;
   }
-
-
-  /* More visible scrollbar — Chrome / Safari */
 
   .past-talks-list::-webkit-scrollbar {
     width: 7px;
@@ -637,22 +673,18 @@ redirect_from:
   }
 
 
-  /* Hide desktop "Scroll for more ↓" */
+  /* Mobile: tiny scroll cue */
 
   .scroll-note {
     display: none;
   }
-
-
-  /* Small mobile-only ↓ */
 
   .past-talks-heading::after {
     content: "↓";
 
     margin-left: auto;
 
-    font-size: 0.90em;
-    font-weight: 400;
+    font-size: 0.85em;
 
     color: #9ba0a4;
   }
@@ -662,96 +694,122 @@ redirect_from:
 </style>
 
 
-
-I am Xiaodan Shao, a Ph.D. candidate in Operations Management at Nanyang Business School, Nanyang Technological University, where I am fortunate to be advised by Prof. [Vivek Choudhary](https://sites.google.com/view/vkchoudhary) and Prof. [Anandasivam Gopal](https://dr.ntu.edu.sg/cris/rp/rp01345). 
-
-My empirical research is driven by a desire to improve how healthcare is delivered and operated. I study how people and organizations across the healthcare system respond to information and technology, and how data-driven interventions can make care safer, more accessible, and more effective.
-
-
 <!-- =========================================================
-     JOB MARKET
+     INTRO
 ========================================================= -->
 
-<div class="job-market-box">
-  <strong>I am on the 2026–2027 academic job market.</strong>
+<div class="home-hero">
+
+  <div class="home-intro">
+
+    <p>
+      I am Xiaodan Shao, a Ph.D. candidate in Operations Management at
+      Nanyang Business School, Nanyang Technological University, where I am
+      fortunate to be advised by Prof.
+      <a href="https://sites.google.com/view/vkchoudhary">Vivek Choudhary</a>
+      and Prof.
+      <a href="https://dr.ntu.edu.sg/cris/rp/rp01345">Anandasivam Gopal</a>.
+    </p>
+
+    <p>
+      My empirical research is driven by a desire to improve how healthcare
+      is delivered and operated. I study how people and organizations across
+      the healthcare system respond to information and technology, and how
+      data-driven interventions can make care safer, more accessible, and
+      more effective.
+    </p>
+
+  </div>
+
+
+  <!-- Job Market -->
+
+  <div class="job-market-strip">
+    <strong>
+      I am on the 2026–2027 academic job market.
+    </strong>
+  </div>
+
+
+  <!-- Collaboration -->
+
+  <div class="home-collab">
+    Some of the most rewarding research comes from working with practitioners
+    and policymakers to turn real-world challenges into useful insights.
+    If you’re facing a hard problem or exploring a new idea, feel free to
+    reach out.
+  </div>
+
+  <div class="home-contact">
+    <span>📧</span>
+    <span>Email:</span>
+    <a href="mailto:xiaodan001@e.ntu.edu.sg">
+      xiaodan001@e.ntu.edu.sg
+    </a>
+  </div>
+
 </div>
-
-Some of the most rewarding research comes from working with practitioners and policymakers to turn real-world challenges into useful insights. If you’re facing a hard problem or exploring a new idea, feel free to reach out.
-
-📧 Email: xiaodan001@e.ntu.edu.sg
 
 
 <!-- =========================================================
      RESEARCH
-     SEPARATE SECTION
 ========================================================= -->
 
 <div class="home-section">
 
-  <div class="home-section-label">
-    Research
+  <div class="home-section-heading">
+    <div class="home-section-label">
+      Research
+    </div>
+
+    <div class="home-section-line"></div>
   </div>
+
 
   <div class="research-box">
 
-    <div class="research-columns">
+    <div class="research-column">
 
-
-      <!-- TOPICS -->
-
-      <div>
-
-        <div class="research-subheading">
-          Topics
-        </div>
-
-        <div class="research-labels">
-
-          <span class="research-label">
-            Healthcare Operations
-          </span>
-
-          <span class="research-label">
-            Behavioral Operations
-          </span>
-
-          <span class="research-label">
-            AI &amp; Digital Health
-          </span>
-
-        </div>
-
+      <div class="research-subheading">
+        Topics
       </div>
 
+      <ul class="research-list">
+        <li class="research-item">
+          Healthcare Operations
+        </li>
 
-      <!-- METHODOLOGIES -->
+        <li class="research-item">
+          Behavioral Operations
+        </li>
 
-      <div>
+        <li class="research-item">
+          AI &amp; Digital Health
+        </li>
+      </ul>
 
-        <div class="research-subheading">
-          Methodologies
-        </div>
-
-        <div class="research-labels">
-
-          <span class="research-label">
-            Econometrics
-          </span>
-
-          <span class="research-label">
-            Field Experiments
-          </span>
-          
-          <span class="research-label">
-            Data Analytics
-          </span>
+    </div>
 
 
+    <div class="research-column">
 
-        </div>
-
+      <div class="research-subheading">
+        Methodologies
       </div>
 
+      <ul class="research-list">
+        <li class="research-item">
+          Econometrics
+        </li>
+
+        <li class="research-item">
+          Field Experiments
+        </li>
+
+        <li class="research-item">
+          Data Analytics
+        </li>
+      </ul>
 
     </div>
 
@@ -760,73 +818,136 @@ Some of the most rewarding research comes from working with practitioners and po
 </div>
 
 
+<!-- =========================================================
+     UPCOMING TALKS
+========================================================= -->
 
-<div class="upcoming-section">
+<div class="home-section">
 
-  <div class="upcoming-label">
-    Upcoming Talks
-  </div>
+  <div class="home-section-heading">
 
-
-  <div class="upcoming-talk-card">
-
-    <div class="upcoming-title">
-      Last-Mile Healthcare: A CARE Agenda for SDG 3
+    <div class="home-section-label">
+      Upcoming Talks
     </div>
 
-    <div class="upcoming-eventline">
-      <span class="upcoming-conference">
-        5th Symposium on Environmental and Social Sustainability
-      </span>
-      <span class="upcoming-details">
-        Oct 31 · UC Berkeley · TBA
-      </span>
-    </div>
+    <div class="home-section-line"></div>
 
   </div>
 
 
-  <div class="upcoming-talk-card">
+  <div class="upcoming-list">
 
-    <div class="upcoming-title">
-      Reducing Prescription Errors Through Information Intervention:
-      A Field Experiment in Healthcare Operations
-    </div>
 
-    <div class="upcoming-eventline">
-      <span class="upcoming-conference">
-        INFORMS Annual Meeting 2026
-      </span>
-      <span class="upcoming-details">
-        Nov 2 · San Francisco
-      </span>
-    </div>
+    <!-- Oct 31 -->
 
-    <div class="upcoming-sessions">
+    <div class="upcoming-card">
 
-      <div class="upcoming-session-row">
-        <span class="upcoming-session">
-          Service Science Best Student Paper Award
-        </span>
-        <span class="upcoming-session-meta">
-          2:45–4:00 PM · Moscone South-20 (Hall E/Exhibit Level)
-        </span>
+      <div class="upcoming-date">
+        <div class="upcoming-date-month">
+          Oct
+        </div>
+
+        <div class="upcoming-date-day">
+          31
+        </div>
       </div>
 
-      <div class="upcoming-session-row">
-        <span class="upcoming-session">
-          Causal Evidence and Precision Healthcare
-        </span>
-        <span class="upcoming-session-meta">
-          4:15–5:30 PM · Moscone South-204 (Level 2)
-        </span>
+
+      <div class="upcoming-content">
+
+        <div class="upcoming-title">
+          Last-Mile Healthcare: A CARE Agenda for SDG 3
+        </div>
+
+        <div class="upcoming-eventline">
+
+          <span class="upcoming-conference">
+            5th Symposium on Environmental and Social Sustainability
+          </span>
+
+          <span class="upcoming-details">
+            UC Berkeley · TBA
+          </span>
+
+        </div>
+
       </div>
 
     </div>
 
-  </div>
 
-</div>
+    <!-- Nov 2 -->
+
+    <div class="upcoming-card">
+
+      <div class="upcoming-date">
+
+        <div class="upcoming-date-month">
+          Nov
+        </div>
+
+        <div class="upcoming-date-day">
+          2
+        </div>
+
+      </div>
+
+
+      <div class="upcoming-content">
+
+        <div class="upcoming-title">
+          Reducing Prescription Errors Through Information Intervention:
+          A Field Experiment in Healthcare Operations
+        </div>
+
+
+        <div class="upcoming-eventline">
+
+          <span class="upcoming-conference">
+            INFORMS Annual Meeting 2026
+          </span>
+
+          <span class="upcoming-details">
+            San Francisco
+          </span>
+
+        </div>
+
+
+        <div class="upcoming-sessions">
+
+          <div class="upcoming-session-row">
+
+            <span class="upcoming-session">
+              Service Science Best Student Paper Award
+            </span>
+
+            <span class="upcoming-session-meta">
+              2:45–4:00 PM · Moscone South-20 (Hall E/Exhibit Level)
+            </span>
+
+          </div>
+
+
+          <div class="upcoming-session-row">
+
+            <span class="upcoming-session">
+              Causal Evidence and Precision Healthcare
+            </span>
+
+            <span class="upcoming-session-meta">
+              4:15–5:30 PM · Moscone South-204 (Level 2)
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
 
 
   <!-- =======================================================
@@ -1079,57 +1200,23 @@ Some of the most rewarding research comes from working with practitioners and po
 
     </div>
 
-
   </div>
 
+</div>
 
 
+<!-- =========================================================
+     LAST UPDATED
+========================================================= -->
 
 <div class="home-updated">
   Last updated: Aug 2026
 </div>
 
 
-{% comment %} 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+{% comment %}
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
-
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
-
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-I have also created [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual markdown files that will be properly formatted for the academicpages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a markdown file for a talk
-![Editing a markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+This is the front page of a website that is powered by the academicpages
+template and hosted on GitHub Pages.
 
 {% endcomment %}
