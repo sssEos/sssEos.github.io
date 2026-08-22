@@ -17,13 +17,12 @@ redirect_from:
 :root {
   --accent: #52789d;
   --accent-dark: #456987;
-  --accent-soft: #f6f9fc;
 
   --text-main: #4f555a;
   --text-secondary: #6f767c;
   --text-muted: #969da3;
 
-  --border: #e2e7eb;
+  --border: #dfe5ea;
   --border-soft: #edf0f2;
 }
 
@@ -41,7 +40,7 @@ redirect_from:
   align-items: center;
   gap: 12px;
 
-  margin-bottom: 13px;
+  margin-bottom: 14px;
 }
 
 .home-section-label {
@@ -84,22 +83,29 @@ redirect_from:
 
 /* =========================================================
    JOB MARKET
-   TEXT EMPHASIS ONLY
+   TEXT-ONLY HIGHLIGHT
 ========================================================= */
 
 .job-market {
-  margin: 25px 0 22px;
+  position: relative;
+
+  margin: 26px 0 23px;
+  padding-left: 15px;
 }
 
-.job-market-label {
-  margin-bottom: 4px;
+.job-market::before {
+  content: "";
 
-  font-size: 0.66em;
-  font-weight: 650;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
+  position: absolute;
 
-  color: #9aa0a5;
+  left: 0;
+  top: 3px;
+  bottom: 3px;
+
+  width: 3px;
+
+  background: var(--accent);
+  border-radius: 4px;
 }
 
 .job-market-text {
@@ -143,81 +149,96 @@ redirect_from:
 
 /* =========================================================
    RESEARCH
-   OPEN / NO OUTER BOX
 ========================================================= */
 
 .research-layout {
   display: grid;
   grid-template-columns: 1fr 1fr;
 
-  gap: 46px;
+  gap: 55px;
 
-  padding: 4px 0 2px;
+  padding-top: 1px;
 }
 
 
-/* Research column */
-
-.research-group {
-  min-width: 0;
-}
+/* Topics / Methodologies */
 
 .research-group-heading {
-  margin-bottom: 6px;
+  margin-bottom: 13px;
 
-  font-size: 0.68em;
+  font-size: 0.78em;
   font-weight: 650;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
 
-  color: #8a9196;
+  color: #34383c;
 }
 
 
-/* Research items */
+/* Labels */
 
-.research-list {
-  margin: 0;
-  padding: 0;
+.research-tags {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 
-  list-style: none;
+  gap: 9px;
 }
 
-.research-item {
-  position: relative;
+.research-tag {
+  display: inline-flex;
+  align-items: center;
 
-  padding: 8px 0 8px 15px;
+  width: fit-content;
+  max-width: 100%;
+  box-sizing: border-box;
 
-  font-size: 0.85em;
+  padding: 7px 13px;
+
+  font-size: 0.84em;
   font-weight: 400;
-  line-height: 1.35;
+  line-height: 1.25;
 
-  color: #60676d;
+  color: #454b50;
+
+  background: #f6f7f8;
+
+  border: 1px solid #e0e3e6;
+  border-radius: 20px;
+
+  white-space: nowrap;
+
+  transition:
+    background 0.16s ease,
+    border-color 0.16s ease,
+    transform 0.16s ease;
 }
 
-.research-item + .research-item {
-  border-top: 1px solid #eef0f2;
-}
 
+/* Blue dot */
 
-/* Small accent mark */
-
-.research-item::before {
+.research-tag::before {
   content: "";
-
-  position: absolute;
-
-  left: 0;
-  top: 50%;
 
   width: 5px;
   height: 5px;
 
+  margin-right: 8px;
+
+  flex-shrink: 0;
+
+  background: #3b82f6;
   border-radius: 50%;
+}
 
-  background: #8ca9c1;
 
-  transform: translateY(-50%);
+/* Very subtle hover */
+
+.research-tag:hover {
+  background: #f2f5f8;
+  border-color: #d3dae0;
+
+  transform: translateY(-1px);
 }
 
 
@@ -229,45 +250,47 @@ redirect_from:
   display: flex;
   flex-direction: column;
 
-  gap: 11px;
+  gap: 14px;
 }
 
 
-/* Talk card */
+/* Pale blue card + blue vertical line */
 
 .upcoming-card {
   display: grid;
-  grid-template-columns: 68px minmax(0, 1fr);
+  grid-template-columns: 66px minmax(0, 1fr);
 
   gap: 17px;
 
   padding: 17px 19px;
 
   background: linear-gradient(
-    115deg,
-    #f6f9fc 0%,
-    #fbfcfd 100%
+    90deg,
+    #f3f7fb 0%,
+    #ffffff 100%
   );
 
-  border: 1px solid #e1e9ef;
-  border-radius: 10px;
+  border: 1px solid #d8e3ee;
+  border-left: 4px solid #52789d;
+  border-radius: 7px;
 
   box-shadow:
-    0 4px 14px rgba(55, 75, 95, 0.025);
+    0 4px 14px rgba(55, 75, 95, 0.02);
 
   transition:
-    transform 0.17s ease,
-    border-color 0.17s ease,
-    box-shadow 0.17s ease;
+    border-color 0.18s ease,
+    box-shadow 0.18s ease,
+    transform 0.18s ease;
 }
 
 .upcoming-card:hover {
   transform: translateY(-1px);
 
-  border-color: #d3e0ea;
+  border-color: #c8d8e6;
+  border-left-color: #52789d;
 
   box-shadow:
-    0 6px 18px rgba(55, 75, 95, 0.045);
+    0 5px 16px rgba(55, 75, 95, 0.045);
 }
 
 
@@ -282,10 +305,11 @@ redirect_from:
 .upcoming-date-month {
   font-size: 0.63em;
   font-weight: 650;
+
   letter-spacing: 0.09em;
   text-transform: uppercase;
 
-  color: var(--accent);
+  color: #52789d;
 }
 
 .upcoming-date-day {
@@ -295,7 +319,7 @@ redirect_from:
   font-weight: 600;
   line-height: 1.05;
 
-  color: #5d6973;
+  color: #586873;
 }
 
 
@@ -312,8 +336,11 @@ redirect_from:
   font-weight: 600;
   line-height: 1.38;
 
-  color: var(--text-main);
+  color: #4f555a;
 }
+
+
+/* Conference + location */
 
 .upcoming-eventline {
   display: flex;
@@ -329,25 +356,25 @@ redirect_from:
 .upcoming-conference {
   font-weight: 500;
 
-  color: var(--text-secondary);
+  color: #6e767c;
 }
 
 .upcoming-details {
   flex-shrink: 0;
 
-  color: var(--text-muted);
+  color: #92999f;
 
   white-space: nowrap;
 }
 
 
-/* Session information */
+/* Sessions */
 
 .upcoming-sessions {
   margin-top: 9px;
   padding-top: 7px;
 
-  border-top: 1px solid rgba(82, 120, 157, 0.12);
+  border-top: 1px solid rgba(82, 120, 157, 0.14);
 }
 
 .upcoming-session-row {
@@ -367,7 +394,7 @@ redirect_from:
 }
 
 .upcoming-session-meta {
-  color: #969da2;
+  color: #969ca1;
 
   white-space: nowrap;
 }
@@ -416,7 +443,7 @@ redirect_from:
 }
 
 
-/* Each past talk */
+/* Each talk */
 
 .past-talk-row {
   display: grid;
@@ -465,7 +492,7 @@ redirect_from:
 }
 
 
-/* Scrollbar */
+/* Scrollbar — Chrome / Safari */
 
 .past-talks-list::-webkit-scrollbar {
   width: 5px;
@@ -477,6 +504,7 @@ redirect_from:
 
 .past-talks-list::-webkit-scrollbar-thumb {
   background: #c4c9cd;
+
   border-radius: 10px;
 }
 
@@ -500,14 +528,22 @@ redirect_from:
 
 @media (max-width: 700px) {
 
-  /* General */
+  /* =====================================================
+     GENERAL
+  ===================================================== */
 
   .home-section {
     margin: 31px 0;
   }
 
+  .home-section-heading {
+    margin-bottom: 12px;
+  }
 
-  /* Introduction */
+
+  /* =====================================================
+     INTRODUCTION
+  ===================================================== */
 
   .home-intro {
     font-size: 0.94em;
@@ -518,66 +554,87 @@ redirect_from:
   }
 
 
-  /* Job market */
+  /* =====================================================
+     JOB MARKET
+  ===================================================== */
 
   .job-market {
     margin: 21px 0 19px;
+
+    padding-left: 12px;
   }
 
-  .job-market-label {
-    font-size: 0.60em;
+  .job-market::before {
+    width: 2px;
   }
 
   .job-market-text {
-    font-size: 0.96em;
+    font-size: 0.97em;
   }
 
 
-  /* Research */
+  /* =====================================================
+     RESEARCH
+  ===================================================== */
 
   .research-layout {
     grid-template-columns:
       minmax(0, 1fr)
       minmax(0, 1fr);
 
-    gap: 18px;
+    gap: 12px;
   }
 
   .research-group-heading {
-    font-size: 0.61em;
+    margin-bottom: 9px;
+
+    font-size: 0.66em;
   }
 
-  .research-item {
-    padding: 7px 0 7px 11px;
-
-    font-size: 0.72em;
-    line-height: 1.3;
+  .research-tags {
+    gap: 7px;
   }
 
-  .research-item::before {
+  .research-tag {
+    max-width: 100%;
+    box-sizing: border-box;
+
+    padding: 6px 8px;
+
+    font-size: 0.70em;
+    line-height: 1.25;
+
+    white-space: normal;
+  }
+
+  .research-tag::before {
     width: 4px;
     height: 4px;
+
+    margin-right: 6px;
   }
 
 
-  /* Upcoming talks */
+  /* =====================================================
+     UPCOMING TALKS
+  ===================================================== */
 
   .upcoming-card {
-    grid-template-columns: 50px minmax(0, 1fr);
+    grid-template-columns: 48px minmax(0, 1fr);
 
-    gap: 11px;
+    gap: 10px;
 
-    padding: 14px 12px;
+    padding: 13px 11px;
 
-    border-radius: 9px;
+    border-left-width: 3px;
   }
 
   .upcoming-date-month {
-    font-size: 0.58em;
+    font-size: 0.57em;
   }
 
   .upcoming-date-day {
-    font-size: 1.20em;
+    font-size: 1.18em;
   }
 
   .upcoming-title {
@@ -590,7 +647,7 @@ redirect_from:
   .upcoming-eventline {
     display: block;
 
-    font-size: 0.73em;
+    font-size: 0.72em;
   }
 
   .upcoming-details {
@@ -609,14 +666,14 @@ redirect_from:
 
     padding: 3px 0;
 
-    font-size: 0.68em;
+    font-size: 0.67em;
   }
 
   .upcoming-session {
     display: block;
   }
 
-  /* Keep time + full location together */
+  /* Keep time + full venue together */
   .upcoming-session-meta {
     display: block;
 
@@ -626,7 +683,9 @@ redirect_from:
   }
 
 
-  /* Past talks */
+  /* =====================================================
+     PAST TALKS
+  ===================================================== */
 
   .past-talk-row {
     grid-template-columns: 64px minmax(0, 1fr);
@@ -649,16 +708,18 @@ redirect_from:
 
   .past-talks-list::-webkit-scrollbar-track {
     background: #f1f3f4;
+
     border-radius: 10px;
   }
 
   .past-talks-list::-webkit-scrollbar-thumb {
     background: #aeb4b9;
+
     border-radius: 10px;
   }
 
 
-  /* Mobile scroll cue */
+  /* Mobile-only scroll cue */
 
   .scroll-note {
     display: none;
@@ -715,10 +776,6 @@ redirect_from:
 
 <div class="job-market">
 
-  <div class="job-market-label">
-    Job Market
-  </div>
-
   <div class="job-market-text">
     I am on the 2026–2027 academic job market.
   </div>
@@ -739,11 +796,14 @@ redirect_from:
 
 </div>
 
+
 <div class="home-contact">
+
   📧 Email:
   <a href="mailto:xiaodan001@e.ntu.edu.sg">
     xiaodan001@e.ntu.edu.sg
   </a>
+
 </div>
 
 
@@ -775,21 +835,21 @@ redirect_from:
         Topics
       </div>
 
-      <ul class="research-list">
+      <div class="research-tags">
 
-        <li class="research-item">
+        <span class="research-tag">
           Healthcare Operations
-        </li>
+        </span>
 
-        <li class="research-item">
+        <span class="research-tag">
           Behavioral Operations
-        </li>
+        </span>
 
-        <li class="research-item">
+        <span class="research-tag">
           AI &amp; Digital Health
-        </li>
+        </span>
 
-      </ul>
+      </div>
 
     </div>
 
@@ -802,23 +862,24 @@ redirect_from:
         Methodologies
       </div>
 
-      <ul class="research-list">
+      <div class="research-tags">
 
-        <li class="research-item">
+        <span class="research-tag">
           Econometrics
-        </li>
+        </span>
 
-        <li class="research-item">
+        <span class="research-tag">
           Field Experiments
-        </li>
+        </span>
 
-        <li class="research-item">
+        <span class="research-tag">
           Data Analytics
-        </li>
+        </span>
 
-      </ul>
+      </div>
 
     </div>
+
 
   </div>
 
@@ -845,7 +906,9 @@ redirect_from:
   <div class="upcoming-list">
 
 
-    <!-- OCTOBER 31 -->
+    <!-- =====================================================
+         OCTOBER 31
+    ====================================================== -->
 
     <div class="upcoming-card">
 
@@ -886,7 +949,9 @@ redirect_from:
     </div>
 
 
-    <!-- NOVEMBER 2 -->
+    <!-- =====================================================
+         NOVEMBER 2
+    ====================================================== -->
 
     <div class="upcoming-card">
 
