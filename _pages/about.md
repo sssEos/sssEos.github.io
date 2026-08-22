@@ -139,22 +139,30 @@ redirect_from:
 }
 
 
-/* Research tags */
+/* =========================================================
+   RESEARCH BUBBLES
+========================================================= */
 
 .research-tags {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
 
   gap: 9px;
+
+  /* Same width for all bubbles */
+  width: 220px;
+  max-width: 100%;
 }
 
+
+/* Individual bubble */
+
 .research-tag {
-  display: inline-flex;
+  display: flex;
   align-items: center;
 
-  width: fit-content;
-  max-width: 100%;
+  /* Every label has identical width */
+  width: 100%;
   box-sizing: border-box;
 
   padding: 7px 13px;
@@ -244,7 +252,7 @@ redirect_from:
 }
 
 
-/* Blue-tinted card + blue vertical line */
+/* Pale blue card + blue vertical line */
 
 .upcoming-card {
   display: grid;
@@ -518,7 +526,9 @@ redirect_from:
 
 @media (max-width: 700px) {
 
-  /* General */
+  /* =====================================================
+     GENERAL
+  ===================================================== */
 
   .home-section {
     margin: 31px 0;
@@ -529,7 +539,9 @@ redirect_from:
   }
 
 
-  /* Introduction */
+  /* =====================================================
+     INTRODUCTION
+  ===================================================== */
 
   .home-intro {
     font-size: 0.94em;
@@ -540,7 +552,9 @@ redirect_from:
   }
 
 
-  /* Job market */
+  /* =====================================================
+     JOB MARKET
+  ===================================================== */
 
   .job-market {
     margin: 21px 0 19px;
@@ -551,7 +565,9 @@ redirect_from:
   }
 
 
-  /* Research */
+  /* =====================================================
+     RESEARCH
+  ===================================================== */
 
   .research-layout {
     grid-template-columns:
@@ -561,19 +577,28 @@ redirect_from:
     gap: 12px;
   }
 
+  .research-group {
+    min-width: 0;
+  }
+
   .research-group-heading {
     margin-bottom: 9px;
 
     font-size: 0.64em;
   }
 
+
+  /* Use full column width so all bubbles remain equal */
+
   .research-tags {
+    width: 100%;
+
     gap: 7px;
   }
 
   .research-tag {
+    width: 100%;
     max-width: 100%;
-    box-sizing: border-box;
 
     padding: 6px 8px;
 
@@ -593,7 +618,9 @@ redirect_from:
   }
 
 
-  /* Upcoming Talks */
+  /* =====================================================
+     UPCOMING TALKS
+  ===================================================== */
 
   .upcoming-card {
     grid-template-columns: 48px minmax(0, 1fr);
@@ -658,7 +685,9 @@ redirect_from:
   }
 
 
-  /* Past Talks */
+  /* =====================================================
+     PAST TALKS
+  ===================================================== */
 
   .past-talk-row {
     grid-template-columns: 64px minmax(0, 1fr);
@@ -769,6 +798,7 @@ redirect_from:
 
 </div>
 
+
 <div class="home-contact">
 
   📧 Email:
@@ -786,14 +816,18 @@ redirect_from:
 <div class="home-section">
 
   <div class="home-section-heading">
+
     <div class="home-section-label">
       Research
     </div>
+
   </div>
 
 
   <div class="research-layout">
 
+
+    <!-- Topics -->
 
     <div class="research-group">
 
@@ -820,6 +854,8 @@ redirect_from:
     </div>
 
 
+    <!-- Methodologies -->
+
     <div class="research-group">
 
       <div class="research-group-heading">
@@ -844,6 +880,7 @@ redirect_from:
 
     </div>
 
+
   </div>
 
 </div>
@@ -856,9 +893,11 @@ redirect_from:
 <div class="home-section">
 
   <div class="home-section-heading">
+
     <div class="home-section-label">
       Upcoming Talks
     </div>
+
   </div>
 
 
@@ -888,14 +927,15 @@ redirect_from:
           Last-Mile Healthcare: A CARE Agenda for SDG 3
         </div>
 
+
         <div class="upcoming-eventline">
 
           <span class="upcoming-conference">
-            5th Symposium on Environmental and Social Sustainability in Supply Chains
+            5th Symposium on Environmental and Social Sustainability
           </span>
 
           <span class="upcoming-details">
-            UC Berkeley Campus · Time &amp; Room TBA
+            UC Berkeley Campus · Time &amp; Venue TBA
           </span>
 
         </div>
@@ -928,6 +968,7 @@ redirect_from:
           Reducing Prescription Errors Through Information Intervention:
           A Field Experiment in Healthcare Operations
         </div>
+
 
         <div class="upcoming-eventline">
 
@@ -1002,6 +1043,7 @@ redirect_from:
       <div class="past-talk-date">Jan 2026</div>
 
       <div class="past-talk-info">
+
         <div class="past-talk-name">
           3rd Workshop on Empirical Operations Management (WEOM)
         </div>
@@ -1009,6 +1051,7 @@ redirect_from:
         <div class="past-talk-location">
           Singapore
         </div>
+
       </div>
     </div>
 
@@ -1017,6 +1060,7 @@ redirect_from:
       <div class="past-talk-date">Oct 2025</div>
 
       <div class="past-talk-info">
+
         <div class="past-talk-name">
           INFORMS Annual Meeting
         </div>
@@ -1024,6 +1068,7 @@ redirect_from:
         <div class="past-talk-location">
           Atlanta, USA
         </div>
+
       </div>
     </div>
 
@@ -1032,6 +1077,7 @@ redirect_from:
       <div class="past-talk-date">Sep 2025</div>
 
       <div class="past-talk-info">
+
         <div class="past-talk-name">
           Analytics for X Conference
         </div>
@@ -1039,6 +1085,7 @@ redirect_from:
         <div class="past-talk-location">
           Singapore
         </div>
+
       </div>
     </div>
 
@@ -1047,6 +1094,7 @@ redirect_from:
       <div class="past-talk-date">Jul 2025</div>
 
       <div class="past-talk-info">
+
         <div class="past-talk-name">
           INFORMS International Meeting
         </div>
@@ -1054,6 +1102,7 @@ redirect_from:
         <div class="past-talk-location">
           Singapore
         </div>
+
       </div>
     </div>
 
@@ -1062,6 +1111,7 @@ redirect_from:
       <div class="past-talk-date">Oct 2024</div>
 
       <div class="past-talk-info">
+
         <div class="past-talk-name">
           CBS-NBS Research Day on Emerging Technology, Risks, and Markets
         </div>
@@ -1069,6 +1119,7 @@ redirect_from:
         <div class="past-talk-location">
           Bangkok, Thailand
         </div>
+
       </div>
     </div>
 
@@ -1077,6 +1128,7 @@ redirect_from:
       <div class="past-talk-date">May 2024</div>
 
       <div class="past-talk-info">
+
         <div class="past-talk-name">
           Singapore Rising Scholars Conference
         </div>
@@ -1084,6 +1136,7 @@ redirect_from:
         <div class="past-talk-location">
           Singapore
         </div>
+
       </div>
     </div>
 
@@ -1092,6 +1145,7 @@ redirect_from:
       <div class="past-talk-date">May 2024</div>
 
       <div class="past-talk-info">
+
         <div class="past-talk-name">
           Conference on Health IT and Analytics (CHITA)
         </div>
@@ -1099,6 +1153,7 @@ redirect_from:
         <div class="past-talk-location">
           Washington, D.C., USA
         </div>
+
       </div>
     </div>
 
@@ -1107,6 +1162,7 @@ redirect_from:
       <div class="past-talk-date">Apr 2024</div>
 
       <div class="past-talk-info">
+
         <div class="past-talk-name">
           Production and Operations Management Society (POMS) Annual Conference
         </div>
@@ -1114,6 +1170,7 @@ redirect_from:
         <div class="past-talk-location">
           Minneapolis, USA
         </div>
+
       </div>
     </div>
 
@@ -1122,6 +1179,7 @@ redirect_from:
       <div class="past-talk-date">Apr 2024</div>
 
       <div class="past-talk-info">
+
         <div class="past-talk-name">
           Asian Management Research Consortium
         </div>
@@ -1129,6 +1187,7 @@ redirect_from:
         <div class="past-talk-location">
           Singapore
         </div>
+
       </div>
     </div>
 
@@ -1137,6 +1196,7 @@ redirect_from:
       <div class="past-talk-date">May 2023</div>
 
       <div class="past-talk-info">
+
         <div class="past-talk-name">
           Singapore Rising Scholars Conference
         </div>
@@ -1144,6 +1204,7 @@ redirect_from:
         <div class="past-talk-location">
           Singapore
         </div>
+
       </div>
     </div>
 
@@ -1152,6 +1213,7 @@ redirect_from:
       <div class="past-talk-date">Jan 2023</div>
 
       <div class="past-talk-info">
+
         <div class="past-talk-name">
           POMS-HK International Conference
         </div>
@@ -1159,6 +1221,7 @@ redirect_from:
         <div class="past-talk-location">
           Hong Kong, China
         </div>
+
       </div>
     </div>
 
