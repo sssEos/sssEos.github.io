@@ -36,33 +36,16 @@ redirect_from:
 }
 
 .home-section-heading {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-
   margin-bottom: 14px;
 }
 
 .home-section-label {
-  flex-shrink: 0;
-
   font-size: 0.73em;
   font-weight: 600;
   letter-spacing: 0.09em;
   text-transform: uppercase;
 
   color: #7f878d;
-}
-
-.home-section-line {
-  width: 100%;
-  height: 1px;
-
-  background: linear-gradient(
-    90deg,
-    #dfe5ea,
-    transparent
-  );
 }
 
 
@@ -145,12 +128,7 @@ redirect_from:
 /* Group headings */
 
 .research-group-heading {
-  position: relative;
-
-  display: inline-block;
-
-  margin-bottom: 14px;
-  padding-bottom: 5px;
+  margin-bottom: 13px;
 
   font-size: 0.76em;
   font-weight: 600;
@@ -161,25 +139,7 @@ redirect_from:
 }
 
 
-/* Small underline accent */
-
-.research-group-heading::after {
-  content: "";
-
-  position: absolute;
-
-  left: 0;
-  bottom: 0;
-
-  width: 24px;
-  height: 2px;
-
-  background: #6f93b3;
-  border-radius: 2px;
-}
-
-
-/* Tags */
+/* Research tags */
 
 .research-tags {
   display: flex;
@@ -284,7 +244,7 @@ redirect_from:
 }
 
 
-/* Pale blue card + blue vertical line */
+/* Blue-tinted card + blue vertical line */
 
 .upcoming-card {
   display: grid;
@@ -565,7 +525,7 @@ redirect_from:
   }
 
   .home-section-heading {
-    margin-bottom: 12px;
+    margin-bottom: 11px;
   }
 
 
@@ -602,15 +562,9 @@ redirect_from:
   }
 
   .research-group-heading {
-    margin-bottom: 10px;
-    padding-bottom: 4px;
+    margin-bottom: 9px;
 
     font-size: 0.64em;
-  }
-
-  .research-group-heading::after {
-    width: 18px;
-    height: 2px;
   }
 
   .research-tags {
@@ -832,13 +786,9 @@ redirect_from:
 <div class="home-section">
 
   <div class="home-section-heading">
-
     <div class="home-section-label">
       Research
     </div>
-
-    <div class="home-section-line"></div>
-
   </div>
 
 
@@ -906,13 +856,9 @@ redirect_from:
 <div class="home-section">
 
   <div class="home-section-heading">
-
     <div class="home-section-label">
       Upcoming Talks
     </div>
-
-    <div class="home-section-line"></div>
-
   </div>
 
 
@@ -945,11 +891,11 @@ redirect_from:
         <div class="upcoming-eventline">
 
           <span class="upcoming-conference">
-            5th Symposium on Environmental and Social Sustainability in Supply Chains
+            5th Symposium on Environmental and Social Sustainability
           </span>
 
           <span class="upcoming-details">
-            UC Berkeley Campus · Time &amp; Room TBA
+            UC Berkeley Campus · Time &amp; Venue TBA
           </span>
 
         </div>
@@ -1053,9 +999,7 @@ redirect_from:
 
 
     <div class="past-talk-row">
-      <div class="past-talk-date">
-        Jan 2026
-      </div>
+      <div class="past-talk-date">Jan 2026</div>
 
       <div class="past-talk-info">
         <div class="past-talk-name">
@@ -1070,9 +1014,7 @@ redirect_from:
 
 
     <div class="past-talk-row">
-      <div class="past-talk-date">
-        Oct 2025
-      </div>
+      <div class="past-talk-date">Oct 2025</div>
 
       <div class="past-talk-info">
         <div class="past-talk-name">
@@ -1087,9 +1029,7 @@ redirect_from:
 
 
     <div class="past-talk-row">
-      <div class="past-talk-date">
-        Sep 2025
-      </div>
+      <div class="past-talk-date">Sep 2025</div>
 
       <div class="past-talk-info">
         <div class="past-talk-name">
@@ -1104,9 +1044,7 @@ redirect_from:
 
 
     <div class="past-talk-row">
-      <div class="past-talk-date">
-        Jul 2025
-      </div>
+      <div class="past-talk-date">Jul 2025</div>
 
       <div class="past-talk-info">
         <div class="past-talk-name">
@@ -1121,9 +1059,7 @@ redirect_from:
 
 
     <div class="past-talk-row">
-      <div class="past-talk-date">
-        Oct 2024
-      </div>
+      <div class="past-talk-date">Oct 2024</div>
 
       <div class="past-talk-info">
         <div class="past-talk-name">
@@ -1138,9 +1074,7 @@ redirect_from:
 
 
     <div class="past-talk-row">
-      <div class="past-talk-date">
-        May 2024
-      </div>
+      <div class="past-talk-date">May 2024</div>
 
       <div class="past-talk-info">
         <div class="past-talk-name">
@@ -1155,9 +1089,7 @@ redirect_from:
 
 
     <div class="past-talk-row">
-      <div class="past-talk-date">
-        May 2024
-      </div>
+      <div class="past-talk-date">May 2024</div>
 
       <div class="past-talk-info">
         <div class="past-talk-name">
@@ -1172,9 +1104,7 @@ redirect_from:
 
 
     <div class="past-talk-row">
-      <div class="past-talk-date">
-        Apr 2024
-      </div>
+      <div class="past-talk-date">Apr 2024</div>
 
       <div class="past-talk-info">
         <div class="past-talk-name">
@@ -1189,9 +1119,7 @@ redirect_from:
 
 
     <div class="past-talk-row">
-      <div class="past-talk-date">
-        Apr 2024
-      </div>
+      <div class="past-talk-date">Apr 2024</div>
 
       <div class="past-talk-info">
         <div class="past-talk-name">
@@ -1206,9 +1134,7 @@ redirect_from:
 
 
     <div class="past-talk-row">
-      <div class="past-talk-date">
-        May 2023
-      </div>
+      <div class="past-talk-date">May 2023</div>
 
       <div class="past-talk-info">
         <div class="past-talk-name">
@@ -1223,9 +1149,7 @@ redirect_from:
 
 
     <div class="past-talk-row">
-      <div class="past-talk-date">
-        Jan 2023
-      </div>
+      <div class="past-talk-date">Jan 2023</div>
 
       <div class="past-talk-info">
         <div class="past-talk-name">
