@@ -150,7 +150,7 @@ redirect_from:
   gap: 9px;
 
   /* Same width for all bubbles */
-  width: 220px;
+  width: 190px;
   max-width: 100%;
 }
 
@@ -935,7 +935,7 @@ redirect_from:
           </span>
 
           <span class="upcoming-details">
-            UC Berkeley Campus · Time &amp; Venue TBA
+            UC Berkeley · Time &amp; Venue TBA
           </span>
 
         </div>
