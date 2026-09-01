@@ -292,6 +292,17 @@ author_profile: true
 
   <ul class="paper-awards">
 
+  <li>
+      Finalist, Best Working Paper Award,
+      INFORMS Behavioral Operations Management 2026 (Winner TBA)
+    </li>
+
+  <li>
+      Finalist, Best Student Paper Award,
+      INFORMS Service Science 2026 (Winner TBA)
+    </li>
+    
+
     <li>
       Winner, Best Student Paper Award (Practice Track),
       Operational Research Society of Singapore (ORSS),
@@ -304,10 +315,6 @@ author_profile: true
       Conference 2024
     </li>
 
-    <li>
-      Finalist, Best Student Paper Award,
-      INFORMS Service Science 2026
-    </li>
 
     <li>
       Finalist, Junior Scholar Paper Competition,
