@@ -293,7 +293,7 @@ author_profile: true
   <ul class="paper-awards">
 
   <li>
-      Finalist, Best Working Paper Award,
+      Finalist, Best Working Paper Competition,
       INFORMS Behavioral Operations Management 2026 (Winner TBA)
     </li>
 
