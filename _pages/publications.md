@@ -293,13 +293,13 @@ author_profile: true
   <ul class="paper-awards">
 
   <li>
-      Finalist, Best Working Paper Competition,
-      INFORMS Behavioral Operations Management 2026 (Winner TBA)
+      Finalist (Winner TBA), Best Working Paper Competition,
+      INFORMS Behavioral Operations Management 2026 
     </li>
 
   <li>
-      Finalist, Best Student Paper Award,
-      INFORMS Service Science 2026 (Winner TBA)
+      Finalist (Winner TBA), Best Student Paper Award,
+      INFORMS Service Science 2026 
     </li>
     
 
@@ -420,8 +420,7 @@ author_profile: true
 <div class="paper-card">
 
   <h2 class="paper-title">
-    Should I Change My Physician’s Gender?
-    On the Role of Ambiguity in Patient-Physician Gender Concordance
+    The Role of Ambiguity in Patient-Physician Gender Concordance
   </h2>
 
   <p class="paper-authors">
