@@ -883,7 +883,7 @@ redirect_from:
         </span>
 
         <span class="research-tag">
-          Data Analytics
+          Machine Learning &amp; Data Analytics
         </span>
 
       </div>
