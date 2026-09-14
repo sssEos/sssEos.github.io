@@ -706,66 +706,133 @@ redirect_from:
   ===================================================== */
 
   .upcoming-card {
-    grid-template-columns: 48px minmax(0, 1fr);
+  grid-template-columns: 42px minmax(0, 1fr);
+  gap: 9px;
 
-    gap: 10px;
+  padding: 13px 10px;
 
-    padding: 13px 11px;
-
-    border-left-width: 3px;
-  }
-
-  .upcoming-date-month {
-    font-size: 0.57em;
-  }
-
-  .upcoming-date-day {
-    font-size: 1.18em;
-  }
-
-  .upcoming-title {
-    font-size: 0.90em;
-  }
+  border-left-width: 3px;
+}
 
 
-  /* Conference */
+/* Main card date: Oct 31 / Nov 1–3 */
 
-  .upcoming-eventline {
-    display: block;
+.upcoming-date-month {
+  font-size: 0.56em;
+}
 
-    font-size: 0.72em;
-  }
-
-  .upcoming-details {
-    display: block;
-
-    margin-top: 2px;
-
-    white-space: nowrap;
-  }
+.upcoming-date-day {
+  font-size: 1.12em;
+}
 
 
-  /* Sessions */
+/* Talk title */
 
-  .upcoming-session-row {
-    display: block;
+.upcoming-title {
+  font-size: 0.90em;
+  line-height: 1.35;
+}
 
-    padding: 3px 0;
 
-    font-size: 0.67em;
-  }
+/* Conference + location */
 
-  .upcoming-session {
-    display: block;
-  }
+.upcoming-eventline {
+  display: block;
 
-  .upcoming-session-meta {
-    display: block;
+  font-size: 0.72em;
+  line-height: 1.4;
+}
 
-    margin-top: 1px;
+.upcoming-details {
+  display: block;
 
-    white-space: nowrap;
-  }
+  margin-top: 2px;
+
+  white-space: normal;
+}
+
+
+/* INFORMS sessions */
+
+.upcoming-sessions {
+  margin-top: 4px;
+}
+
+.upcoming-session-row {
+  display: flex;
+  align-items: flex-start;
+
+  gap: 8px;
+
+  margin-top: 12px;
+  padding: 0;
+
+  font-size: 0.72em;
+  line-height: 1.4;
+}
+
+
+/* Small Nov 1 / Nov 2 / Nov 3 date */
+
+.session-date-badge {
+  width: 31px;
+  min-width: 31px;
+
+  padding-top: 1px;
+
+  text-align: center;
+}
+
+.session-date-month {
+  display: block;
+
+  margin-bottom: 3px;
+
+  font-size: 0.65em;
+  font-weight: 600;
+
+  letter-spacing: 0.07em;
+}
+
+.session-date-day {
+  display: block;
+
+  font-size: 1.35em;
+  font-weight: 600;
+  line-height: 1;
+}
+
+
+/* Session text */
+
+.session-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.upcoming-session {
+  display: block;
+
+  line-height: 1.38;
+}
+
+.upcoming-session-meta {
+  display: block;
+
+  margin-top: 2px;
+
+  font-size: 0.92em;
+  line-height: 1.4;
+
+  white-space: normal;
+}
+
+
+/* Keep second Nov 2 session aligned */
+
+.session-date-spacer {
+  visibility: hidden;
+}
 
 
   /* =====================================================
