@@ -248,7 +248,6 @@ redirect_from:
 .upcoming-list {
   display: flex;
   flex-direction: column;
-
   gap: 14px;
 }
 
@@ -282,6 +281,7 @@ redirect_from:
     transform 0.18s ease;
 }
 
+
 .upcoming-card:hover {
   transform: translateY(-1px);
 
@@ -293,13 +293,13 @@ redirect_from:
 }
 
 
-/* Date */
+/* Main date */
 
 .upcoming-date {
   padding-top: 2px;
-
   text-align: center;
 }
+
 
 .upcoming-date-month {
   font-size: 0.63em;
@@ -310,6 +310,7 @@ redirect_from:
 
   color: #52789d;
 }
+
 
 .upcoming-date-day {
   margin-top: 1px;
@@ -327,6 +328,7 @@ redirect_from:
 .upcoming-content {
   min-width: 0;
 }
+
 
 .upcoming-title {
   margin-bottom: 5px;
@@ -352,11 +354,12 @@ redirect_from:
   line-height: 1.4;
 }
 
+
 .upcoming-conference {
   font-weight: 500;
-
   color: #6e767c;
 }
+
 
 .upcoming-details {
   flex-shrink: 0;
@@ -367,41 +370,103 @@ redirect_from:
 }
 
 
-/* Session information */
+/* =========================================================
+   SESSION INFORMATION
+========================================================= */
+
+.upcoming-sessions {
+  margin-top: 3px;
+}
+
+
+/* Each presentation */
 
 .upcoming-session-row {
   display: flex;
   align-items: flex-start;
+
   gap: 14px;
-  margin-top: 14px;
+
+  margin-top: 13px;
+
+  /* Restores the smaller typography of the earlier design */
+  font-size: 0.80em;
+  line-height: 1.42;
+
+  color: #565d62;
 }
 
+
+/* Small date column */
+
 .session-date-badge {
-  width: 44px;
-  min-width: 44px;
+  width: 48px;
+  min-width: 48px;
+
+  padding-top: 1px;
+
   text-align: center;
   line-height: 1;
 }
 
+
 .session-date-month {
   display: block;
-  font-size: 0.65rem;
-  font-weight: 700;
-  letter-spacing: 0.08em;
+
+  margin-bottom: 4px;
+
+  font-size: 0.72em;
+  font-weight: 600;
+
+  letter-spacing: 0.09em;
   text-transform: uppercase;
-  opacity: 0.55;
-  margin-bottom: 3px;
+
+  color: #8e969c;
 }
+
 
 .session-date-day {
   display: block;
-  font-size: 1.35rem;
-  font-weight: 700;
+
+  font-size: 1.48em;
+  font-weight: 600;
+  line-height: 1;
+
+  color: #555d63;
 }
+
+
+/* Presentation text */
 
 .session-info {
   flex: 1;
+  min-width: 0;
 }
+
+
+.upcoming-session {
+  display: block;
+
+  font-weight: 400;
+  line-height: 1.38;
+
+  color: #50575c;
+}
+
+
+.upcoming-session-meta {
+  display: block;
+
+  margin-top: 2px;
+
+  font-size: 0.92em;
+  line-height: 1.38;
+
+  color: #737a80;
+}
+
+
+/* Blank date space for second presentation on Nov 2 */
 
 .session-date-spacer {
   visibility: hidden;
@@ -920,13 +985,22 @@ redirect_from:
   <div class="upcoming-list">
 
 
-    <!-- OCTOBER 31 -->
+    <!-- =====================================================
+         OCTOBER 31
+    ====================================================== -->
 
     <div class="upcoming-card">
 
       <div class="upcoming-date">
-        <div class="upcoming-date-month">Oct</div>
-        <div class="upcoming-date-day">31</div>
+
+        <div class="upcoming-date-month">
+          Oct
+        </div>
+
+        <div class="upcoming-date-day">
+          31
+        </div>
+
       </div>
 
 
@@ -935,6 +1009,7 @@ redirect_from:
         <div class="upcoming-title">
           Last-Mile Healthcare: A CARE Agenda for SDG 3
         </div>
+
 
         <div class="upcoming-eventline">
 
@@ -953,13 +1028,23 @@ redirect_from:
     </div>
 
 
-    <!-- NOVEMBER 1–3 -->
+
+    <!-- =====================================================
+         NOVEMBER 1–3
+    ====================================================== -->
 
     <div class="upcoming-card">
 
       <div class="upcoming-date">
-        <div class="upcoming-date-month">Nov</div>
-        <div class="upcoming-date-day">1–3</div>
+
+        <div class="upcoming-date-month">
+          Nov
+        </div>
+
+        <div class="upcoming-date-day">
+          1–3
+        </div>
+
       </div>
 
 
@@ -984,6 +1069,7 @@ redirect_from:
         </div>
 
 
+
         <div class="upcoming-sessions">
 
 
@@ -992,66 +1078,98 @@ redirect_from:
           <div class="upcoming-session-row">
 
             <div class="session-date-badge">
-              <span class="session-date-month">NOV</span>
-              <span class="session-date-day">1</span>
+
+              <span class="session-date-month">
+                Nov
+              </span>
+
+              <span class="session-date-day">
+                1
+              </span>
+
             </div>
+
 
             <div class="session-info">
 
-              <div class="upcoming-session">
+              <span class="upcoming-session">
                 Behavioral Operations Management Best Working Paper
-              </div>
+              </span>
 
-              <div class="upcoming-session-meta">
+              <span class="upcoming-session-meta">
                 2:45–4:00 PM · Moscone South-56 (Lower Mezz)
-              </div>
+              </span>
 
             </div>
 
           </div>
 
 
-          <!-- NOVEMBER 2 -->
+
+          <!-- NOVEMBER 2 — SESSION 1 -->
 
           <div class="upcoming-session-row">
 
             <div class="session-date-badge">
-              <span class="session-date-month">NOV</span>
-              <span class="session-date-day">2</span>
+
+              <span class="session-date-month">
+                Nov
+              </span>
+
+              <span class="session-date-day">
+                2
+              </span>
+
             </div>
+
 
             <div class="session-info">
 
-              <div class="upcoming-session">
+              <span class="upcoming-session">
                 Service Science Best Student Paper Award II
-              </div>
+              </span>
 
-              <div class="upcoming-session-meta">
+              <span class="upcoming-session-meta">
                 2:45–4:00 PM · Moscone South-20 (Hall E/Exhibit Level)
-              </div>
+              </span>
 
             </div>
 
           </div>
 
+
+
+          <!-- NOVEMBER 2 — SESSION 2 -->
 
           <div class="upcoming-session-row">
 
-            <div class="session-date-badge session-date-spacer"></div>
+            <div class="session-date-badge session-date-spacer">
+
+              <span class="session-date-month">
+                Nov
+              </span>
+
+              <span class="session-date-day">
+                2
+              </span>
+
+            </div>
+
 
             <div class="session-info">
 
-              <div class="upcoming-session">
+              <span class="upcoming-session">
                 Causal Evidence and Precision Healthcare
-              </div>
+              </span>
 
-              <div class="upcoming-session-meta">
+              <span class="upcoming-session-meta">
                 4:15–5:30 PM · Moscone South-204 (Level 2)
-              </div>
+              </span>
 
             </div>
 
           </div>
+
 
 
           <!-- NOVEMBER 3 -->
@@ -1059,19 +1177,27 @@ redirect_from:
           <div class="upcoming-session-row">
 
             <div class="session-date-badge">
-              <span class="session-date-month">NOV</span>
-              <span class="session-date-day">3</span>
+
+              <span class="session-date-month">
+                Nov
+              </span>
+
+              <span class="session-date-day">
+                3
+              </span>
+
             </div>
+
 
             <div class="session-info">
 
-              <div class="upcoming-session">
+              <span class="upcoming-session">
                 Impact of Technology on Operations Problems
-              </div>
+              </span>
 
-              <div class="upcoming-session-meta">
+              <span class="upcoming-session-meta">
                 1:15–2:30 PM · Moscone South-74 (Lower Mezz)
-              </div>
+              </span>
 
             </div>
 
@@ -1086,7 +1212,6 @@ redirect_from:
 
 
   </div>
-
 
 
   <!-- =======================================================
