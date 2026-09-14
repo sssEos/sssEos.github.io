@@ -398,6 +398,20 @@ redirect_from:
   white-space: nowrap;
 }
 
+.upcoming-session-group {
+  margin-top: 14px;
+}
+
+.upcoming-session-date {
+  font-size: 0.86rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.upcoming-session-group + .upcoming-session-group {
+  padding-top: 12px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
 
 /* =========================================================
    PAST TALKS
@@ -903,11 +917,9 @@ redirect_from:
 <div class="home-section">
 
   <div class="home-section-heading">
-
     <div class="home-section-label">
       Upcoming Talks
     </div>
-
   </div>
 
 
@@ -919,7 +931,6 @@ redirect_from:
     <div class="upcoming-card">
 
       <div class="upcoming-date">
-
         <div class="upcoming-date-month">
           Oct
         </div>
@@ -927,7 +938,6 @@ redirect_from:
         <div class="upcoming-date-day">
           31
         </div>
-
       </div>
 
 
@@ -955,7 +965,7 @@ redirect_from:
     </div>
 
 
-    <!-- NOVEMBER 2 -->
+    <!-- INFORMS ANNUAL MEETING: NOVEMBER 1–3 -->
 
     <div class="upcoming-card">
 
@@ -966,7 +976,7 @@ redirect_from:
         </div>
 
         <div class="upcoming-date-day">
-          2
+          1–3
         </div>
 
       </div>
@@ -995,30 +1005,88 @@ redirect_from:
 
         <div class="upcoming-sessions">
 
-          <div class="upcoming-session-row">
 
-            <span class="upcoming-session">
-              Service Science Best Student Paper Award II
-            </span>
+          <!-- NOVEMBER 1 -->
 
-            <span class="upcoming-session-meta">
-              2:45–4:00 PM · Moscone South-20 (Hall E/Exhibit Level)
-            </span>
+          <div class="upcoming-session-group">
+
+            <div class="upcoming-session-date">
+              Sunday, November 1
+            </div>
+
+            <div class="upcoming-session-row">
+
+              <span class="upcoming-session">
+                BOM Best Working Paper Finalists
+              </span>
+
+              <span class="upcoming-session-meta">
+                2:45–4:00 PM · Moscone South-56 (Lower Mezz)
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <!-- NOVEMBER 2 -->
+
+          <div class="upcoming-session-group">
+
+            <div class="upcoming-session-date">
+              Monday, November 2
+            </div>
+
+            <div class="upcoming-session-row">
+
+              <span class="upcoming-session">
+                Service Science Best Student Paper Award II
+              </span>
+
+              <span class="upcoming-session-meta">
+                2:45–4:00 PM · Moscone South-20 (Hall E/Exhibit Level)
+              </span>
+
+            </div>
+
+
+            <div class="upcoming-session-row">
+
+              <span class="upcoming-session">
+                Causal Evidence and Precision Healthcare
+              </span>
+
+              <span class="upcoming-session-meta">
+                4:15–5:30 PM · Moscone South-204 (Level 2)
+              </span>
+
+            </div>
 
           </div>
 
 
-          <div class="upcoming-session-row">
+          <!-- NOVEMBER 3 -->
 
-            <span class="upcoming-session">
-              Causal Evidence and Precision Healthcare
-            </span>
+          <div class="upcoming-session-group">
 
-            <span class="upcoming-session-meta">
-              4:15–5:30 PM · Moscone South-204 (Level 2)
-            </span>
+            <div class="upcoming-session-date">
+              Tuesday, November 3
+            </div>
+
+            <div class="upcoming-session-row">
+
+              <span class="upcoming-session">
+                Impact of Technology on Operations Problems
+              </span>
+
+              <span class="upcoming-session-meta">
+                1:15–2:30 PM · Moscone South-74 (Lower Mezz)
+              </span>
+
+            </div>
 
           </div>
+
 
         </div>
 
@@ -1026,7 +1094,10 @@ redirect_from:
 
     </div>
 
+
   </div>
+
+</div>
 
 
   <!-- =======================================================
