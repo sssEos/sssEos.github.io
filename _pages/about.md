@@ -398,19 +398,42 @@ redirect_from:
   white-space: nowrap;
 }
 
-.upcoming-session-group {
+.upcoming-session-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
   margin-top: 14px;
 }
 
-.upcoming-session-date {
-  font-size: 0.86rem;
-  font-weight: 600;
-  margin-bottom: 5px;
+.session-date-badge {
+  width: 44px;
+  min-width: 44px;
+  text-align: center;
+  line-height: 1;
 }
 
-.upcoming-session-group + .upcoming-session-group {
-  padding-top: 12px;
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
+.session-date-month {
+  display: block;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  opacity: 0.55;
+  margin-bottom: 3px;
+}
+
+.session-date-day {
+  display: block;
+  font-size: 1.35rem;
+  font-weight: 700;
+}
+
+.session-info {
+  flex: 1;
+}
+
+.session-date-spacer {
+  visibility: hidden;
 }
 
 /* =========================================================
@@ -910,195 +933,128 @@ redirect_from:
 </div>
 
 
-<!-- =========================================================
-     UPCOMING TALKS
-========================================================= -->
+<!-- INFORMS ANNUAL MEETING: NOVEMBER 1–3 -->
 
-<div class="home-section">
+<div class="upcoming-card">
 
-  <div class="home-section-heading">
-    <div class="home-section-label">
-      Upcoming Talks
-    </div>
+  <div class="upcoming-date">
+    <div class="upcoming-date-month">Nov</div>
+    <div class="upcoming-date-day">1–3</div>
   </div>
 
 
-  <div class="upcoming-list">
+  <div class="upcoming-content">
+
+    <div class="upcoming-title">
+      Reducing Prescription Errors Through Information Intervention:
+      A Field Experiment in Healthcare Operations
+    </div>
 
 
-    <!-- OCTOBER 31 -->
+    <div class="upcoming-eventline">
 
-    <div class="upcoming-card">
+      <span class="upcoming-conference">
+        INFORMS Annual Meeting 2026
+      </span>
 
-      <div class="upcoming-date">
-        <div class="upcoming-date-month">
-          Oct
-        </div>
-
-        <div class="upcoming-date-day">
-          31
-        </div>
-      </div>
-
-
-      <div class="upcoming-content">
-
-        <div class="upcoming-title">
-          Last-Mile Healthcare: A CARE Agenda for SDG 3
-        </div>
-
-
-        <div class="upcoming-eventline">
-
-          <span class="upcoming-conference">
-            5th Symposium on Environmental and Social Sustainability
-          </span>
-
-          <span class="upcoming-details">
-            UC Berkeley · Time &amp; Venue TBA
-          </span>
-
-        </div>
-
-      </div>
+      <span class="upcoming-details">
+        San Francisco
+      </span>
 
     </div>
 
 
-    <!-- INFORMS ANNUAL MEETING: NOVEMBER 1–3 -->
+    <div class="upcoming-sessions">
 
-    <div class="upcoming-card">
 
-      <div class="upcoming-date">
+      <!-- NOVEMBER 1 -->
 
-        <div class="upcoming-date-month">
-          Nov
+      <div class="upcoming-session-row">
+
+        <div class="session-date-badge">
+          <span class="session-date-month">NOV</span>
+          <span class="session-date-day">1</span>
         </div>
 
-        <div class="upcoming-date-day">
-          1–3
+        <div class="session-info">
+          <div class="upcoming-session">
+            BOM Best Working Paper Finalists
+          </div>
+
+          <div class="upcoming-session-meta">
+            2:45–4:00 PM · Moscone South-56 (Lower Mezz)
+          </div>
         </div>
 
       </div>
 
 
-      <div class="upcoming-content">
+      <!-- NOVEMBER 2 -->
 
-        <div class="upcoming-title">
-          Reducing Prescription Errors Through Information Intervention:
-          A Field Experiment in Healthcare Operations
+      <div class="upcoming-session-row">
+
+        <div class="session-date-badge">
+          <span class="session-date-month">NOV</span>
+          <span class="session-date-day">2</span>
         </div>
 
-
-        <div class="upcoming-eventline">
-
-          <span class="upcoming-conference">
-            INFORMS Annual Meeting 2026
-          </span>
-
-          <span class="upcoming-details">
-            San Francisco
-          </span>
-
-        </div>
-
-
-        <div class="upcoming-sessions">
-
-
-          <!-- NOVEMBER 1 -->
-
-          <div class="upcoming-session-group">
-
-            <div class="upcoming-session-date">
-              Sunday, November 1
-            </div>
-
-            <div class="upcoming-session-row">
-
-              <span class="upcoming-session">
-                BOM Best Working Paper Finalists
-              </span>
-
-              <span class="upcoming-session-meta">
-                2:45–4:00 PM · Moscone South-56 (Lower Mezz)
-              </span>
-
-            </div>
-
+        <div class="session-info">
+          <div class="upcoming-session">
+            Service Science Best Student Paper Award II
           </div>
 
-
-          <!-- NOVEMBER 2 -->
-
-          <div class="upcoming-session-group">
-
-            <div class="upcoming-session-date">
-              Monday, November 2
-            </div>
-
-            <div class="upcoming-session-row">
-
-              <span class="upcoming-session">
-                Service Science Best Student Paper Award II
-              </span>
-
-              <span class="upcoming-session-meta">
-                2:45–4:00 PM · Moscone South-20 (Hall E/Exhibit Level)
-              </span>
-
-            </div>
-
-
-            <div class="upcoming-session-row">
-
-              <span class="upcoming-session">
-                Causal Evidence and Precision Healthcare
-              </span>
-
-              <span class="upcoming-session-meta">
-                4:15–5:30 PM · Moscone South-204 (Level 2)
-              </span>
-
-            </div>
-
+          <div class="upcoming-session-meta">
+            2:45–4:00 PM · Moscone South-20 (Hall E/Exhibit Level)
           </div>
-
-
-          <!-- NOVEMBER 3 -->
-
-          <div class="upcoming-session-group">
-
-            <div class="upcoming-session-date">
-              Tuesday, November 3
-            </div>
-
-            <div class="upcoming-session-row">
-
-              <span class="upcoming-session">
-                Impact of Technology on Operations Problems
-              </span>
-
-              <span class="upcoming-session-meta">
-                1:15–2:30 PM · Moscone South-74 (Lower Mezz)
-              </span>
-
-            </div>
-
-          </div>
-
-
         </div>
 
       </div>
+
+
+      <div class="upcoming-session-row">
+
+        <div class="session-date-badge session-date-spacer"></div>
+
+        <div class="session-info">
+          <div class="upcoming-session">
+            Causal Evidence and Precision Healthcare
+          </div>
+
+          <div class="upcoming-session-meta">
+            4:15–5:30 PM · Moscone South-204 (Level 2)
+          </div>
+        </div>
+
+      </div>
+
+
+      <!-- NOVEMBER 3 -->
+
+      <div class="upcoming-session-row">
+
+        <div class="session-date-badge">
+          <span class="session-date-month">NOV</span>
+          <span class="session-date-day">3</span>
+        </div>
+
+        <div class="session-info">
+          <div class="upcoming-session">
+            Impact of Technology on Operations Problems
+          </div>
+
+          <div class="upcoming-session-meta">
+            1:15–2:30 PM · Moscone South-74 (Lower Mezz)
+          </div>
+        </div>
+
+      </div>
+
 
     </div>
-
 
   </div>
 
 </div>
-
 
   <!-- =======================================================
        PAST TALKS
