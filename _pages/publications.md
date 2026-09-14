@@ -293,13 +293,11 @@ author_profile: true
   <ul class="paper-awards">
 
   <li>
-      Finalist (Winner TBA), Best Working Paper Competition,
-      INFORMS Behavioral Operations Management 2026 
+      Finalist (Winner TBA), Best Working Paper Competition, Behavioral Operations Management, INFORMS 2026 
     </li>
 
   <li>
-      Finalist (Winner TBA), Best Student Paper Award,
-      INFORMS Service Science 2026 
+      Finalist (Winner TBA), Best Student Paper Award, Service Science, INFORMS 2026 
     </li>
     
 
@@ -405,8 +403,7 @@ author_profile: true
 
   <p class="paper-status">
     <i>
-      Major Revision at M&amp;SOM
-      (Special Issue on OM Grand Challenges; Proposal Accepted)
+      Major Revision at M&amp;SOM (Accepted for Special Issue on OM Grand Challenges)
     </i>
   </p>
 
@@ -424,11 +421,11 @@ author_profile: true
   </h2>
 
   <p class="paper-authors">
-    Xiaodan Shao, Vivek Choudhary, Anandasivam Gopal
+    Xiaodan Shao, Vivek Choudhary, Anandasivam Gopal, Arnab Majumdar
   </p>
 
   <p class="paper-status">
-    <i>Finalizing for Resubmission</i>
+    <i>Under Review at M&amp;SOM</i>
   </p>
 
 </div>
