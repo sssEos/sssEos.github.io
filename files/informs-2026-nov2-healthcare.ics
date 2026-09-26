@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Xiaodan Shao//INFORMS 2026//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:informs2026-nov2-healthcare-xiaodan-shao@ssseos.github.io
+DTSTAMP:20260926T120000Z
+DTSTART;TZID=America/Los_Angeles:20261102T161500
+DTEND;TZID=America/Los_Angeles:20261102T173000
+SUMMARY:Reducing Prescription Errors Through Information Intervention: A Field Experiment in Healthcare Operations
+DESCRIPTION:Causal Evidence and Precision Healthcare\nINFORMS Annual Meeting 2026
+LOCATION:Moscone South-204 (Level 2), San Francisco, CA
+END:VEVENT
+END:VCALENDAR
