@@ -1195,7 +1195,7 @@ redirect_from:
             
               <a class="calendar-link"
                href="/files/informs-2026-nov1-bom.ics">
-              📅 Add to calendar
+               Add to calendar
               </a>
 
             </div>
@@ -1233,7 +1233,7 @@ redirect_from:
 
               <a class="calendar-link"
                href="/files/informs-2026-nov2-service-science.ics">
-               📅 Add to calendar
+               Add to calendar
               </a>
 
             </div>
@@ -1271,7 +1271,7 @@ redirect_from:
 
               <a class="calendar-link"
                href="/files/informs-2026-nov2-jobmarket.ics">
-                📅 Add to calendar
+                Add to calendar
               </a>
               
 
@@ -1310,7 +1310,7 @@ redirect_from:
 
               <a class="calendar-link"
              href="/files/informs-2026-nov3.ics">
-              📅 Add to calendar
+              Add to calendar
               </a>
 
             </div>
