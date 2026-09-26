@@ -1231,6 +1231,11 @@ redirect_from:
                 2:45–4:00 PM · Moscone South-20 (Hall E/Exhibit Level)
               </span>
 
+              <a class="calendar-link"
+               href="/files/informs-2026-nov2-service-science.ics">
+               📅 Add to calendar
+              </a>
+
             </div>
 
           </div>
@@ -1264,6 +1269,12 @@ redirect_from:
                 4:15–5:30 PM · Moscone South-204 (Level 2)
               </span>
 
+              <a class="calendar-link"
+               href="/files/informs-2026-nov2-jobmarket.ics">
+                📅 Add to calendar
+              </a>
+              
+
             </div>
 
           </div>
@@ -1296,6 +1307,11 @@ redirect_from:
               <span class="upcoming-session-meta">
                 1:15–2:30 PM · Moscone South-74 (Lower Mezz)
               </span>
+
+              <a class="calendar-link"
+             href="/files/informs-2026-nov3.ics">
+              📅 Add to calendar
+              </a>
 
             </div>
 
