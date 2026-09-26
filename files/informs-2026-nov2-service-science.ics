@@ -7,8 +7,8 @@ UID:xiaodan-shao-informs2026-service-science@ssseos.github.io
 DTSTAMP:20260926T140000Z
 DTSTART;TZID=America/Los_Angeles:20261102T144500
 DTEND;TZID=America/Los_Angeles:20261102T160000
-SUMMARY:Xiaodan Shao (NTU)—Reducing Prescription Errors Through Information Intervention
-DESCRIPTION:Service Science Best Student Paper Award II\nINFORMS Annual Meeting 2026
+SUMMARY:Xiaodan Shao (NTU)—Service Science Best Student Paper Award II
+DESCRIPTION: Reducing Prescription Errors Through Information Intervention: A Field Experiment in Healthcare Operations
 LOCATION:Moscone South-20 (Hall E/Exhibit Level)\, San Francisco\, CA
 STATUS:CONFIRMED
 END:VEVENT
