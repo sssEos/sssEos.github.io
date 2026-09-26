@@ -835,6 +835,23 @@ redirect_from:
 }
 
 
+.calendar-links {
+  display: block;
+  margin-top: 3px;
+  font-size: 0.88em;
+  color: #92999f;
+}
+
+.calendar-links a {
+  color: #71889b;
+  text-decoration: none;
+}
+
+.calendar-links a:hover {
+  color: #52789d;
+  text-decoration: underline;
+}
+
   /* =====================================================
      PAST TALKS
   ===================================================== */
@@ -1166,6 +1183,21 @@ redirect_from:
               <span class="upcoming-session-meta">
                 2:45–4:00 PM · Moscone South-56 (Lower Mezz)
               </span>
+
+              <span class="calendar-links">
+              Add to calendar:
+              <a target="_blank"
+             href="https://calendar.google.com/calendar/render?action=TEMPLATE&amp;text=Reducing+Prescription+Errors+Through+Information+Intervention%3A+A+Field+Experiment+in+Healthcare+Operations&amp;dates=20261101T144500%2F20261101T160000&amp;ctz=America%2FLos_Angeles&amp;details=Reducing+Prescription+Errors+Through+Information+Intervention%3A+A+Field+Experiment+in+Healthcare+Operations+%E2%80%94+Behavioral+Operations+Management+Best+Working+Paper+%E2%80%94+INFORMS+Annual+Meeting+2026&amp;location=Moscone+South-56+%28Lower+Mezz%29%2C+San+Francisco%2C+CA">
+            Google
+            </a>
+           ·
+            <a target="_blank"
+           href="https://outlook.live.com/calendar/0/deeplink/compose?path=%2Fcalendar%2Faction%2Fcompose&amp;rru=addevent&amp;subject=Reducing+Prescription+Errors+Through+Information+Intervention%3A+A+Field+Experiment+in+Healthcare+Operations&amp;startdt=2026-11-01T14%3A45%3A00-08%3A00&amp;enddt=2026-11-01T16%3A00%3A00-08%3A00&amp;location=Moscone+South-56+%28Lower+Mezz%29%2C+San+Francisco%2C+CA">
+          Outlook
+          </a>
+
+
+                 
 
             </div>
 
