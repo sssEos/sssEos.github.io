@@ -827,7 +827,7 @@ redirect_from:
   white-space: normal;
 }
 
-
+  
 /* Keep second Nov 2 session aligned */
 
 .session-date-spacer {
@@ -844,6 +844,21 @@ redirect_from:
   text-decoration: underline;
 }
 
+.calendar-link {
+  display: inline-block;
+
+  margin-top: 4px;
+
+  font-size: 0.90em;
+  line-height: 1.3;
+
+  color: #71889b;
+}
+
+.calendar-link:hover {
+  color: #52789d;
+  text-decoration: underline;
+}
 
   /* =====================================================
      PAST TALKS
@@ -1175,8 +1190,13 @@ redirect_from:
 
               <span class="upcoming-session-meta">
                 2:45–4:00 PM · Moscone South-56 (Lower Mezz)
-                · <a href="/files/informs-2026-nov1.ics">Add to calendar</a>
               </span>             
+
+            
+              <a class="calendar-link"
+               href="/files/informs-2026-nov1-bom.ics">
+              📅 Add to calendar
+              </a>
 
             </div>
 
