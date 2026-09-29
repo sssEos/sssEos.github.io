@@ -1311,8 +1311,9 @@ redirect_from:
              href="/files/informs-2026.ics">
             Add to calendar
         </a>
+      </div>
 
-
+    </div>
 
         </div>
 
