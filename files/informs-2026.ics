@@ -1,0 +1,43 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Codex//Xiaodan NTU Sessions//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+
+BEGIN:VEVENT
+UID:xiaodan-ntu-behavioral-operations-20261101T144500@codex
+DTSTAMP:20260927T170000Z
+DTSTART;TZID=America/Los_Angeles:20261101T144500
+DTEND;TZID=America/Los_Angeles:20261101T160000
+SUMMARY:[Xiaodan\, NTU] Behavioral Operations Management Best Working Paper
+LOCATION:Moscone South-56 (Lower Mezz)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:xiaodan-ntu-service-science-20261102T144500@codex
+DTSTAMP:20260927T170000Z
+DTSTART;TZID=America/Los_Angeles:20261102T144500
+DTEND;TZID=America/Los_Angeles:20261102T160000
+SUMMARY:[Xiaodan\, NTU] Service Science Best Student Paper Award II
+LOCATION:Moscone South-20 (Hall E/Exhibit Level)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:xiaodan-ntu-precision-healthcare-20261102T161500@codex
+DTSTAMP:20260927T170000Z
+DTSTART;TZID=America/Los_Angeles:20261102T161500
+DTEND;TZID=America/Los_Angeles:20261102T173000
+SUMMARY:[Xiaodan\, NTU] Causal Evidence and Precision Healthcare
+LOCATION:Moscone South-204 (Level 2)
+END:VEVENT
+
+BEGIN:VEVENT
+UID:xiaodan-ntu-technology-operations-20261103T131500@codex
+DTSTAMP:20260927T170000Z
+DTSTART;TZID=America/Los_Angeles:20261103T131500
+DTEND;TZID=America/Los_Angeles:20261103T143000
+SUMMARY:[Xiaodan\, NTU] Impact of Technology on Operations Problems
+LOCATION:Moscone South-74 (Lower Mezz)
+END:VEVENT
+
+END:VCALENDAR
