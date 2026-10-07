@@ -1105,15 +1105,24 @@ redirect_from:
 
         <div class="upcoming-eventline">
 
-          <span class="upcoming-conference">
-            5th Symposium on Environmental and Social Sustainability
-          </span>
+        <span class="upcoming-conference">
+          <a href="/files/2026-sustainability-symposium.pdf"
+           target="_blank" rel="noopener">
+          5th Symposium on Environmental and Social Sustainability
+          </a>
+        </span>
 
-          <span class="upcoming-details">
-            UC Berkeley · Time &amp; Venue TBA
-          </span>
+       <span class="upcoming-details">
+        Chou Hall (2220 Piedmont Ave, Berkeley) · 6th Floor Spieker Forum · UC Berkeley
+      </span>
+        
 
         </div>
+
+        <a class="calendar-link"
+       href="/files/sustainability-symposium-2026.ics">
+      Add to calendar
+       </a>
 
       </div>
 
