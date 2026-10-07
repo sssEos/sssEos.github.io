@@ -447,7 +447,7 @@ author_profile: true
   </p>
 
   <p class="paper-status">
-    <i>Preliminary Analysis in Progress</i>
+    <i>Data collection completed; analysis in progress</i>
   </p>
 
 </div>
@@ -469,7 +469,7 @@ author_profile: true
   </p>
 
   <p class="paper-status">
-    <i>Data Collection and Field Experiment Design in Progress</i>
+    <i>Baseline data collection and field experiment design in progress</i>
   </p>
 
 </div>
