@@ -1603,7 +1603,7 @@ redirect_from:
 ========================================================= -->
 
 <div class="home-updated">
-  Last updated: Aug 2026
+  Last updated: Sep 2026
 </div>
 
 
