@@ -796,7 +796,10 @@ redirect_from:
   font-size: 0.72em;
   line-height: 1.4;
 }
-
+  
+.sustainability-venue {
+  font-size: 0.6624em;
+}
 
 /* Small Nov 1 / Nov 2 / Nov 3 date */
 
