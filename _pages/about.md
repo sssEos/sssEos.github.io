@@ -597,23 +597,6 @@ redirect_from:
    SUSTAINABILITY SYMPOSIUM — OCT 31
 ========================================================= */
 
-.sustainability-eventline {
-  display: block;
-}
-
-.sustainability-eventline .upcoming-conference {
-  display: block;
-  font-weight: 500;
-  color: #6e767c;
-}
-
-.sustainability-eventline .upcoming-details {
-  display: block;
-  margin-top: 3px;
-  color: #92999f;
-  white-space: normal;
-}
-
 .sustainability-venue {
   margin-top: 3px;
   font-size: 0.80em;
@@ -621,6 +604,20 @@ redirect_from:
   color: #92999f;
 }
 
+.agenda-separator {
+  margin: 0 4px;
+  color: #a0a6ab;
+}
+
+.agenda-link {
+  color: #71889b;
+  text-decoration: none;
+}
+
+.agenda-link:hover {
+  color: #52789d;
+  text-decoration: underline;
+}
   
 /* =========================================================
    MOBILE
@@ -1105,7 +1102,7 @@ redirect_from:
   <div class="upcoming-list">
 
 
-  <!-- =====================================================
+<!-- =====================================================
      OCTOBER 31
 ====================================================== -->
 
@@ -1135,44 +1132,28 @@ redirect_from:
 
       <span class="upcoming-conference">
         5th Symposium on Environmental and Social Sustainability
+        <span class="agenda-separator">·</span>
+        <a class="agenda-link"
+           href="/files/2026-sustainability-symposium.pdf"
+           target="_blank"
+           rel="noopener">
+          Agenda
+        </a>
       </span>
 
       <span class="upcoming-details">
-        Berkeley
+        San Francisco
       </span>
 
     </div>
 
 
     <div class="sustainability-venue">
-      Chou Hall (2220 Piedmont Ave, Berkeley) · 6th Floor Spieker Forum · UC Berkeley
+      Chou Hall · UC Berkeley
     </div>
 
 
     <div class="upcoming-sessions">
-
-      <!-- AGENDA -->
-
-      <div class="upcoming-session-row">
-
-        <div class="session-date-badge session-date-spacer">
-          <span class="session-date-month">Oct</span>
-          <span class="session-date-day">31</span>
-        </div>
-
-        <div class="session-info">
-
-          <a class="calendar-link"
-             href="/files/2026-sustainability-symposium.pdf"
-             target="_blank"
-             rel="noopener">
-           Agenda (PDF)
-          </a>
-
-        </div>
-
-      </div>
-
 
       <!-- ADD TO CALENDAR -->
 
