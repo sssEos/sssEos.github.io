@@ -1159,7 +1159,7 @@ redirect_from:
       </span>
 
       <span class="upcoming-details">
-        Chou Hall (2220 Piedmont Ave, Berkeley) · 6th Floor Spieker Forum · UC Berkeley
+        Chou Hall · 6th Floor Spieker Forum · UC Berkeley
       </span>
 
     </div>
