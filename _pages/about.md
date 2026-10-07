@@ -599,8 +599,9 @@ redirect_from:
 
 .sustainability-venue {
   margin-top: 3px;
-  font-size: 0.80em;
-  line-height: 1.4;
+  font-size: 0.736em;
+  line-height: 1.38;
+  font-weight: 400;
   color: #92999f;
 }
 
