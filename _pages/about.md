@@ -593,7 +593,52 @@ redirect_from:
   color: #a6aaae;
 }
 
+/* =========================================================
+   SUSTAINABILITY SYMPOSIUM — OCT 31
+========================================================= */
 
+.sustainability-eventline {
+  display: block;
+}
+
+.sustainability-eventline .upcoming-conference {
+  display: block;
+  font-weight: 500;
+  color: #6e767c;
+}
+
+.sustainability-eventline .upcoming-conference a {
+  color: #6e767c;
+  text-decoration: none;
+}
+
+.sustainability-eventline .upcoming-conference a:hover {
+  color: #52789d;
+  text-decoration: underline;
+}
+
+.sustainability-eventline .upcoming-details {
+  display: block;
+  margin-top: 3px;
+  color: #92999f;
+  white-space: normal;
+}
+
+.sustainability-calendar {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 0.90em;
+  line-height: 1.3;
+  color: #71889b;
+  text-decoration: none;
+}
+
+.sustainability-calendar:hover {
+  color: #52789d;
+  text-decoration: underline;
+}
+
+  
 /* =========================================================
    MOBILE
 ========================================================= */
@@ -1078,56 +1123,56 @@ redirect_from:
 
 
     <!-- =====================================================
-         OCTOBER 31
-    ====================================================== -->
+     OCTOBER 31
+====================================================== -->
 
-    <div class="upcoming-card">
+<div class="upcoming-card">
 
-      <div class="upcoming-date">
+  <div class="upcoming-date">
 
-        <div class="upcoming-date-month">
-          Oct
-        </div>
+    <div class="upcoming-date-month">
+      Oct
+    </div>
 
-        <div class="upcoming-date-day">
-          31
-        </div>
+    <div class="upcoming-date-day">
+      31
+    </div>
 
-      </div>
-
-
-      <div class="upcoming-content">
-
-        <div class="upcoming-title">
-          Last-Mile Healthcare: A CARE Agenda for SDG 3
-        </div>
+  </div>
 
 
-        <div class="upcoming-eventline">
+  <div class="upcoming-content">
 
-        <span class="upcoming-conference">
-          <a href="/files/2026-sustainability-symposium.pdf"
-           target="_blank" rel="noopener">
+    <div class="upcoming-title">
+      Last-Mile Healthcare: A CARE Agenda for SDG 3
+    </div>
+
+
+    <div class="upcoming-eventline sustainability-eventline">
+
+      <span class="upcoming-conference">
+        <a href="/files/2026-sustainability-symposium.pdf"
+           target="_blank"
+           rel="noopener">
           5th Symposium on Environmental and Social Sustainability
-          </a>
-        </span>
+        </a>
+      </span>
 
-       <span class="upcoming-details">
+      <span class="upcoming-details">
         Chou Hall (2220 Piedmont Ave, Berkeley) · 6th Floor Spieker Forum · UC Berkeley
       </span>
-        
-
-        </div>
-
-        <a class="calendar-link"
-       href="/files/sustainability-symposium-2026.ics">
-      Add to calendar
-       </a>
-
-      </div>
 
     </div>
 
+
+    <a class="sustainability-calendar"
+       href="/files/sustainability-symposium-2026.ics">
+      Add to calendar
+    </a>
+
+  </div>
+
+</div>
 
 
     <!-- =====================================================
