@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Xiaodan Shao//Academic Events//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+UID:20261031-sustainability-symposium-berkeley@xiaodanshao
+DTSTAMP:20261007T140000Z
+DTSTART;TZID=America/Los_Angeles:20261031T083000
+DTEND;TZID=America/Los_Angeles:20261031T173000
+SUMMARY:5th Symposium on Environmental and Social Sustainability
+LOCATION:Chou Hall\, 2220 Piedmont Ave\, Berkeley\, CA 94720\, USA — 6th Floor Spieker Forum
+DESCRIPTION:The Fifth Annual Symposium on Environmental and Social Sustainability in Supply Chains. Check-in begins at 8:30 AM; closing remarks begin at 5:15 PM. UC Berkeley.
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
