@@ -280,21 +280,17 @@ author_profile: true
   <h2 class="paper-title">
     Reducing Prescription Errors Through Information Intervention:
     A Field Experiment in Healthcare Operations
+   <a
+    href="https://arxiv.org/abs/2609.09673"
+    target="_blank"
+    rel="noopener noreferrer"
+  >[link]</a>
   </h2>
 
   <p class="paper-authors">
     Xiaodan Shao, Vivek Choudhary, Arnab Majumdar
   </p>
 
-  <p class="paper-link">
-  <a
-    href="https://arxiv.org/abs/2609.09673"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    Manuscript
-  </a>
-</p>
 
   <p class="paper-status with-awards">
     <i>Major Revision at M&amp;SOM (2nd Round)</i>
