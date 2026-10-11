@@ -286,6 +286,16 @@ author_profile: true
     Xiaodan Shao, Vivek Choudhary, Arnab Majumdar
   </p>
 
+  <p class="paper-link">
+  <a
+    href="https://arxiv.org/abs/2609.09673"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    Manuscript
+  </a>
+</p>
+
   <p class="paper-status with-awards">
     <i>Major Revision at M&amp;SOM (2nd Round)</i>
   </p>
