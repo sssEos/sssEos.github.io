@@ -362,6 +362,13 @@ author_profile: true
   <h2 class="paper-title">
     Interrupted Continuity: An Empirical Analysis of Interruptions
     in Continuous Pharma Manufacturing
+
+    <a
+      href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5160335"
+      target="_blank"
+      rel="noopener noreferrer"
+    >[link]</a>
+     
   </h2>
 
   <p class="paper-authors">
