@@ -299,13 +299,18 @@ author_profile: true
   <ul class="paper-awards">
 
   <li>
-      Finalist (Winner TBA), Best Working Paper Competition, Behavioral Operations Management, INFORMS 2026 
+      Honorable Mention, Best Working Paper Competition, Behavioral Operations Management, INFORMS 2026 
     </li>
 
   <li>
-      Finalist (Winner TBA), Best Student Paper Award, Service Science, INFORMS 2026 
+      Finalist, Best Student Paper Award, Service Science, INFORMS 2026 
     </li>
-    
+
+   <li>
+      Finalist, Junior Scholar Paper Competition,
+      College of Behavior in Operations Management (CBOM),
+      POMS Conference 2024
+    </li>
 
     <li>
       Winner, Best Student Paper Award (Practice Track),
@@ -317,13 +322,6 @@ author_profile: true
       Winner, Best Poster Presentation Award,
       CBS–NBS Research Day on Emerging Technology, Risks, and Markets
       Conference 2024
-    </li>
-
-
-    <li>
-      Finalist, Junior Scholar Paper Competition,
-      College of Behavior in Operations Management (CBOM),
-      POMS Conference 2024
     </li>
 
   </ul>
