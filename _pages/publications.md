@@ -436,7 +436,7 @@ author_profile: true
   </p>
 
   <p class="paper-status">
-    <i>Under Review at M&amp;SOM</i>
+    <i>Reject&amp;Resubmit at M&amp;SOM</i>
   </p>
 
 </div>
