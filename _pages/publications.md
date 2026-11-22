@@ -375,8 +375,7 @@ author_profile: true
 
   <p class="paper-status with-awards">
     <i>
-      Under Review at M&amp;SOM
-      (1st-Round Fast-Track Major Revision)
+      Major Revision at M&amp;SOM (2nd Round, Fast-Track)
     </i>
   </p>
 
