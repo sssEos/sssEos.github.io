@@ -413,7 +413,7 @@ author_profile: true
 
   <p class="paper-status">
     <i>
-      Major Revision at M&amp;SOM (Accepted for Special Issue on OM Grand Challenges)
+      Major Revision at M&amp;SOM (Proposal Accepted for Special Issue on OM Grand Challenges)
     </i>
   </p>
 
